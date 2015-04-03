@@ -73,4 +73,4 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-set :slim, { :pretty => true, :sort_attrs => false, :format => :html5 }
+set :slim, { :pretty => true, :sort_attrs => false, :format => :html }
