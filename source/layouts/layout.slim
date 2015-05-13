@@ -14,68 +14,54 @@ html
 
 	body class="#{page_classes}"
 		#header
-			.headercontent
+			.logo
 				img src="images/Logo.png" alt="Logo" align="middle"
 
-			.headercontent
-				- if data.page.kind=="top"
-					.headercontent
-						.selected
-							a href="index.html"
+
+			- if data.page.kind=="top"
+				.selected
+					a href="index.html"
 								h1 トップ
-				- else
-					.headercontent
-						.unselected
-							a href="index.html"
-								h1 トップ
+			- else
+				.unselected
+					a href="index.html"
+						h1 トップ
 
-			.headercontent
-				- if data.page.kind=="introduction"
-					.headercontent
-						.selected
-							a href="introduction.html"
-								h1 紹介
-				- else
-					.headercontent
-						.unselected
-							a href="introduction.html"
-								h1 紹介
-
-			.headercontent
-				- if data.page.kind=="adoption"
-					.headercontent
-						.selected
-							a href="adoption.html"
-								h1 採用実績
-				- else
-					.headercontent
-						.unselected
-							a href="adoption.html"
-								h1 採用実績
-
-			.headercontent
-				- if data.page.kind=="development"
-					.headercontent
-						.selected
-							a href="development.html"
-								h1 開発
-				- else
-					.headercontent
-						.unselected
-							a href="development.html"
-								h1 開発
+			- if data.page.kind=="introduction"
+				.selected
+					a href="introduction.html"
+						h1 紹介
+			- else
+				.unselected
+					a href="introduction.html"
+						h1 紹介
 
 
-			.headercontent
-				- if data.page.kind=="support"
-					.headercontent
-						.selected
-							a href="support.html"
-								h1 サポート
-				- else
-					.headercontent
-						.unselected
-							a href="support.html"
-								h1 サポート
+			- if data.page.kind=="adoption"
+				.selected
+					a href="adoption.html"
+						h1 採用実績
+			- else
+				.unselected
+					a href="adoption.html"
+						h1 採用実績
+
+			- if data.page.kind=="development"
+				.selected
+					a href="development.html"
+						h1 開発
+			- else
+				.unselected
+					a href="development.html"
+						h1 開発
+
+			- if data.page.kind=="support"
+				.selected
+					a href="support.html"
+						h1 サポート
+			- else
+				.unselected
+					a href="support.html"
+						h1 サポート
 		
 		== yield
