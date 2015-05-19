@@ -36,6 +36,14 @@ html
 					a href="introduction.html"
 						h1 紹介
 
+			- if data.page.kind=="download"
+				.selected
+					a href="download.html"
+						h1 ダウンロード
+			- else
+				.unselected
+					a href="download.html"
+						h1 ダウンロード
 
 			- if data.page.kind=="adoption"
 				.selected
@@ -63,5 +71,14 @@ html
 				.unselected
 					a href="support.html"
 						h1 サポート
+		
+			- if data.page.kind=="manual"
+				.selected
+					a href="support.html"
+						h1 マニュアル
+			- else
+				.unselected
+					a href="support.html"
+						h1 マニュアル
 		
 		== yield
