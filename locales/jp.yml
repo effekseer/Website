@@ -1,0 +1,36 @@
+jp:
+  top_header: "トップ"
+  download_header: "ダウンロード"
+  adoption_header: "採用実績"
+  support_header: "サポート"
+  development_header: "開発"
+
+
+
+
+  eyecatch_1: "エフェクト制作ツール"
+  eyecatch_2: "「Effekseer」"
+
+  top_content_1: "Effekseerはあなたのゲームに綺麗なエフェクトを提供します。"
+
+  top_content_2: "
+	Effekseerはいわゆるエフェクト編集ツール、エフェクトエディッタと呼ばれるエフェクト作成ツールとゲームに組み込むランタイムで構成されています。
+	ツールを用いることで、お手軽にエフェクトを作成することができます。
+	作成したエフェクトはゲームにランタイムを組み込むことで容易にゲーム中で再生することができます。"
+
+  top_content_3: "WiindowsとDirectXの環境だけでなく、LinuxやOpenGLにも対応しています。"
+
+  development_content_1: "Effekseerはgithub上で開発されています。"
+  development_content_2: "常時、コミッターは募集しております。"
+
+  adoption_title: "タイトル"
+  adoption_developer: "開発"
+  adoption_site: "公式サイト"
+  adoption_andsoon: "他にも色々!"
+
+
+  support_content_1: "基本的にサポートはgithub上で行っております。"
+  support_content_2: "githubのアカウントが無い方は、メール ( effekseer(at)gmail.com ) か、下記のフォームでも受け付けています。"
+
+  support_form_1: "問い合わせフォーム"
+  support_form_2: "問い合わせフォーム返答結果"

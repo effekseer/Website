@@ -1,0 +1,84 @@
+doctype html
+html
+	head
+	meta charset="utf-8"
+
+	/! Always force latest IE rendering engine or request Chrome Frame
+	meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+
+	/! Use title if it's in the page YAML frontmatter
+	title = data.page.title || "Effekseer"
+
+	== stylesheet_link_tag "base"
+	== javascript_include_tag  "all"
+
+	body class="#{page_classes}"
+		#header
+			.logo
+				img src="images/Logo.png" alt="Logo" align="middle"
+
+
+			- if data.page.kind=="top"
+				.selected
+					a href="index.html"
+								h1 トップ
+			- else
+				.unselected
+					a href="index.html"
+						h1 トップ
+
+			- if data.page.kind=="introduction"
+				.selected
+					a href="introduction.html"
+						h1 紹介
+			- else
+				.unselected
+					a href="introduction.html"
+						h1 紹介
+
+			- if data.page.kind=="download"
+				.selected
+					a href="download.html"
+						h1 ダウンロード
+			- else
+				.unselected
+					a href="download.html"
+						h1 ダウンロード
+
+			- if data.page.kind=="adoption"
+				.selected
+					a href="adoption.html"
+						h1 採用実績
+			- else
+				.unselected
+					a href="adoption.html"
+						h1 採用実績
+
+			- if data.page.kind=="development"
+				.selected
+					a href="development.html"
+						h1 開発
+			- else
+				.unselected
+					a href="development.html"
+						h1 開発
+
+			- if data.page.kind=="support"
+				.selected
+					a href="support.html"
+						h1 サポート
+			- else
+				.unselected
+					a href="support.html"
+						h1 サポート
+		
+			- if data.page.kind=="manual"
+				.selected
+					a href="support.html"
+						h1 マニュアル
+			- else
+				.unselected
+					a href="support.html"
+						h1 マニュアル
+		
+		== yield

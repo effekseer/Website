@@ -1,0 +1,29 @@
+en:
+  top_header: "Top"
+  download_header: "Download"
+  support_header: "Support"
+  adoption_header: "Showcase"
+
+  eyecatch_1: "Effect Tool"
+  eyecatch_2: "Effekseer"
+
+
+  top_content_1: "Effekseer provide beautiful effects."
+
+  top_content_2: "Effekseer is called as Effect editor. "
+
+  top_content_3: "ironuri"
+
+  development_content_1: "Effekseer is developed on Github."
+  development_content_2: "..."
+
+  adoption_title: "Title"
+  adoption_developer: "Developer"
+  adoption_site: "Official Site"
+  adoption_andsoon: "And so on!"
+
+  support_content_1: "Basically, Effekseer supports users on a github."
+  support_content_2: "If you don't have an acount of github, you can send a mail ( effekseer(at)gmail.com ), or form."
+
+  support_form_1: "Form"
+  support_form_2: "Form reply"
