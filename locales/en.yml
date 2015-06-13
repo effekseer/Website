@@ -1,21 +1,27 @@
 en:
   top_header: "Top"
+  introduction_header: "Introduction"
   download_header: "Download"
   support_header: "Support"
   adoption_header: "Showcase"
+  contribute_header: "Contribute"
+  documentation_header: "Documentation"
 
-  eyecatch_1: "Effect Tool"
+  eyecatch_1: "Effect Editor"
   eyecatch_2: "Effekseer"
 
 
-  top_content_1: "Effekseer provide beautiful effects."
+  top_content_1: "Effekseer is a tool for making a beautiful visual effects for games easily."
 
-  top_content_2: "Effekseer is called as Effect editor. "
+  top_content_2: "Effekseer is a free, open-source program for making particle effects for games. 
+  The effects made with the program can be exported as 2D sprite sheets, or played as a 3D effects on games."
 
-  top_content_3: "ironuri"
+  top_content_3: "
+  Effects can be played on games with DirectX or OpenGL by embeding a runtime,  and also on unity by UnityPackage. 
+  "
 
-  development_content_1: "Effekseer is developed on Github."
-  development_content_2: "..."
+  contribute_content_1: "Effekseer is developed on Github."
+  contribute_content_2: "We always invite a pull request such as an adding function, a fixing bug and so on"
 
   adoption_title: "Title"
   adoption_developer: "Developer"
@@ -23,7 +29,7 @@ en:
   adoption_andsoon: "And so on!"
 
   support_content_1: "Basically, Effekseer supports users on a github."
-  support_content_2: "If you don't have an acount of github, you can send a mail ( effekseer(at)gmail.com ), or form."
+  support_content_2: "If you don't have an acount of github, you can send a mail ( effekseer(at)gmail.com ), or a form."
 
   support_form_1: "Form"
-  support_form_2: "Form reply"
+  support_form_2: "Form Reply"

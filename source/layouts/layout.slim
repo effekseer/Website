@@ -7,7 +7,24 @@ html
 	meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
 
 	/! Use title if it's in the page YAML frontmatter
-	title = data.page.title || "Effekseer"
+
+	- if data.page.kind=="top"
+		title =t(:top_header)
+	
+	- if data.page.kind=="introduction"
+		title =t(:introduction_header)
+	
+	- if data.page.kind=="download"
+		title =t(:download_header)
+
+	- if data.page.kind=="adoption"
+		title =t(:adoption_header)
+
+	- if data.page.kind=="support"
+		title =t(:support_header)
+
+	- if data.page.kind=="contribute"
+		title =t(:contribute_header)
 
 	== stylesheet_link_tag "base"
 	== javascript_include_tag  "all"
@@ -15,70 +32,79 @@ html
 	body class="#{page_classes}"
 		#header
 			.logo
-				img src="/images/Logo.png" alt="Logo" align="middle"
+				a href="index.html"
+					img src="/images/Logo.png" alt="Logo" align="middle"
 
 
 			- if data.page.kind=="top"
 				.selected
 					a href="index.html"
-								h1 トップ
+						h1 =t(:top_header)
 			- else
 				.unselected
 					a href="index.html"
-						h1 トップ
+						h1 =t(:top_header)
 
 			- if data.page.kind=="introduction"
 				.selected
 					a href="introduction.html"
-						h1 紹介
+						h1 =t(:introduction_header)
 			- else
 				.unselected
 					a href="introduction.html"
-						h1 紹介
+						h1 =t(:introduction_header)
 
 			- if data.page.kind=="download"
 				.selected
 					a href="download.html"
-						h1 ダウンロード
+						h1 =t(:download_header)
 			- else
 				.unselected
 					a href="download.html"
-						h1 ダウンロード
+						h1 =t(:download_header)
 
 			- if data.page.kind=="adoption"
 				.selected
 					a href="adoption.html"
-						h1 採用実績
+						h1 =t(:adoption_header)
 			- else
 				.unselected
 					a href="adoption.html"
-						h1 採用実績
+						h1 =t(:adoption_header)
 
-			- if data.page.kind=="development"
+			- if data.page.kind=="documentation"
 				.selected
-					a href="development.html"
-						h1 開発
+					a href="documentation.html"
+						h1 =t(:documentation_header)
 			- else
 				.unselected
-					a href="development.html"
-						h1 開発
+					a href="documentation.html"
+						h1 =t(:documentation_header)
 
 			- if data.page.kind=="support"
 				.selected
 					a href="support.html"
-						h1 サポート
+						h1 =t(:support_header)
 			- else
 				.unselected
 					a href="support.html"
-						h1 サポート
-		
-			- if data.page.kind=="manual"
+						h1 =t(:support_header)
+
+			- if data.page.kind=="contribute"
 				.selected
-					a href="support.html"
-						h1 マニュアル
+					a href="contribute.html"
+						h1 =t(:contribute_header)
 			- else
 				.unselected
-					a href="support.html"
-						h1 マニュアル
+					a href="contribute.html"
+						h1 =t(:contribute_header)
 		
+			.language
+				table
+					tr
+						td
+							a href="/jp/index.html" 日本語
+					tr
+						td
+							a href="/index.html" English
 		== yield

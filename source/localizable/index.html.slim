@@ -1,12 +1,16 @@
 ---
-title: t(:top_header)
+title: =t(:top_header)
 kind: top
 ---
 
 #contents
 
 	.eyecatch
-		p t(:eyecatch_1) <br> t(:eyecatch_2)
+		p 
+			=t(:eyecatch_1) 
+			br
+			=t(:eyecatch_2)
+
 		a href="download.html" =t(:download_header)
 		img src="/images/eyecatch.png"	
 
