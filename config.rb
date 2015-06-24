@@ -73,7 +73,7 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
-activate :i18n, :mount_at_root => :en
+activate :i18n, :mount_at_root => false
 set :slim, { :pretty => true, :sort_attrs => false, :format => :html }
 
 
