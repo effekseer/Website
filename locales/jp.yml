@@ -22,6 +22,9 @@ jp:
 	また、Windowsだけでなく、Mac OS XやLinux、iOS、Android、Emscriptenといった様々な環境に対応しています。"
 
 
+  download_prev: "以前のバージョン"
+  download_eff_dxlib: "Effekseer 1.0CTP1 For DXライブラリ"
+
   contribute_content_1: "Effekseerはgithub上で開発されています。"
   contribute_content_2: "常時、機能追加、バグ修正といったプルリクエストを募集しております。"
 
