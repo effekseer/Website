@@ -23,7 +23,7 @@ jp:
 
 
   download_prev: "以前のバージョン"
-  download_eff_dxlib: "Effekseer 1.0CTP1 For DXライブラリ"
+  download_eff_dxlib: "Effekseer 1.0CTP0(内部表記0.620) For DXライブラリ"
 
   contribute_content_1: "Effekseerはgithub上で開発されています。"
   contribute_content_2: "常時、機能追加、バグ修正といったプルリクエストを募集しております。"
@@ -36,6 +36,8 @@ jp:
 
   support_content_1: "基本的にサポートはgithub上で行っております。"
   support_content_2: "githubのアカウントが無い方は、メール ( effekseer(at)gmail.com ) か、下記のフォームでも受け付けています。"
+
+  support_twitter: "Twitterでもサポートを行っています。気軽に質問、要望等お願いします。"
 
   support_form_1: "問い合わせフォーム"
   support_form_2: "問い合わせフォーム返答結果"
