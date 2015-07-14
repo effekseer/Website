@@ -7,19 +7,27 @@ kind: support
 	.main
 		h2 =t(:support_header)
 
-		p =t(:support_content_1)
+		h3 =t(:support_forum)
+
+		p =t(:support_forum_content)
+
+		a href="http://effekseer.sakura.ne.jp/bbs/patio.cgi" =t(:forum_header)
+
+		h3 =t(:support_twitter)
+
+		p =t(:support_twitter_content)
+
+		a href="https://twitter.com/Effekseer" Twitter
+
+
+		h3 =t(:support_github)
+
+		p =t(:support_github_content)
 
 		a href="https://github.com/effekseer/Effekseer" Github
 		
-		p =t(:support_content_2)
-		
-		a href="https://docs.google.com/forms/d/1sosLyjFTi2Bi2v8eCColQPohEuIUIYSLz3OSzHSAPFU/viewform" =t(:support_form_1)
-		
-		br
+		h3 =t(:support_mail)
 
-		a href="https://docs.google.com/spreadsheet/ccc?key=0AqbKhqxHX6TfdDlQMEtDVmUxSnhvNGRxcjBfc1lWVXc&usp=drive_web#gid=0" =t(:support_form_2)
+		p =t(:support_mail_content)
 
-		p =t(:support_twitter)
-
-		a href="https://twitter.com/Effekseer" Twitter
-		
+		p effekseer(at)gmail.com

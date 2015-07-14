@@ -7,6 +7,8 @@ en:
   contribute_header: "Contribute"
   documentation_header: "Documentation"
 
+  forum_header: "Forum"
+
   eyecatch_1: "Effect Editor"
   eyecatch_2: "Effekseer"
 
@@ -19,6 +21,8 @@ en:
   top_content_3: "
   Effects can be played on games with DirectX or OpenGL by embeding a runtime,  and also on unity by UnityPackage. 
   "
+
+  top_underconstruction: "This page is under construction."
 
   download_prev: "Previous Versions"
   download_eff_dxlib: "Effekseer 1.0CTP0(0.620) For DXLibrary"
