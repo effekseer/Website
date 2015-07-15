@@ -4,7 +4,8 @@ jp:
   download_header: "ダウンロード"
   adoption_header: "採用実績"
   support_header: "サポート"
-  contribute_header: "貢献"
+  contribute_header: "投稿エフェクト"
+  development_header: "開発"
   documentation_header: "ドキュメント"
 
   forum_header: "フォーラム"
@@ -29,9 +30,9 @@ jp:
   download_eff_dxlib: "Effekseer 1.00 For DXライブラリ"
 
 
-  contibute_program: "プログラムについて"
-  contribute_content_1: "Effekseerはgithub上で開発されています。"
-  contribute_content_2: "常時、機能追加、バグ修正といったプルリクエストを募集しております。"
+  development_program: "ツールについて"
+  development_content_1: "Effekseerはgithub上で開発されています。"
+  development_content_2: "常時、機能追加、バグ修正といったプルリクエストを募集しております。"
 
 
 
