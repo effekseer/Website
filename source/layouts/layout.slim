@@ -6,6 +6,8 @@ html
 	/! Always force latest IE rendering engine or request Chrome Frame
 	meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
 
+	meta name="keywords" content="Effekseer,Particle,Effect,Editor,エフェクト"
+
 	/! Use title if it's in the page YAML frontmatter
 
 	- if data.page.kind=="top"
@@ -35,74 +37,75 @@ html
 				a href="index.html"
 					img src="/images/Logo.png" alt="Logo" align="middle"
 
+			- if data.page.kind!="effekseer"
+				
+				- if data.page.kind=="top"
+					.selected
+						a href="index.html"
+							h1 =t(:top_header)
+				- else
+					.unselected
+						a href="index.html"
+							h1 =t(:top_header)
 
-			- if data.page.kind=="top"
-				.selected
-					a href="index.html"
-						h1 =t(:top_header)
-			- else
-				.unselected
-					a href="index.html"
-						h1 =t(:top_header)
+				- if data.page.kind=="introduction"
+					.selected
+						a href="introduction.html"
+							h1 =t(:introduction_header)
+				- else
+					.unselected
+						a href="introduction.html"
+							h1 =t(:introduction_header)
 
-			- if data.page.kind=="introduction"
-				.selected
-					a href="introduction.html"
-						h1 =t(:introduction_header)
-			- else
-				.unselected
-					a href="introduction.html"
-						h1 =t(:introduction_header)
+				- if data.page.kind=="download"
+					.selected
+						a href="download.html"
+							h1 =t(:download_header)
+				- else
+					.unselected
+						a href="download.html"
+							h1 =t(:download_header)
 
-			- if data.page.kind=="download"
-				.selected
-					a href="download.html"
-						h1 =t(:download_header)
-			- else
-				.unselected
-					a href="download.html"
-						h1 =t(:download_header)
+				- if data.page.kind=="adoption"
+					.selected
+						a href="adoption.html"
+							h1 =t(:adoption_header)
+				- else
+					.unselected
+						a href="adoption.html"
+							h1 =t(:adoption_header)
 
-			- if data.page.kind=="adoption"
-				.selected
-					a href="adoption.html"
-						h1 =t(:adoption_header)
-			- else
-				.unselected
-					a href="adoption.html"
-						h1 =t(:adoption_header)
+				- if data.page.kind=="documentation"
+					.selected
+						a href="documentation.html"
+							h1 =t(:documentation_header)
+				- else
+					.unselected
+						a href="documentation.html"
+							h1 =t(:documentation_header)
 
-			- if data.page.kind=="documentation"
-				.selected
-					a href="documentation.html"
-						h1 =t(:documentation_header)
-			- else
-				.unselected
-					a href="documentation.html"
-						h1 =t(:documentation_header)
+				- if data.page.kind=="support"
+					.selected
+						a href="support.html"
+							h1 =t(:support_header)
+				- else
+					.unselected
+						a href="support.html"
+							h1 =t(:support_header)
 
-			- if data.page.kind=="support"
-				.selected
-					a href="support.html"
-						h1 =t(:support_header)
-			- else
-				.unselected
-					a href="support.html"
-						h1 =t(:support_header)
-
-			- if data.page.kind=="contribute"
-				.selected
-					a href="contribute.html"
-						h1 =t(:contribute_header)
-			- else
-				.unselected
-					a href="contribute.html"
-						h1 =t(:contribute_header)
+				- if data.page.kind=="contribute"
+					.selected
+						a href="contribute.html"
+							h1 =t(:contribute_header)
+				- else
+					.unselected
+						a href="contribute.html"
+							h1 =t(:contribute_header)
 		
-			
-			.unselected
-				a href="http://effekseer.sakura.ne.jp/bbs/patio.cgi"
-					h1 =t(:forum_header)
+				
+				.unselected
+					a href="http://effekseer.sakura.ne.jp/bbs/patio.cgi"
+						h1 =t(:forum_header)
 		
 
 			.language
