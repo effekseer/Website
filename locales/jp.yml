@@ -13,6 +13,10 @@ jp:
   eyecatch_1: "エフェクト制作ツール"
   eyecatch_2: "「Effekseer」"
 
+  top:
+    desc_movie1: "ツールで容易にエフェクト編集！"
+    desc_movie2: "こんなエフェクト作れます"
+
   top_content_1: "Effekseerは簡単に綺麗なビジュアルエフェクトを制作できるツールです。"
 
   top_content_2: "
@@ -40,23 +44,20 @@ jp:
   adoption_developer: "開発"
   adoption_site: "公式サイト"
   adoption_andsoon: "他にも色々!"
-
-
-
-
   
-  support_content_1: "基本的にサポートはgithub上で行っております。"
-  support_content_2: "githubのアカウントが無い方は、メール ( effekseer(at)gmail.com ) か、下記のフォームでも受け付けています。"
-
-  support_forum: "フォーラム"
-  support_forum_content: "バグ報告、要望、質問、自作エフェクト投稿等何でもどうぞ。"
-
-  support_twitter: "Twitter"
-  support_twitter_content: "Twitterでもサポートを行っています。気軽に質問、要望等お願いします。"
-
-
-  support_github: "Github"
-  support_github_content: "Effekseerはgithub上で開発されています。issueは常に読んでいますので、気軽に投稿どうぞ。"
-
-  support_mail: "Mail"
-  support_mail_content: "公開できない話等はメールでどうぞ。"
+  support:
+    content_1: "基本的にサポートはgithub上で行っております。"
+    content_2: "githubのアカウントが無い方は、メール ( effekseer(at)gmail.com ) か、下記のフォーラムでも受け付けています。"
+    
+    forum: "フォーラム"
+    forum_content: "バグ報告、要望、質問、自作エフェクト投稿等何でもどうぞ。"
+    
+    twitter: "Twitter"
+    twitter_content: "Twitterでもサポートを行っています。気軽に質問、要望等お願いします。"
+    
+    
+    github: "Github"
+    github_content: "Effekseerはgithub上で開発されています。issueは常に読んでいますので、気軽に投稿どうぞ。"
+    
+    mail: "Mail"
+    mail_content: "公開できない話等はメールでどうぞ。"

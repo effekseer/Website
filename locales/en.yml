@@ -13,6 +13,9 @@ en:
   eyecatch_1: "Effect Editor"
   eyecatch_2: "Effekseer"
 
+  top:
+    desc_movie1: "You can edit effects easily."
+    desc_movie2: "You can create such a effect."
 
   top_content_1: "Effekseer is a tool for making a beautiful visual effects for games easily."
 
@@ -28,6 +31,8 @@ en:
   download_prev: "Previous Versions"
   download_eff_dxlib: "Effekseer 1.01 For DXLibrary"
 
+  
+  development_program: "About tool"
   development_content_1: "Effekseer is developed on Github."
   development_content_2: "We always invite a pull request such as an adding function, a fixing bug and so on"
 
@@ -36,8 +41,20 @@ en:
   adoption_site: "Official Site"
   adoption_andsoon: "And so on!"
 
-  support_content_1: "Basically, Effekseer supports users on a github."
-  support_content_2: "If you don't have an acount of github, you can send a mail ( effekseer(at)gmail.com ), or a form."
+  support:
+    content_1: "Basically, Effekseer supports users on a github."
+    content_2: "If you don't have an acount of github, you can send a mail ( effekseer(at)gmail.com ), or a forum."
+    
+    forum: "Forum"
+    forum_content: "You can talk about bug report, request, question and so on."
+    
+    twitter: "Twitter"
+    twitter_content: "We also support Effekseer on Twitter."
+    
+    
+    github: "Github"
+    github_content: "Effeckseer has been developed on Github. Please free to post issues."
+    
+    mail: "Mail"
+    mail_content: "If you cannot tell us in publicy, please send us a mail."
 
-  support_form_1: "Form"
-  support_form_2: "Form Reply"
