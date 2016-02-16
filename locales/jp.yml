@@ -17,6 +17,23 @@ jp:
     desc_movie1: "ツールで容易にエフェクト編集！"
     desc_movie2: "こんなエフェクト作れます"
 
+    news_1: "2015.08.26 投稿エフェクトを追加しました。Effekseerを1.01にバージョンアップしました。"
+    news_2: "2015.07.23 投稿エフェクトを追加しました。EffekseerForDXライブラリをバージョンアップしました。"
+    news_3: "2015.07.15 Effekseer1.0を公開しました。"
+
+    for_designer: "デザイナー向け"
+    for_programmer: "プログラマー向け"
+
+    effect_editor: "エフェクト作成ツール"
+    effect_plugin: "エフェクト再生用ライブラリ、プラグイン"
+    dxlib: "DXライブラリ"
+
+    documentation_desc: "Effekseerの使い方等はこちら"
+    to_documentation: "ドキュメントへ"
+
+    contribute_desc: "ユーザー様方が投稿したエフェクト&エフェクトの投稿はこちら"
+    to_contribute: "投稿エフェクトへ"
+
   top_content_1: "Effekseerは簡単に綺麗なビジュアルエフェクトを制作できるツールです。"
 
   top_content_2: "

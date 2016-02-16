@@ -17,6 +17,23 @@ en:
     desc_movie1: "You can edit effects easily."
     desc_movie2: "You can create such a effect."
 
+    news_1: "2015.08.26 We added contributed effects. Effekseer is updated into 1.01."
+    news_2: "2015.07.23 We added contributed effects. Effekseer For DX Library is updated."
+    news_3: "2015.07.15 Effekseer is released."
+
+    for_designer: "For designer"
+    for_programmer: "For programmer"
+
+    effect_editor: "Effect Editor"
+    effect_plugin: "Library, plugin for playing effects."
+    dxlib: "DX Library"
+
+    documentation_desc: "How to use Effekseer is here"
+    to_documentation: "To documentation"
+
+    contribute_desc: "Contributed effects and contributing effects is here"
+    to_contribute: "To contributed effects"
+
   top_content_1: "Effekseer is a tool for making a beautiful visual effects for games easily."
 
   top_content_2: "Effekseer is a free, open-source program for making particle effects for games. 
