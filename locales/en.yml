@@ -95,3 +95,11 @@ en:
     help_dxlib: "Library's help to play effects on DX Library."
     tutorial: "Tutorial"
     tutorial_desc: "There are tutorials. Sorry. Sorry thease helps are japanese only."
+
+  contribute:
+    line1: "We are publishing cool effects which are contributed by user of Effekseer. It is free to use in your games or movies. It is also free to edit these effects."
+    line2: "However, if you use as long as I hope you are able to write the name of Effekseer somewhere in the works."
+    line3: "We always collect effects. Please contribute from following link."
+
+    contribution: "Contribution"
+    contributed: "Contributed effects"
