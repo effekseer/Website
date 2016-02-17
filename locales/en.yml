@@ -45,6 +45,15 @@ en:
 
   top_underconstruction: "This page is under construction."
 
+  introduction:
+    easy: "You can create cool effects easily."
+    create: "By combining various particles, effects are created."
+    play: "Created effects can be play in games."
+    2d: "2D images can be exported based on 3D effects."
+    2d_desc: "Serial number images or gif animation are exported using a recording function."
+    browser: "These effects can be played on browsers."
+    browser_warning: "* To play effects on browsers, Emscripten is required."
+
   download_prev: "Previous Versions"
   download_eff_dxlib: "Effekseer 1.01 For DXLibrary"
 

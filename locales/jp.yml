@@ -47,6 +47,15 @@ jp:
 
   top_underconstruction: ""
 
+  introduction:
+    easy: "簡単な操作でエフェクト作成"
+    create: "様々なパーティクルを組み合わせてエフェクトを作成"
+    play: "ゲーム中で再生！"
+    2d: "2D向けに連番画像も出力可能!"
+    2d_desc: "録画機能を使用することで、連番画像やgifアニメを出力できます。"
+    browser: "ブラウザゲームでも使用可能"
+    browser_warning: "※ ブラウザで再生するにはemscriptenを使用する必要があります。"
+
   download_prev: "以前のバージョン"
   download_eff_dxlib: "Effekseer 1.01 For DXライブラリ"
 
