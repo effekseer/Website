@@ -45,6 +45,15 @@ en:
 
   top_underconstruction: "This page is under construction."
 
+  introduction:
+    easy: "You can create cool effects easily."
+    create: "By combining various particles, effects are created."
+    play: "Created effects can be play in games."
+    2d: "2D images can be exported based on 3D effects."
+    2d_desc: "Serial number images or gif animation are exported using a recording function."
+    browser: "These effects can be played on browsers."
+    browser_warning: "* To play effects on browsers, Emscripten is required."
+
   download_prev: "Previous Versions"
   download_eff_dxlib: "Effekseer 1.01 For DXLibrary"
 
@@ -75,3 +84,14 @@ en:
     mail: "Mail"
     mail_content: "If you cannot tell us in publicy, please send us a mail."
 
+  documentation:
+    help: "Help"
+    description: "Threre are helps bundled each packages. Sorry thease helps are japanese only."
+    to_help: "To help."
+    help_effekseer: "Effekseer's help for a desginer to create effects."
+    help_runtime: "Runtime's help to play effects on your application using DirectX or OpenGL."
+    help_unity: "Plugin's help to play effects on Unity."
+    dxlib: "Effekseer For DX Library"
+    help_dxlib: "Library's help to play effects on DX Library."
+    tutorial: "Tutorial"
+    tutorial_desc: "There are tutorials. Sorry. Sorry thease helps are japanese only."

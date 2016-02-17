@@ -47,6 +47,15 @@ jp:
 
   top_underconstruction: ""
 
+  introduction:
+    easy: "簡単な操作でエフェクト作成"
+    create: "様々なパーティクルを組み合わせてエフェクトを作成"
+    play: "ゲーム中で再生！"
+    2d: "2D向けに連番画像も出力可能!"
+    2d_desc: "録画機能を使用することで、連番画像やgifアニメを出力できます。"
+    browser: "ブラウザゲームでも使用可能"
+    browser_warning: "※ ブラウザで再生するにはemscriptenを使用する必要があります。"
+
   download_prev: "以前のバージョン"
   download_eff_dxlib: "Effekseer 1.01 For DXライブラリ"
 
@@ -78,3 +87,15 @@ jp:
     
     mail: "Mail"
     mail_content: "公開できない話等はメールでどうぞ。"
+
+  documentation:
+    help: "ヘルプ"
+    description: "各パッケージに同梱されているヘルプのオンライン版です。"
+    to_help: "ヘルプへ"
+    help_effekseer: "デザイナー向けのエフェクトを作成するためのツールのヘルプ"
+    help_runtime: "DirectXやOpenGLでエフェクトを再生できるようにするランタイムのヘルプ"
+    help_unity: "Unityでエフェクトを再生できるようにするプラグインのヘルプ"
+    dxlib: "Effekseer For DXライブラリ"
+    help_dxlib: "DXライブラリでエフェクトを再生できるようにするライブラリのヘルプ"
+    tutorial: "チュートリアル"
+    tutorial_desc: "Effekseerのツールのチュートリアルです。一部の機能しか紹介していないので、詳しく知りたい方はリファレンスを参照お願いします。"
