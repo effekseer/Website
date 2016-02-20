@@ -103,3 +103,13 @@ en:
 
     contribution: "Contribution"
     contributed: "Contributed effects"
+
+  contributed:
+    information: "Information"
+    contributor: "Contributor"
+    tno_works: "The number of works"
+    comment: "Comment"
+    download: "Download"
+    none: "None"
+    part: "* Shown effects are a part of effect package."
+    return: "Return"

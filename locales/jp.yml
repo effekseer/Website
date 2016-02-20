@@ -107,3 +107,13 @@ jp:
 
     contribution: "投稿"
     contributed: "投稿されたエフェクト"
+
+  contributed:
+    information: "情報"
+    contributor: "投稿者"
+    tno_works: "作品数"
+    comment: "コメント"
+    download: "ダウンロード"
+    none: "特に無し"
+    part: "※ 表示されているのは一部のエフェクトのみです。"
+    return: "投稿エフェクト一覧に戻る"
