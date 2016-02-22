@@ -56,8 +56,15 @@ jp:
     browser: "ブラウザゲームでも使用可能"
     browser_warning: "※ ブラウザで再生するにはemscriptenを使用する必要があります。"
 
-  download_prev: "以前のバージョン"
-  download_eff_dxlib: "Effekseer 1.01 For DXライブラリ"
+  download:
+    tool_desc: "デザイナー向けのエフェクトを作成するためのツールです。"
+    tool_runtime: "DirectXやOpenGLを用いたアプリケーション中でエフェクトを再生できるようにするランタイムです。"
+    tool_unity: "Unityで簡単に作成したエフェクトを再生できるようにするプラグインです。"
+    tool_dxlib: "DXライブラリで簡単に作成したエフェクトを再生できるようにするライブラリです。"
+
+    prev: "以前のバージョン"
+    eff_dxlib101: "Effekseer 1.01 For DXライブラリ"
+    eff_dxlib100: "Effekseer 1.00 For DXライブラリ"
 
 
   development_program: "ツールについて"
