@@ -7,6 +7,7 @@ en:
   contribute_header: "Contributed effects"
   development_header: "Development"
   documentation_header: "Documentation"
+  releasenote_header: "Release note"
 
   forum_header: "Forum"
 
@@ -17,9 +18,9 @@ en:
     desc_movie1: "You can edit effects easily."
     desc_movie2: "You can create such a effect."
 
-    news_1: "2015.08.26 We added contributed effects. Effekseer is updated into 1.01."
-    news_2: "2015.07.23 We added contributed effects. Effekseer For DX Library is updated."
-    news_3: "2015.07.15 Effekseer is released."
+    news_1: "2015.02.28 We added contributed effects. Effekseer is updated into 1.10."
+    news_2: "2015.08.26 We added contributed effects. Effekseer is updated into 1.01."
+    news_3: "2015.07.23 We added contributed effects. Effekseer For DX Library is updated."
 
     for_designer: "For designer"
     for_programmer: "For programmer"
@@ -61,6 +62,7 @@ en:
     tool_dxlib: "This is a library for DXLibrary to play effects."
 
     prev: "Previous Versions"
+    eff_dxlib110: "Effekseer 1.10 For DXLibrary"
     eff_dxlib101: "Effekseer 1.01 For DXLibrary"
     eff_dxlib100: "Effekseer 1.00 For DXLibrary"
   
@@ -122,3 +124,23 @@ en:
     none: "None"
     part: "* Shown effects are a part of effect package."
     return: "Return"
+
+  releasenote:
+    v110: "1.10"
+    v110_1: "Color space"
+    v110_1_desc: "You can change a color space editing a effect."
+
+    v110_2: "English user interface"
+    v110_2_desc: "You can select English user interface."
+
+    v110_3: "Many sample effects"
+    v110_3_desc: "More than 100 sample effects are added. These can be downloded from the official website."
+
+    v110_4: "Improvement of Plugin for Unity"
+    v110_4_desc: "The plugin accepted for loading resources from Resources directory."
+
+    v110_5: "Improvement of Library for DXLibrary"
+    v110_5_desc: "The library accepted for a network and a distortion."
+
+    v110_6: "Bug fixes"
+    v110_6_desc: "Many bugs are fixed."
