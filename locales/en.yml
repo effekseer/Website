@@ -135,10 +135,10 @@ en:
     v120_2_desc: "You can save effects as AVI Format with an alpha channel. It is useful for creating a movie on a video editing software such an AfterEffects."
 
     v120_3: "Many sample effects"
-    v120_3_desc: "More than 100 sample effects are added. These can be downloded from the official website."
+    v120_3_desc: "More than 20 sample effects are added. These can be downloded from the official website."
 
     v120_4: "Improvement of Plugin for Unity"
-    v120_4_desc: "The plugin accepted for loading resources from Resources directory."
+    v120_4_desc: "The plugin accepted for a distortion."
 
     v120_5: "Bug fixes"
     v120_5_desc: "Many bugs are fixed."
