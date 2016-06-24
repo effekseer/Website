@@ -18,9 +18,9 @@ en:
     desc_movie1: "You can edit effects easily."
     desc_movie2: "You can create such a effect."
 
-    news_1: "2016.05.23 Effekseer For DXLibrary is updated."
-    news_2: "2016.03.12 Effekseer For Unity is updated."
-    news_3: "2016.03.04 Effekseer For Unity is updated."
+    news_1: "2016.06.24 Effekseer is updated to 1.20."
+    news_2: "2016.05.23 Effekseer For DXLibrary is updated."
+    news_3: "2016.03.12 Effekseer For Unity is updated."
 
     for_designer: "For designer"
     for_programmer: "For programmer"
@@ -62,6 +62,7 @@ en:
     tool_dxlib: "This is a library for DXLibrary to play effects."
 
     prev: "Previous Versions"
+    eff_dxlib120: "Effekseer 1.20 For DXLibrary"
     eff_dxlib110b: "Effekseer 1.10b For DXLibrary"
     eff_dxlib110: "Effekseer 1.10 For DXLibrary"
     eff_dxlib101: "Effekseer 1.01 For DXLibrary"
