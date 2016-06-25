@@ -3,7 +3,7 @@ en:
   introduction_header: "Introduction"
   download_header: "Download"
   support_header: "Support"
-  adoption_header: "Showcase"
+  adoption_header: "Use cases"
   contribute_header: "Contributed effects"
   development_header: "Development"
   documentation_header: "Documentation"
@@ -11,11 +11,11 @@ en:
 
   forum_header: "Forum"
 
-  eyecatch_1: "Effect Editor"
+  eyecatch_1: "Visual Effect Creating tool"
   eyecatch_2: "Effekseer"
 
   top:
-    desc_movie1: "You can edit effects easily."
+    desc_movie1: "You can create effects easily."
     desc_movie2: "You can create such a effect."
 
     news_1: "2016.06.24 Effekseer is updated to 1.20."
@@ -35,31 +35,32 @@ en:
     contribute_desc: "Contributed effects and contributing effects is here"
     to_contribute: "To contributed effects"
 
-  top_content_1: "Effekseer is a tool for making a beautiful visual effects for games easily."
+  top_content_1: "Effekseer is an easy creating tool of beautiful visual effects for games."
 
-  top_content_2: "Effekseer is a free, open-source program for making particle effects for games. 
-  The effects made with the program can be exported as 2D sprite sheets, or played as a 3D effects on games."
+  top_content_2: "Effekseer is a free, open-source program.
+  You can use effects as 2D Animations or 3D effects incorporated into your games."
 
   top_content_3: "
-  Effects can be played on games with DirectX or OpenGL by embeding a runtime,  and also on unity by UnityPackage. 
+  Effects are shown on games with DirectX or OpenGL by embeding a runtime, and also on games with unity by UnityPackage. 
+  And furthermore, effects are available on Windows, Mac OS X, Linux, iOS, Android, Emscripten, and so on.
   "
 
   top_underconstruction: ""
 
   introduction:
     easy: "You can create cool effects easily."
-    create: "By combining various particles, effects are created."
-    play: "Created effects can be play in games."
+    create: "Effects are made of arranged various particles."
+    play: "Created effects shown in games."
     2d: "2D images can be exported based on 3D effects."
-    2d_desc: "Serial number images or gif animation are exported using a recording function."
-    browser: "These effects can be played on browsers."
-    browser_warning: "* To play effects on browsers, Emscripten is required."
+    2d_desc: "Serial number images or gif animations are exported by recording function."
+    browser: "These effects can be shown on browsers."
+    browser_warning: "* required Emscripten."
 
   download:
-    tool_desc: "This is a tool for designers to create effects."
-    tool_runtime: "This is a runtime to play effects on your application using DirectX or OpenGL."
-    tool_unity: "This is a plugin for Unity to play effects."
-    tool_dxlib: "This is a library for DXLibrary to play effects."
+    tool_desc: "This is a tool to create visual effects for designers."
+    tool_runtime: "This is a runtime to show effects on your application using DirectX or OpenGL."
+    tool_unity: "This is a plugin to show effects on your application using Unity ."
+    tool_dxlib: "This is a library to show effects on your application DXLibrary."
 
     prev: "Previous Versions"
     eff_dxlib120: "Effekseer 1.20 For DXLibrary"
@@ -70,48 +71,48 @@ en:
   
   development_program: "About tool"
   development_content_1: "Effekseer is developed on Github."
-  development_content_2: "We always invite a pull request such as an adding function, a fixing bug and so on"
+  development_content_2: "We always welcome pull requests of improvements, resolving issues and so on"
 
   adoption_title: "Title"
   adoption_developer: "Developer"
   adoption_site: "Official Site"
-  adoption_andsoon: "And so on!"
+  adoption_andsoon: "And many more!"
 
   support:
-    content_1: "Basically, Effekseer supports users on a github."
-    content_2: "If you don't have an acount of github, you can send a mail ( effekseer(at)gmail.com ), or a forum."
+    content_1: "Usually, Effekseer supports users on a github."
+    content_2: "If you don't have an acount of github, you can send a mail ( effekseer(at)gmail.com ), or ask on a forum."
     
     forum: "Forum"
-    forum_content: "You can talk about bug report, request, question and so on."
+    forum_content: "You can discuss bug reports, requests, questions and so on."
     
     twitter: "Twitter"
     twitter_content: "We also support Effekseer on Twitter."
     
     
     github: "Github"
-    github_content: "Effeckseer has been developed on Github. Please free to post issues."
+    github_content: "Effeckseer is developed on Github. you can post issues freely."
     
     mail: "Mail"
-    mail_content: "If you cannot tell us in publicy, please send us a mail."
+    mail_content: "If you cannot tell us in public, please send us a mail."
 
   documentation:
     help: "Help"
-    description: "Threre are helps bundled each packages. Sorry thease helps are japanese only."
-    to_help: "To help."
-    help_effekseer: "Effekseer's help for a desginer to create effects."
-    help_runtime: "Runtime's help to play effects on your application using DirectX or OpenGL."
-    help_unity: "Plugin's help to play effects on Unity."
+    description: "Helps are also bundled with each packages. Sorry these helps are in Japanese only."
+    to_help: "Here."
+    help_effekseer: "for designers to create effects."
+    help_runtime: "to show effects on your application using DirectX or OpenGL."
+    help_unity: "to show effects on your application using Unity."
     dxlib: "Effekseer For DX Library"
-    help_dxlib: "Library's help to play effects on DX Library."
+    help_dxlib: "to show effects on your application using DX Library"
     tutorial: "Tutorial"
-    tutorial_desc: "There are tutorials. Sorry. Sorry thease helps are japanese only."
+    tutorial_desc: "Here are tutorials. Sorry these helps are in Japanese only."
 
     quicktutorial: "Quick tutorial"
-    quicktutorial_desc: "This is quick tutorial for Effekseer."
+    quicktutorial_desc: "This is a quick tutorial for Effekseer."
 
   contribute:
-    line1: "We are publishing cool effects which are contributed by user of Effekseer. It is free to use in your games or movies. It is also free to edit these effects."
-    line2: "However, if you use as long as I hope you are able to write the name of Effekseer somewhere in the works."
+    line1: "We 	distribute cool effects which are contributed by users of Effekseer. It is free to use in your games or movies. It is also free to edit these effects."
+    line2: "We'd appreciate it if you counld write the name of Effekseer somewhere in your works."
     line3: "We always collect effects. Please contribute from following link."
 
     contribution: "Contribution"
@@ -125,43 +126,43 @@ en:
     download: "Download"
     none: "None"
     part: "* Shown effects are a part of effect package."
-    return: "Return"
+    return: "Return to contributed effects list"
 
   releasenote:
     v120: "1.20"
     v120_1: "Alpha channel estimation"
-    v120_1_desc: "Alpha channel can be estimated when a movie is exported. You can render effects on other screen without addition. It is useful to play effects on 2D game."
+    v120_1_desc: "Alpha channel can be estimated when a movie is exported. You can render effects on other screen without addition. It is useful to show effects on 2D game."
 
     v120_2: "The function to save effects as AVI Format with alpha"
-    v120_2_desc: "You can save effects as AVI Format with an alpha channel. It is useful for creating a movie on a video editing software such an AfterEffects."
+    v120_2_desc: "You can save effects as AVI Format with an alpha channel. It is useful for creating a movie on a video editing software such AfterEffects."
 
     v120_3: "Many sample effects"
-    v120_3_desc: "More than 20 sample effects are added. These can be downloded from the official website."
+    v120_3_desc: "More than 20 sample effects are added. You can download these from the official website, too."
 
     v120_4: "Improvement of Plugin for Unity"
-    v120_4_desc: "A distortion and an asset bundle became available. A correspondence with multi platform(iOS, Android, WebGL) is reinforced."
+    v120_4_desc: "Distortion and Asset bundle now work. improved correspondence with multi platform(iOS, Android, WebGL) ."
 
     v120_5: "Changed hot keys"
-    v120_5_desc: "Hot keys are changed like AfterEffects."
+    v120_5_desc: "Hot keys take after AfterEffects."
 
     v120_6: "Bug fixes"
-    v120_6_desc: "Many bugs are fixed."
+    v120_6_desc: "Fixed many bugs."
 
     v110: "1.10"
     v110_1: "Color space"
-    v110_1_desc: "You can change a color space editing a effect."
+    v110_1_desc: "Now you can change a color space during editing effects."
 
     v110_2: "English user interface"
-    v110_2_desc: "You can select English user interface."
+    v110_2_desc: "Now you can select English user interface."
 
     v110_3: "Many sample effects"
-    v110_3_desc: "More than 100 sample effects are added. These can be downloded from the official website."
+    v110_3_desc: "More than 100 sample effects are added. You can download these from the official website, too."
 
     v110_4: "Improvement of Plugin for Unity"
-    v110_4_desc: "The plugin accepted for loading resources from Resources directory."
+    v110_4_desc: "The plugin now supports loading resources from Resources directory."
 
     v110_5: "Improvement of Library for DXLibrary"
-    v110_5_desc: "The library accepted for a network and a distortion."
+    v110_5_desc: "The library now supports network and distortion."
 
     v110_6: "Bug fixes"
-    v110_6_desc: "Many bugs are fixed."
+    v110_6_desc: "Fixed many bugs."
