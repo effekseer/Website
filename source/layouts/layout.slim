@@ -34,8 +34,12 @@ html
 	body class="#{page_classes}"
 		#header
 			.logo
-				a href="index.html"
-					img src="/images/Logo.png" alt="Logo" align="middle"
+				- if data.page.kind!="effekseer"
+					a href="index.html"
+						img src="/images/Logo.png" alt="Logo" align="middle"
+				- else
+					a href="../../index.html"
+						img src="/images/Logo.png" alt="Logo" align="middle"
 
 			- if data.page.kind!="effekseer"
 				
