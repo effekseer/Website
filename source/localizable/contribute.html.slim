@@ -18,6 +18,12 @@ kind: contribute
 		h3 =t('contribute.contributed')
 
 		p =t('contribute.contributed_desc')
+	
+		- if I18n.locale.to_s == "jp"
+			a href='http://sciencecommons.jp/cc0/about' CC-0について
+
+		- if I18n.locale.to_s == "en"
+			a href='http://creativecommons.org/about/cc0' About CC-0
 
 		table
 			tr
