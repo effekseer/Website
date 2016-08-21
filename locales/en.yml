@@ -18,9 +18,9 @@ en:
     desc_movie1: "You can create effects easily:"
     desc_movie2: "Examples of created effects:"
 
-    news_1: "2016.06.24 Effekseer is updated to 1.20."
-    news_2: "2016.05.23 Effekseer for DXLibrary is updated."
-    news_3: "2016.03.12 Effekseer for Unity is updated."
+    news_1: "2016.08.21 Effekseer is updated to 1.22. A license of part of effects is changed into CC-0."
+    news_2: "2016.06.24 Effekseer is updated to 1.20."
+    news_3: "2016.05.23 Effekseer for DXLibrary is updated."
 
     for_designer: "For Designers"
     for_programmer: "For Programmers"
@@ -57,11 +57,7 @@ en:
     tool_dxlib: "This is a library to show effects in your DXLibrary applications."
 
     prev: "Previous Versions"
-    eff_dxlib120: "Effekseer 1.20 for DXLibrary"
-    eff_dxlib110b: "Effekseer 1.10b for DXLibrary"
-    eff_dxlib110: "Effekseer 1.10 for DXLibrary"
-    eff_dxlib101: "Effekseer 1.01 for DXLibrary"
-    eff_dxlib100: "Effekseer 1.00 for DXLibrary"
+    eff_dxlib122: "Effekseer 1.22 for DXLibrary"
   
   development_program: "About Tool"
   development_content_1: "Effekseer is developed on Github."

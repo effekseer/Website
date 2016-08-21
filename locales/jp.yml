@@ -18,9 +18,9 @@ jp:
     desc_movie1: "ツールで容易にエフェクト編集！"
     desc_movie2: "こんなエフェクト作れます"
 
-    news_1: "2016.06.24 Effekseerを1.20にバージョンアップしました。"
-    news_2: "2016.05.23 EffekseerForDXライブラリをバージョンアップしました。"
-    news_3: "2016.03.12 EffekseerForUnityをバージョンアップしました。"
+    news_1: "2016.08.21 Effekseerを1.22にバージョンアップしました。エフェクトのライセンスが一部CC-0になりました。"
+    news_2: "2016.06.24 Effekseerを1.20にバージョンアップしました。"
+    news_3: "2016.05.23 EffekseerForDXライブラリをバージョンアップしました。"
 
     for_designer: "デザイナー向け"
     for_programmer: "プログラマー向け"
@@ -64,11 +64,7 @@ jp:
     tool_dxlib: "DXライブラリで簡単に作成したエフェクトを再生できるようにするライブラリです。"
 
     prev: "以前のバージョン"
-    eff_dxlib120: "Effekseer 1.20 For DXライブラリ"
-    eff_dxlib110b: "Effekseer 1.10b For DXライブラリ"
-    eff_dxlib110: "Effekseer 1.10 For DXライブラリ"
-    eff_dxlib101: "Effekseer 1.01 For DXライブラリ"
-    eff_dxlib100: "Effekseer 1.00 For DXライブラリ"
+    eff_dxlib122: "Effekseer 1.22 For DXライブラリ"
 
 
   development_program: "ツールについて"
