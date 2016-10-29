@@ -11,7 +11,7 @@ en:
 
   forum_header: "Forum"
 
-  eyecatch_1: "Visual Effect Creating tool"
+  eyecatch_1: "Particle Effect Creating tool"
   eyecatch_2: "Effekseer"
 
   top:
@@ -35,7 +35,7 @@ en:
     contribute_desc: "Download free-to-use/free-to-edit effects contributed by other Effekseer users:"
     to_contribute: "View Contributed Effects"
 
-  top_content_1: "Effekseer is a tool that allows easy creation of beautiful visual effects for games and movies."
+  top_content_1: "Effekseer is a tool that allows easy creation of beautiful particle effects for games and movies."
 
   top_content_2: "Effekseer is a free, open-source program. The effects can be exported as 2D animations or 3D effects. Using the included runtimes, these can be displayed in engines including DirectX, OpenGL, and Unity. Furthermore, the effects are available on Windows, Mac OS X, Linux, iOS, Android, Emscripten, and so on."
 
@@ -51,7 +51,7 @@ en:
     browser_warning: "* requires Emscripten."
 
   download:
-    tool_desc: "This is a tool for designers to create visual effects."
+    tool_desc: "This is a tool for designers to create particle effects."
     tool_runtime: "This is a runtime to show effects in your DirectX or OpenGL applications."
     tool_unity: "This is a plugin to show effects in your Unity applications."
     tool_dxlib: "This is a library to show effects in your DXLibrary applications."
