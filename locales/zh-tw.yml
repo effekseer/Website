@@ -1,0 +1,196 @@
+zh-tw:
+  top_header: "首頁"
+  introduction_header: "介紹"
+  download_header: "下載"
+  adoption_header: "使用案例"
+  support_header: "支援"
+  contribute_header: "效果發布"
+  development_header: "開発"
+  documentation_header: "文件"
+  releasenote_header: "Release Notes"
+
+  forum_header: "討論區"
+
+  eyecatch_1: "效果編輯工具"
+  eyecatch_2: "「Effekseer」"
+
+  top:
+    desc_movie1: "能輕鬆地製作："
+    desc_movie2: "製作完成的效果："
+
+    news_1: "2016.10.23 升級EffekseerForDXUnity。"
+    news_2: "2016.08.21 升級Effekseer到1.22。一部份效果旳授權方式改為CC-0。"
+    news_3: "2016.06.24 升級Effekseer到1.20。"
+
+    for_designer: "給設計師"
+    for_programmer: "給程序員"
+
+    effect_editor: "效果編輯工具"
+    effect_plugin: "效果播放用函式庫和插件"
+    dxlib: "DX Library"
+
+    documentation_desc: "學習如何使用Effekseer"
+    to_documentation: "查看文檔"
+
+    contribute_desc: "下載其他Effekseer用戶提供的免費/任意編輯的效果："
+    to_contribute: "前住效果發布區"
+
+  top_content_1: "Effekseer是能夠容易地做出粒子效果的編輯工具。"
+
+  top_content_2: "
+    Effekseer是免費的開源碼軟件，可以製作各種例如爆炸和擊中時的遊戲效果。
+	製作完成的效果可輸出成2D動畫，也可以在應用程式內播放。"
+
+  top_content_3: "
+    透過組合 runtime 後,使用C++便能夠在DirectX和OpenGL中播放效果。
+	也可使用UnityPackage便能夠在Unity內播放。
+	並支援 Windows,Mac OS X,Linux,iOS,Android,Emscripten等。"
+
+  top_underconstruction: ""
+
+  introduction:
+    easy: "簡単な操作でエフェクト作成"
+    create: "様々なパーティクルを組み合わせてエフェクトを作成"
+    play: "ゲーム中で再生！"
+    2d: "2D向けに連番画像も出力可能!"
+    2d_desc: "録画機能を使用することで、連番画像やgifアニメを出力できます。"
+    browser: "ブラウザゲームでも使用可能"
+    browser_warning: "※ ブラウザで再生するにはemscriptenを使用する必要があります。"
+
+  download:
+    tool_desc: "デザイナー向けのエフェクトを作成するためのツールです。"
+    tool_runtime: "DirectXやOpenGLを用いたアプリケーション中でエフェクトを再生できるようにするランタイムです。"
+    tool_unity: "Unityで簡単に作成したエフェクトを再生できるようにするプラグインです。"
+    tool_dxlib: "DXライブラリで簡単に作成したエフェクトを再生できるようにするライブラリです。"
+
+    prev: "以前のバージョン"
+    eff_dxlib122: "Effekseer 1.22 For DXライブラリ"
+
+
+  development_program: "ツールについて"
+  development_content_1: "Effekseerはgithub上で開発されています。"
+  development_content_2: "常時、機能追加、バグ修正といったプルリクエストを募集しております。"
+
+
+
+  adoption_title: "タイトル"
+  adoption_developer: "開発"
+  adoption_site: "公式サイト"
+  adoption_andsoon: "他にも色々!"
+  
+  support:
+    content_1: "基本的にサポートはgithub上で行っております。"
+    content_2: "githubのアカウントが無い方は、メール ( effekseer(at)gmail.com ) か、下記のフォーラムでも受け付けています。"
+    
+    forum: "フォーラム"
+    forum_content: "バグ報告、要望、質問、自作エフェクト投稿等何でもどうぞ。"
+    
+    twitter: "Twitter"
+    twitter_content: "Twitterでもサポートを行っています。気軽に質問、要望等お願いします。"
+    
+    
+    github: "Github"
+    github_content: "Effekseerはgithub上で開発されています。issueは常に読んでいますので、気軽に投稿どうぞ。"
+    
+    mail: "Mail"
+    mail_content: "公開できない話等はメールでどうぞ。"
+
+  documentation:
+    help: "ヘルプ"
+    description: "各パッケージに同梱されているヘルプのオンライン版です。"
+    to_help: "ヘルプへ"
+    help_effekseer: "デザイナー向けのエフェクトを作成するためのツールのヘルプ"
+    help_runtime: "DirectXやOpenGLでエフェクトを再生できるようにするランタイムのヘルプ"
+    help_unity: "Unityでエフェクトを再生できるようにするプラグインのヘルプ"
+    dxlib: "Effekseer For DXライブラリ"
+    help_dxlib: "DXライブラリでエフェクトを再生できるようにするライブラリのヘルプ"
+    tutorial: "チュートリアル"
+    tutorial_desc: "Effekseerのツールのチュートリアルです。一部の機能しか紹介していないので、詳しく知りたい方はリファレンスを参照お願いします。"
+
+    quicktutorial: "クイックチュートリアル"
+    quicktutorial_desc: "Effekseerのツールの簡単なチュートリアルです。現在英語版のみです。"
+
+  contribute:
+    line1: "Effekseerのユーザー様方から投稿された素晴らしいエフェクトを公開しています。どのエフェクトも自由に自分のゲームや映像作品等に使用して問題ありません。エフェクトを改造するのも自由です。"
+    line2: "ほとんどのエフェクトはCC-0ライセンスで提供されています。"
+    line3: "また、常時エフェクトの投稿も募集しています。投稿されたエフェクトはCC-0ライセンスで配布します。投稿は下記のリンクからお願いします。"
+
+    contribution: "投稿"
+    contributed: "投稿されたエフェクト"
+    contributed_desc: "これらのエフェクトはCC-0ライセンスで提供されています。ただ、できれば使用した場合は作品のどこかにEffekseerと投稿者の名前を記述していただけると幸いです。"
+
+    contributed_old: "投稿されたエフェクト(旧)"
+    contributed_old_desc: "これらのエフェクトは古いライセンスで提供されています。Effekseerと一緒に使用する場合のみ自由に使用できます。"
+
+  contributed:
+    information: "情報"
+    contributor: "投稿者"
+    tno_works: "作品数"
+    comment: "コメント"
+    download: "ダウンロード"
+    none: "特に無し"
+    part: "※ 表示されているのは一部のエフェクトのみです。"
+    return: "投稿エフェクト一覧に戻る"
+    title_AndrewFM01: "AndrewFMさん 投稿エフェクト"
+    title_Effekseer: "Effekseer公式エフェクト"
+    title_MAGICALxSPIRAL: "MAGICAL×SPIRAL エフェクト"
+    title_NitoriBox: "NITORI BOX エフェクト"
+    title_Pierre01: "ピエールエフェクトvol.1"
+    title_Pierre02: "ピエールエフェクトvol.2"
+    Pierre02_Overview: "■ 概要 ■"
+    Pierre02_Desc1: "3Dゲーム向けのエフェクト集です。パーティクルをかなり贅沢に生成しまくります。"
+    Pierre02_List: "■ エフェクト内訳 ■"
+    Pierre02_List1: "簡易祝福エフェクト"
+    Pierre02_List2: "短槍大量召喚エフェクト"
+    Pierre02_List3: "星雲撒きエフェクト"
+    Pierre02_List4: "羽爆弾エフェクト"
+    Pierre02_List5: "火球投げエフェクト"
+    Pierre02_List6: "ゲート・オブ・カルビ"
+    Pierre02_List7: "出血エフェクト"
+    Pierre02_List8: "属性剣技エフェクト5種(残り火, 雷, 嵐, 月光, 聖光)"
+    Pierre02_Note: "■ 注意事項 ■"
+    Pierre02_Desc2: "歪みを多く使っているので、スペックによっては処理が重いと思います。その場合は「Blur」というノードの描画をOFFにすると処理が軽くなります。"
+    Pierre02_Contact: "■ 推奨連絡先 ■"
+    title_NextSoft01: "リーメベルタ ～願いを叶える秘宝と塔の守り人～エフェクト"
+    title_PDG: "project弾幕GIrls エフェクト"
+    title_suzuki01: "鈴木克史 さん 投稿エフェクト"
+    title_toust: "とうほう☆ストラテジー～LotusCraft～ エフェクト"
+
+  releasenote:
+    v120: "1.20"
+    v120_1: "アルファチャンネル推定"
+    v120_1_desc: "動画を出力する時に、アルファチャンネルを推定します。加算合成なしにエフェクトを他の画面に描画できます。2Dゲームでエフェクトを再生しやすくなりました。"
+
+    v120_2: "アルファ付きAVI形式でエフェクトを保存する機能"
+    v120_2_desc: "アルファ付きAVI形式でエフェクトを保存できるようになりました。AfterEffectsといった映像編集ソフトで映像を作成するときに便利になりました。"
+
+    v120_3: "サンプルエフェクト"
+    v120_3_desc: "20個以上のサンプルエフェクトが追加されました。公式サイトからダウンロードできます。"
+
+    v120_4: "Unityプラグインの改良"
+    v120_4_desc: "歪み、アセットバンドルに対応しました。マルチプラットフォーム(iOS、Android、WebGL)への対応を強化しました。"
+
+    v120_5: "ショートカットの変更"
+    v120_5_desc: "アフターエフェクトに似ているショートカットに変更されました。"
+
+    v120_6: "不具合修正"
+    v120_6_desc: "複数のバグが修正されました。"
+
+    v110: "1.10"
+    v110_1: "カラースペース"
+    v110_1_desc: "編集中にカラースペースを変更できるようになりました。"
+
+    v110_2: "英語版UI"
+    v110_2_desc: "英語UIを選択できるようになりました。"
+
+    v110_3: "サンプルエフェクト"
+    v110_3_desc: "100個以上のサンプルエフェクトが追加されました。公式サイトからダウンロードできます。"
+
+    v110_4: "Unityプラグインの改良"
+    v110_4_desc: "Resourcesからのリソース読み込みに対応しました。"
+
+    v110_5: "DXライブラリ向けライブラリの改良"
+    v110_5_desc: "歪み、ネットワークに対応しました。"
+
+    v110_6: "不具合修正"
+    v110_6_desc: "複数のバグが修正されました。"
