@@ -1,0 +1,196 @@
+zh-tw:
+  top_header: "首頁"
+  introduction_header: "介紹"
+  download_header: "下載"
+  adoption_header: "使用案例"
+  support_header: "支援"
+  contribute_header: "效果發布"
+  development_header: "開発"
+  documentation_header: "文件"
+  releasenote_header: "Release Notes"
+
+  forum_header: "討論區"
+
+  eyecatch_1: "效果編輯工具"
+  eyecatch_2: "「Effekseer」"
+
+  top:
+    desc_movie1: "能輕鬆地製作："
+    desc_movie2: "製作完成的效果："
+
+    news_1: "2016.10.23 升級EffekseerForDXUnity。"
+    news_2: "2016.08.21 升級Effekseer到1.22。一部份效果旳授權方式改為CC-0。"
+    news_3: "2016.06.24 升級Effekseer到1.20。"
+
+    for_designer: "給設計師"
+    for_programmer: "給程序員"
+
+    effect_editor: "效果編輯工具"
+    effect_plugin: "效果播放用函式庫和插件"
+    dxlib: "DX Library"
+
+    documentation_desc: "學習如何使用Effekseer"
+    to_documentation: "查看文檔"
+
+    contribute_desc: "下載其他Effekseer用戶提供的免費/任意編輯的效果："
+    to_contribute: "前住效果發布區"
+
+  top_content_1: "Effekseer是能夠容易地做出粒子效果的編輯工具。"
+
+  top_content_2: "
+    Effekseer是免費的開源碼軟件，可以製作各種例如爆炸和擊中時的遊戲效果。
+	製作完成的效果可輸出成2D動畫，也可以在應用程式內播放。"
+
+  top_content_3: "
+    透過組合 runtime 後,使用C++便能夠在DirectX和OpenGL中播放效果。
+	也可使用UnityPackage便能夠在Unity內播放。
+	並支援 Windows,Mac OS X,Linux,iOS,Android,Emscripten等。"
+
+  top_underconstruction: ""
+
+  introduction:
+    easy: "能夠容易製作效果："
+    create: "可以做出各種各樣的粒子效果："
+    play: "製作完成的效果可以在2D或3D遊戲中播放："
+    2d: "可以輸出成連環圖"
+    2d_desc: "利用錄影功能,可以做出連環圖或gif檔案。"
+    browser: "網頁遊戲也可以使用"
+    browser_warning: "※ 需要emscripten"
+
+  download:
+    tool_desc: "給設計師製作粒子效果的工具。"
+    tool_runtime: "DirectX或OpenGL應用程式中顯示效果的runtime。"
+    tool_unity: "Unity內播放效果的插件。"
+    tool_dxlib: "DXLibrary應用程式中顯示效果的函式庫。"
+
+    prev: "以前的版本"
+    eff_dxlib122: "Effekseer 1.22 For DXLibrary"
+
+
+  development_program: "關於本工具"
+  development_content_1: "Effekseer是在github上開発的。"
+  development_content_2: "如有改善,錯誤修復等,歡迎PullRequest"
+
+
+
+  adoption_title: "標題"
+  adoption_developer: "開発"
+  adoption_site: "官方網頁"
+  adoption_andsoon: "還有其他!"
+  
+  support:
+    content_1: "基本支援是在GitHub上進行。"
+    content_2: "如沒有github帳戶,可以電郵致( effekseer(at)gmail.com ) 或在以下討論區留言。"
+
+    forum: "討論區"
+    forum_content: "錯誤報告、要求、疑問、自製效果投稿等。"
+    
+    twitter: "Twitter"
+    twitter_content: "也可以利用Twitter發問。"
+    
+    
+    github: "Github"
+    github_content: "Effekseer是在github上開発。如有問題歡迎留言。"
+    
+    mail: "Mail"
+    mail_content: "如有其他通訊，請發送電郵給我們。"
+
+  documentation:
+    help: "說明書"
+    description: "附帶在每個包裝內的說明書網絡版。(很對不起,現在只提供日文版本)"
+    to_help: "前往說明書"
+    help_effekseer: "給設計師的效果編輯工具的說明書"
+    help_runtime: "DirectX或OpenGL內效果播放時的說明書"
+    help_unity: "Unity內效果播放時的說明書"
+    dxlib: "Effekseer For DXLibrary"
+    help_dxlib: "DXLibrary內效果播放時的說明書"
+    tutorial: "教程"
+    tutorial_desc: "Effekseer編輯工具的教程。只介紹部份功能、詳細請查看參考文獻。"
+
+    quicktutorial: "簡易教程"
+    quicktutorial_desc: "Effekseer的簡易教程。現在只提供英文版。"
+
+  contribute:
+    line1: "由Effekseer用戶發布的效果。可供自由使用。也可自行作出修改。"
+    line2: "大部份以CC-0授權方式供應。"
+    line3: "還歡迎發布自作的效果。發布後的效果會以CC-0授權方式公開下載。可由以下連結進行發布。"
+
+    contribution: "發布"
+    contributed: "效果發布"
+    contributed_desc: "以下效果是以CC-0授權方式供應。如果可能的話,請在作品內表示Effekseer名稱和發布者的名字。謝謝!"
+
+    contributed_old: "以前的效果發布"
+    contributed_old_desc: "以下效果是以其他授權方式供應。只供與Effekseer一起使用。"
+
+  contributed:
+    information: "資訊"
+    contributor: "發布者"
+    tno_works: "作品數"
+    comment: "評論"
+    download: "下載"
+    none: "沒有"
+    part: "※ 只顯示了一部分。"
+    return: "返回發布列表"
+    title_AndrewFM01: "AndrewFM's Contributed Effects"
+    title_Effekseer: "Effekseer Official Effects"
+    title_MAGICALxSPIRAL: "MAGICAL X SPIRAL Effects"
+    title_NitoriBox: "NITORI BOX Effects"
+    title_Pierre01: "Pierre's Effects vol.1"
+    title_Pierre02: "Pierre's Effects vol.2"
+    Pierre02_Overview: "■ 摘要 ■"
+    Pierre02_Desc1: "3D遊戲內使用的效果集。可產生相當奢侈的粒子效果。"
+    Pierre02_List: "■ 效果內容 ■"
+    Pierre02_List1: "Blessing Effect"
+    Pierre02_List2: "Blood Lance Effect"
+    Pierre02_List3: "Cosmic Mist Effect"
+    Pierre02_List4: "Feather Bomb Effect"
+    Pierre02_List5: "Fire Ball Effect"
+    Pierre02_List6: "Gate of Calve"
+    Pierre02_List7: "Bleeding Effect"
+    Pierre02_List8: "5種劍術效果(火, 雷, 風暴, 月光, 神聖光)"
+    Pierre02_Note: "■ 注意 ■"
+    Pierre02_Desc2: "這效果使用非常多畸變功能、如有需要請把「Blur」的顯示設定為OFF便可以提高性能。"
+    Pierre02_Contact: "■ 聯絡 ■"
+    title_NextSoft01: "リーメベルタ ～願いを叶える秘宝と塔の守り人～Effects"
+    title_PDG: "project弾幕GIrls Effects"
+    title_suzuki01: "鈴木克史's Contributed Effects"
+    title_toust: "とうほう☆ストラテジー～LotusCraft～ Effects"
+
+  releasenote:
+    v120: "1.20"
+    v120_1: "Alpha channel estimation"
+    v120_1_desc: "Alpha channels can be estimated when an effect is exported. With this, you can render effects on other screens without having to use additive blending. This is useful when showing effects in 2D games."
+
+    v120_2: "Saving effects as an AVI file with alphaa"
+    v120_2_desc: "You can save effects as an AVI file, with an included alpha channel. This is useful for creating movies in video editing software such as AfterEffects, since the effect can be placed in its own video layer without obscuring ohter video layers beneath it."
+
+    v120_3: "Many sample effects"
+    v120_3_desc: "More than 20 new sample effects are added. You can download these from the official website, too."
+
+    v120_4: "Improvements to the Unity Plugin"
+    v120_4_desc: "Distortion and Asset bundle now work. Improved correspondence with multi-platform (iOS, Android, WebGL)."
+
+    v120_5: "Changed hot keys"
+    v120_5_desc: "Hot keys take after AfterEffects."
+
+    v120_6: "Bug fixes"
+    v120_6_desc: "Fixed many bugs."
+
+    v110: "1.10"
+    v110_1: "Color space"
+    v110_1_desc: "Now you can change a color space while editing effects."
+
+    v110_2: "English user interface"
+    v110_2_desc: "Now you can display the user interface in English."
+
+    v110_3: "Many sample effects"
+    v110_3_desc: "More than 100 new sample effects are added. You can download these from the official website, too."
+
+    v110_4: "Improvements to the Unity Plugin"
+    v110_4_desc: "The plugin now supports loading resources from Resources directory."
+
+    v110_5: "Improvement to the Library for DXLibrary"
+    v110_5_desc: "The library now supports network and distortion."
+
+    v110_6: "Bug fixes"
+    v110_6_desc: "Fixed many bugs."
