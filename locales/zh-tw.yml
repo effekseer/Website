@@ -49,78 +49,78 @@ zh-tw:
   top_underconstruction: ""
 
   introduction:
-    easy: "簡単な操作でエフェクト作成"
-    create: "様々なパーティクルを組み合わせてエフェクトを作成"
-    play: "ゲーム中で再生！"
-    2d: "2D向けに連番画像も出力可能!"
-    2d_desc: "録画機能を使用することで、連番画像やgifアニメを出力できます。"
-    browser: "ブラウザゲームでも使用可能"
-    browser_warning: "※ ブラウザで再生するにはemscriptenを使用する必要があります。"
+    easy: "能夠容易製作效果："
+    create: "可以做出各種各樣的粒子效果："
+    play: "製作完成的效果可以在2D或3D遊戲中播放："
+    2d: "可以輸出成連環圖"
+    2d_desc: "利用錄影功能,可以做出連環圖或gif檔案。"
+    browser: "網頁遊戲也可以使用"
+    browser_warning: "※ 需要emscripten"
 
   download:
-    tool_desc: "デザイナー向けのエフェクトを作成するためのツールです。"
-    tool_runtime: "DirectXやOpenGLを用いたアプリケーション中でエフェクトを再生できるようにするランタイムです。"
-    tool_unity: "Unityで簡単に作成したエフェクトを再生できるようにするプラグインです。"
-    tool_dxlib: "DXライブラリで簡単に作成したエフェクトを再生できるようにするライブラリです。"
+    tool_desc: "給設計師製作粒子效果的工具。"
+    tool_runtime: "DirectX或OpenGL應用程式中顯示效果的runtime。"
+    tool_unity: "Unity內播放效果的插件。"
+    tool_dxlib: "DXLibrary應用程式中顯示效果的函式庫。"
 
-    prev: "以前のバージョン"
-    eff_dxlib122: "Effekseer 1.22 For DXライブラリ"
-
-
-  development_program: "ツールについて"
-  development_content_1: "Effekseerはgithub上で開発されています。"
-  development_content_2: "常時、機能追加、バグ修正といったプルリクエストを募集しております。"
+    prev: "以前的版本"
+    eff_dxlib122: "Effekseer 1.22 For DXLibrary"
 
 
+  development_program: "關於本工具"
+  development_content_1: "Effekseer是在github上開発的。"
+  development_content_2: "如有改善,錯誤修復等,歡迎PullRequest"
 
-  adoption_title: "タイトル"
+
+
+  adoption_title: "標題"
   adoption_developer: "開発"
-  adoption_site: "公式サイト"
-  adoption_andsoon: "他にも色々!"
+  adoption_site: "官方網頁"
+  adoption_andsoon: "還有其他!"
   
   support:
-    content_1: "基本的にサポートはgithub上で行っております。"
-    content_2: "githubのアカウントが無い方は、メール ( effekseer(at)gmail.com ) か、下記のフォーラムでも受け付けています。"
-    
-    forum: "フォーラム"
-    forum_content: "バグ報告、要望、質問、自作エフェクト投稿等何でもどうぞ。"
+    content_1: "基本支援是在GitHub上進行。"
+    content_2: "如沒有github帳戶,可以電郵致( effekseer(at)gmail.com ) 或在以下討論區留言。"
+
+    forum: "討論區"
+    forum_content: "錯誤報告、要求、疑問、自製效果投稿等。"
     
     twitter: "Twitter"
-    twitter_content: "Twitterでもサポートを行っています。気軽に質問、要望等お願いします。"
+    twitter_content: "也可以利用Twitter發問。"
     
     
     github: "Github"
-    github_content: "Effekseerはgithub上で開発されています。issueは常に読んでいますので、気軽に投稿どうぞ。"
+    github_content: "Effekseer是在github上開発。如有問題歡迎留言。"
     
     mail: "Mail"
-    mail_content: "公開できない話等はメールでどうぞ。"
+    mail_content: "如有其他通訊，請發送電郵給我們。"
 
   documentation:
-    help: "ヘルプ"
-    description: "各パッケージに同梱されているヘルプのオンライン版です。"
-    to_help: "ヘルプへ"
-    help_effekseer: "デザイナー向けのエフェクトを作成するためのツールのヘルプ"
-    help_runtime: "DirectXやOpenGLでエフェクトを再生できるようにするランタイムのヘルプ"
-    help_unity: "Unityでエフェクトを再生できるようにするプラグインのヘルプ"
-    dxlib: "Effekseer For DXライブラリ"
-    help_dxlib: "DXライブラリでエフェクトを再生できるようにするライブラリのヘルプ"
-    tutorial: "チュートリアル"
-    tutorial_desc: "Effekseerのツールのチュートリアルです。一部の機能しか紹介していないので、詳しく知りたい方はリファレンスを参照お願いします。"
+    help: "說明書"
+    description: "附帶在每個包裝內的說明書網絡版。(很對不起,現在只提供日文版本)"
+    to_help: "前往說明書"
+    help_effekseer: "給設計師的效果編輯工具的說明書"
+    help_runtime: "DirectX或OpenGL內效果播放時的說明書"
+    help_unity: "Unity內效果播放時的說明書"
+    dxlib: "Effekseer For DXLibrary"
+    help_dxlib: "DXLibrary內效果播放時的說明書"
+    tutorial: "教程"
+    tutorial_desc: "Effekseer編輯工具的教程。只介紹部份功能、詳細請查看參考文獻。"
 
-    quicktutorial: "クイックチュートリアル"
-    quicktutorial_desc: "Effekseerのツールの簡単なチュートリアルです。現在英語版のみです。"
+    quicktutorial: "簡易教程"
+    quicktutorial_desc: "Effekseer的簡易教程。現在只提供英文版。"
 
   contribute:
-    line1: "Effekseerのユーザー様方から投稿された素晴らしいエフェクトを公開しています。どのエフェクトも自由に自分のゲームや映像作品等に使用して問題ありません。エフェクトを改造するのも自由です。"
-    line2: "ほとんどのエフェクトはCC-0ライセンスで提供されています。"
-    line3: "また、常時エフェクトの投稿も募集しています。投稿されたエフェクトはCC-0ライセンスで配布します。投稿は下記のリンクからお願いします。"
+    line1: "由Effekseer用戶發布的效果。可供自由使用。也可自行作出修改。"
+    line2: "大部份以CC-0授權方式供應。"
+    line3: "還歡迎發布自作的效果。發布後的效果會以CC-0授權方式公開下載。可由以下連結進行發布。"
 
-    contribution: "投稿"
-    contributed: "投稿されたエフェクト"
-    contributed_desc: "これらのエフェクトはCC-0ライセンスで提供されています。ただ、できれば使用した場合は作品のどこかにEffekseerと投稿者の名前を記述していただけると幸いです。"
+    contribution: "發布"
+    contributed: "效果發布"
+    contributed_desc: "以下效果是以CC-0授權方式供應。如果可能的話,請在作品內表示Effekseer名稱和發布的名字。謝謝!"
 
-    contributed_old: "投稿されたエフェクト(旧)"
-    contributed_old_desc: "これらのエフェクトは古いライセンスで提供されています。Effekseerと一緒に使用する場合のみ自由に使用できます。"
+    contributed_old: "以前的效果發布"
+    contributed_old_desc: "以下效果是以其他授權方式供應。只供與Effekseer一起使用。"
 
   contributed:
     information: "情報"
