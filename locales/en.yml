@@ -70,14 +70,13 @@ en:
 
   support:
     content_1: "Usually, Effekseer supports users on a github."
-    content_2: "If you don't have an acount of github, you can send a mail ( effekseer(at)gmail.com ), or ask on a forum."
+    content_2: "If you don't have an acount of github, you can send a mail ( effekseer(at)gmail.com ), or ask on Twitter."
     
     forum: "Forum"
-    forum_content: "You can use this to discuss bug reports, requests, questions and so on."
+    forum_content: "We use Github's issues as a forum. You can use this to discuss bug reports, requests, questions and so on."
     
     twitter: "Twitter"
     twitter_content: "We also support Effekseer on Twitter."
-    
     
     github: "Github"
     github_content: "Effekseer is developed on Github. You can post issues freely."
@@ -101,9 +100,17 @@ en:
     quicktutorial_desc: "This is a quick tutorial for Effekseer."
 
   contribute:
-    line1: "We distribute cool effects contributed by the users of Effekseer. They are free to use in your games or movies, and you are also free to edit these effects."
-    line2: "Almost effects are distributed under CC-0 License."
-    line3: "We always collect effects. Contributed effects are distributed under CC-0 License. Please contribute using the following link:"
+    line1: "We distribute cool effects contributed by the users of Effekseer. They are free to use in your games or movies, and you are also free to edit these effects. Almost effects are distributed under CC-0 License."
+    line2: "We always collect effects. Contributed effects are distributed under CC-0 License. Please contribute using the following link:"
+
+    how: "How to contribute"
+
+    how_line1: "Attach the effect in a zip format to the e-mail that describes the following contents."
+    how_line2: "The e-mail address to post to will be effekseer (at) gmail.com."
+
+    name: "Your name"
+    effectname: "Effects collection's name"
+    comment: "Comment"
 
     contribution: "Contribution"
     contributed: "Contributed Effects"
@@ -144,6 +151,7 @@ en:
     title_PDG: "project弾幕GIrls Effects"
     title_suzuki01: "鈴木克史's Contributed Effects"
     title_toust: "とうほう☆ストラテジー～LotusCraft～ Effects"
+    title_tktk01: "tktk Effect"
 
   releasenote:
     v120: "1.20"

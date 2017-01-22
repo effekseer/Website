@@ -80,10 +80,10 @@ jp:
   
   support:
     content_1: "基本的にサポートはgithub上で行っております。"
-    content_2: "githubのアカウントが無い方は、メール ( effekseer(at)gmail.com ) か、下記のフォーラムでも受け付けています。"
+    content_2: "githubのアカウントが無い方は、メール ( effekseer(at)gmail.com ) か、Twitterでも受け付けています。"
     
     forum: "フォーラム"
-    forum_content: "バグ報告、要望、質問、自作エフェクト投稿等何でもどうぞ。"
+    forum_content: "フォーラムとしてGithubのissueを使用しています。バグ報告、要望、質問、自作エフェクト投稿等何でもどうぞ。"
     
     twitter: "Twitter"
     twitter_content: "Twitterでもサポートを行っています。気軽に質問、要望等お願いします。"
@@ -111,9 +111,17 @@ jp:
     quicktutorial_desc: "Effekseerのツールの簡単なチュートリアルです。現在英語版のみです。"
 
   contribute:
-    line1: "Effekseerのユーザー様方から投稿された素晴らしいエフェクトを公開しています。どのエフェクトも自由に自分のゲームや映像作品等に使用して問題ありません。エフェクトを改造するのも自由です。"
-    line2: "ほとんどのエフェクトはCC-0ライセンスで提供されています。"
-    line3: "また、常時エフェクトの投稿も募集しています。投稿されたエフェクトはCC-0ライセンスで配布します。投稿は下記のリンクからお願いします。"
+    line1: "Effekseerのユーザー様方から投稿された素晴らしいエフェクトを公開しています。どのエフェクトも自由に自分のゲームや映像作品等に使用して問題ありません。エフェクトを改造するのも自由です。ほとんどのエフェクトはCC-0ライセンスで提供されています。"
+    line2: "また、常時エフェクトの投稿も募集しています。投稿されたエフェクトはCC-0ライセンスで配布します。"
+
+    how: "投稿方法"
+
+    how_line1: "下記の内容を記述したメールにエフェクトをzip形式で添付してください。"
+    how_line2: "投稿する先のメールアドレスは effekseer(at)gmail.com になります。"
+
+    name: "あなたの名前"
+    effectname: "エフェクト集の名前"
+    comment: "コメント"
 
     contribution: "投稿"
     contributed: "投稿されたエフェクト"
@@ -155,6 +163,7 @@ jp:
     title_PDG: "project弾幕GIrls エフェクト"
     title_suzuki01: "鈴木克史 さん 投稿エフェクト"
     title_toust: "とうほう☆ストラテジー～LotusCraft～ エフェクト"
+    title_tktk01: "tktkエフェクト"
 
   releasenote:
     v120: "1.20"
