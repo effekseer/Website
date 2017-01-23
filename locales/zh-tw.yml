@@ -18,9 +18,9 @@ zh-tw:
     desc_movie1: "能輕鬆地製作："
     desc_movie2: "製作完成的效果："
 
-    news_1: "2016.10.23 升級EffekseerForDXUnity。"
-    news_2: "2016.08.21 升級Effekseer到1.22。一部份效果旳授權方式改為CC-0。"
-    news_3: "2016.06.24 升級Effekseer到1.20。"
+    news_1: "2017.xx.xx Add samples. Update documents."
+    news_2: "2016.10.23 升級EffekseerForDXUnity。"
+    news_3: "2016.08.21 升級Effekseer到1.22。一部份效果旳授權方式改為CC-0。"
 
     for_designer: "給設計師"
     for_programmer: "給程序員"
@@ -111,9 +111,17 @@ zh-tw:
     quicktutorial_desc: "Effekseer的簡易教程。現在只提供英文版。"
 
   contribute:
-    line1: "由Effekseer用戶發布的效果。可供自由使用。也可自行作出修改。"
-    line2: "大部份以CC-0授權方式供應。"
-    line3: "還歡迎發布自作的效果。發布後的效果會以CC-0授權方式公開下載。可由以下連結進行發布。"
+    line1: "由Effekseer用戶發布的效果。可供自由使用。也可自行作出修改。大部份以CC-0授權方式供應。"
+    line2: "還歡迎發布自作的效果。發布後的效果會以CC-0授權方式公開下載。可由以下連結進行發布。"
+
+    how: "How to contribute"
+
+    how_line1: "Attach the effect in a zip format to the e-mail that describes the following contents."
+    how_line2: "The e-mail address to post to will be effekseer (at) gmail.com."
+
+    name: "Your name"
+    effectname: "Effects collection's name"
+    comment: "Comment"
 
     contribution: "發布"
     contributed: "效果發布"
@@ -155,6 +163,23 @@ zh-tw:
     title_PDG: "project弾幕GIrls Effects"
     title_suzuki01: "鈴木克史's Contributed Effects"
     title_toust: "とうほう☆ストラテジー～LotusCraft～ Effects"
+
+    title_tktk01: "tktk Effect"
+    tktk01_Desc1: "エフェクト初投稿という事で今まで作ったエフェクトをある程度詰め込みました"
+    tktk01_Desc2: "※注意書き的な※"
+    tktk01_Desc3: "3Dゲームではなく、録画による、連番画像に出力して、2Dゲーム（具体的にはRPGツクール）で使うことを前提として作っていますのでアングルによっては、破綻したりパーティクルの発生数が多いので、描画が重いかもしれません"
+    tktk01_List: "※エフェクト内訳※（分類はやや適当です）"
+    tktk01_List1: "Arrow（矢系）2種"
+    tktk01_List2: "Blow（打撃、衝撃系）15種"
+    tktk01_List3: "Cure（回復系）7種"
+    tktk01_List4: "Dark（闇系）3種"
+    tktk01_List5: "Fire（火系）8種"
+    tktk01_List6: "hozyo（補助系）5種"
+    tktk01_List7: "Light（光系）4種"
+    tktk01_List8: "Magic（魔系）2種"
+    tktk01_List9: "Soil（地系）1種"
+    tktk01_List10: "Sword（斬撃系）22種"
+    tktk01_List11: "Wind（風系）2種"
 
   releasenote:
     v120: "1.20"
