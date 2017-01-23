@@ -18,7 +18,7 @@ zh-tw:
     desc_movie1: "能輕鬆地製作："
     desc_movie2: "製作完成的效果："
 
-    news_1: "2017.xx.xx Add samples. Update documents."
+    news_1: "2017.xx.xx 添加樣本。文件更新。"
     news_2: "2016.10.23 升級EffekseerForDXUnity。"
     news_3: "2016.08.21 升級Effekseer到1.22。一部份效果旳授權方式改為CC-0。"
 
@@ -80,10 +80,10 @@ zh-tw:
   
   support:
     content_1: "基本支援是在GitHub上進行。"
-    content_2: "如沒有github帳戶,可以電郵致( effekseer(at)gmail.com ) 或在以下討論區留言。"
+    content_2: "如沒有github帳戶,可以電郵致( effekseer(at)gmail.com ) 或在官方Twitter留言。"
 
     forum: "討論區"
-    forum_content: "錯誤報告、要求、疑問、自製效果投稿等。"
+    forum_content: "錯誤報告、要求、疑問、自製效果投稿等。歡迎在Github issue內作出討論。"
     
     twitter: "Twitter"
     twitter_content: "也可以利用Twitter發問。"
@@ -114,14 +114,14 @@ zh-tw:
     line1: "由Effekseer用戶發布的效果。可供自由使用。也可自行作出修改。大部份以CC-0授權方式供應。"
     line2: "還歡迎發布自作的效果。發布後的效果會以CC-0授權方式公開下載。可由以下連結進行發布。"
 
-    how: "How to contribute"
+    how: "如何發布"
 
-    how_line1: "Attach the effect in a zip format to the e-mail that describes the following contents."
-    how_line2: "The e-mail address to post to will be effekseer (at) gmail.com."
+    how_line1: "將自作的效果壓縮成 zip 檔後,再送致以下電郵。"
+    how_line2: "電子郵件地址 : effekseer (at) gmail.com."
 
-    name: "Your name"
-    effectname: "Effects collection's name"
-    comment: "Comment"
+    name: "作者"
+    effectname: "效果名稱"
+    comment: "說明"
 
     contribution: "發布"
     contributed: "效果發布"
