@@ -18,9 +18,9 @@ jp:
     desc_movie1: "ツールで容易にエフェクト編集！"
     desc_movie2: "こんなエフェクト作れます"
 
-    news_1: "2016.10.23 EffekseerForDXUnityをバージョンアップしました。"
-    news_2: "2016.08.21 Effekseerを1.22にバージョンアップしました。エフェクトのライセンスが一部CC-0になりました。"
-    news_3: "2016.06.24 Effekseerを1.20にバージョンアップしました。"
+    news_1: "2017.xx.xx サンプルを追加しました。ドキュメントを更新しました。"
+    news_2: "2016.10.23 EffekseerForDXUnityをバージョンアップしました。"
+    news_3: "2016.08.21 Effekseerを1.22にバージョンアップしました。エフェクトのライセンスが一部CC-0になりました。"
 
     for_designer: "デザイナー向け"
     for_programmer: "プログラマー向け"
@@ -163,7 +163,23 @@ jp:
     title_PDG: "project弾幕GIrls エフェクト"
     title_suzuki01: "鈴木克史 さん 投稿エフェクト"
     title_toust: "とうほう☆ストラテジー～LotusCraft～ エフェクト"
+
     title_tktk01: "tktkエフェクト"
+    tktk01_Desc1: "エフェクト初投稿という事で今まで作ったエフェクトをある程度詰め込みました"
+    tktk01_Desc2: "※注意書き的な※"
+    tktk01_Desc3: "3Dゲームではなく、録画による、連番画像に出力して、2Dゲーム（具体的にはRPGツクール）で使うことを前提として作っていますのでアングルによっては、破綻したりパーティクルの発生数が多いので、描画が重いかもしれません"
+    tktk01_List: "※エフェクト内訳※（分類はやや適当です）"
+    tktk01_List1: "Arrow（矢系）2種"
+    tktk01_List2: "Blow（打撃、衝撃系）15種"
+    tktk01_List3: "Cure（回復系）7種"
+    tktk01_List4: "Dark（闇系）3種"
+    tktk01_List5: "Fire（火系）8種"
+    tktk01_List6: "hozyo（補助系）5種"
+    tktk01_List7: "Light（光系）4種"
+    tktk01_List8: "Magic（魔系）2種"
+    tktk01_List9: "Soil（地系）1種"
+    tktk01_List10: "Sword（斬撃系）22種"
+    tktk01_List11: "Wind（風系）2種"
 
   releasenote:
     v120: "1.20"
