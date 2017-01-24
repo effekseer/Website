@@ -11,8 +11,13 @@ kind: documentation
 
 		p =t('documentation.quicktutorial_desc')
 
-		p
-			a href="/QuickTutorial_Tool/help_en.html" Tutorial
+		- aaa = 'aaa'
+		- if I18n.locale.to_s == 'jp'
+			p
+				a href="/QuickTutorial_Tool/QuickTutorial_jp.html" チュートリアル
+		-else	
+			p
+				a href="/QuickTutorial_Tool/QuickTutorial_en.html" Tutorial
 
 		h3 =t('documentation.help')
 
