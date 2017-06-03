@@ -7,136 +7,132 @@ kind: download
 	.main
 		h2 =t(:download_header)
 
-		h3 id="tool" Effekseer 1.30(Beta-17/05/14)
+		p
+			b =t('download.beta_desc')
 
-		b BetaVersion!!
-
-		p =t('download.tool_desc')
-
-		a href="https://github.com/effekseer/Effekseer/releases/download/NightlyBuild/Effekseer170514.zip" Download
-
-		h3 id="tool" EffekseerForUnity 1.30(Beta-17/05/14)
-
-		b BetaVersion!!
-
-		p =t('download.tool_unity')
-
-		a href="https://github.com/effekseer/Effekseer/releases/download/NightlyBuild/EffekseerForUnity170514.zip" Download
-
-		h3 id="dxlib" EffekseerForDXLib 1.30(Beta-17/05/17)
-
-		b BetaVersion!!
-
-		p =t('download.tool_dxlib')
+		.download_contents
+			h3 id="tool" Effekseer
+		
+			p =t('download.tool_desc')
+		
+			img src="/images/download/icon_tool.png"
 	
-		a href="https://github.com/effekseer/Effekseer/releases/download/NightlyBuild/EffekseerForDXLib170517.zip" Download
+			p
+				a href="http://effekseer.sakura.ne.jp/Releases/Effekseer122.zip" Download (1.22)
+	
+			p
+				a href="http://effekseer.sakura.ne.jp/Releases/Effekseer170514.zip" Download (*Beta-17/05/14)
+	
+		.download_contents
+			h3 id="runtime" Effekseer for Runtime
+		
+			p =t('download.tool_runtime')
+		
+			p
+				a href="http://effekseer.sakura.ne.jp/Releases/EffekseerRuntime122.zip" Download (1.22)
+	
+		.download_contents
+			h3 id="unity" Effekseer For Unity
 
+			p =t('download.tool_unity')
+	
+			p
+				a href="http://effekseer.sakura.ne.jp/Releases/EffekseerForUnity123.zip" Download (1.23)
+	
+			p
+				a href="http://effekseer.sakura.ne.jp/Releases/Effekseer170514.zip" Download (*Beta-17/05/14)
+	
+		.download_contents
+			h3 id="dxlib" =t('download.eff_dxlib')
+	
+			p =t('download.tool_dxlib')
+		
+			p
+				a href="https://github.com/effekseer/Effekseer/releases/download/122/EffekseerForDXLib_122_316d.zip" Download (1.22)
+		
+			p
+				a href="http://effekseer.sakura.ne.jp/Releases/EffekseerForDXLib170517.zip" Download (*Beta-17/05/17)
 
-		h3 id="tool" Effekseer 1.22
-	
-		p =t('download.tool_desc')
-	
-		a href="https://github.com/effekseer/Effekseer/releases/download/122/Effekseer122.zip" Download
-	
-		h3 id="runtime" Effekseer 1.22 for Runtime (DirectX or OpenGL)
-	
-		p =t('download.tool_runtime')
-	
-		a href="https://github.com/effekseer/Effekseer/releases/download/122/EffekseerRuntime122.zip" Download
-	
-		h3 id="unity" Effekseer 1.23 For Unity
-	
-		p =t('download.tool_unity')
+		.download_prev
+			h2 =t('download.prev')
 
-		a href="https://github.com/effekseer/Effekseer/releases/download/123/EffekseerForUnity123.zip" Download
-	
-		h3 id="dxlib" =t('download.eff_dxlib122')
+			table
+				tr
+					td Version
+					td Tool
+					td Runtime
+					td Unity
+					td DxLib
 
-		p =t('download.tool_dxlib')
-	
-		a href="https://github.com/effekseer/Effekseer/releases/download/122/EffekseerForDXLib_122_316d.zip" Download
-	
+				tr
+					td 1.22
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/122/Effekseer122.zip" Download
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/122/EffekseerRuntime122.zip" Download
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/122/EffekseerForUnity122.zip" Download
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/122/EffekseerForDXLib_122_316d.zip" Download
+		
+				tr
+					td 1.20
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/120/Effekseer120.zip" Download
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/120/EffekseerRuntime120.zip" Download
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/120/EffekseerForUnity120.zip" Download
+					td
+						a href="https://github.com/effekseer/EffekseerForDXLib/releases/download/120_316d/EffekseerForDXLib_120_316d.zip" Download
+		
+				tr
+					td 1.10b
+					td
+					td
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/110b/EffekseerForUnity110b.zip" Download
+					td
+						a href="https://github.com/effekseer/EffekseerForDXLib/releases/download/110_316b/EffekseerForDXLib_110_316b.zip" Download
 
+				tr
+					td 1.10a
+					td
+					td
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/110a/EffekseerForUnity110a.zip" Download
+					td
 
-		h2 =t('download.prev')
+				tr
+					td 1.10
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/110/Effekseer110.zip" Download
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/110/EffekseerRuntime110.zip" Download
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/110/EffekseerForUnity110.zip" Download
+					td
+						a href="https://github.com/effekseer/EffekseerForDXLib/releases/download/110_316/EffekseerForDXLib_110_316.zip" Download
+		
+				tr
+					td 1.01
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/101/Effekseer101.zip" Download
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/101/EffekseerRuntime101.zip" Download
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/101/EffekseerForUnity101.zip" Download
+					td
+						a href="https://github.com/effekseer/EffekseerForDXLib/releases/download/101_315a/EffekseerForDXLib_101_315a.zip" Download
 
-		table
-			tr
-				td Version
-				td Tool
-				td Runtime
-				td Unity
-				td DxLib
-
-			tr
-				td 1.22
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/122/Effekseer122.zip" Download
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/122/EffekseerRuntime122.zip" Download
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/122/EffekseerForUnity122.zip" Download
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/122/EffekseerForDXLib_122_316d.zip" Download
-	
-			tr
-				td 1.20
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/120/Effekseer120.zip" Download
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/120/EffekseerRuntime120.zip" Download
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/120/EffekseerForUnity120.zip" Download
-				td
-					a href="https://github.com/effekseer/EffekseerForDXLib/releases/download/120_316d/EffekseerForDXLib_120_316d.zip" Download
-	
-			tr
-				td 1.10b
-				td
-				td
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/110b/EffekseerForUnity110b.zip" Download
-				td
-					a href="https://github.com/effekseer/EffekseerForDXLib/releases/download/110_316b/EffekseerForDXLib_110_316b.zip" Download
-
-			tr
-				td 1.10a
-				td
-				td
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/110a/EffekseerForUnity110a.zip" Download
-				td
-
-			tr
-				td 1.10
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/110/Effekseer110.zip" Download
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/110/EffekseerRuntime110.zip" Download
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/110/EffekseerForUnity110.zip" Download
-				td
-					a href="https://github.com/effekseer/EffekseerForDXLib/releases/download/110_316/EffekseerForDXLib_110_316.zip" Download
-	
-			tr
-				td 1.01
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/101/Effekseer101.zip" Download
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/101/EffekseerRuntime101.zip" Download
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/101/EffekseerForUnity101.zip" Download
-				td
-					a href="https://github.com/effekseer/EffekseerForDXLib/releases/download/101_315a/EffekseerForDXLib_101_315a.zip" Download
-
-			tr
-				td 1.00
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/100/Effekseer100.zip" Download
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/100/EffekseerRuntime100.zip" Download
-				td
-					a href="https://github.com/effekseer/Effekseer/releases/download/100/EffekseerForUnity100.zip" Download
-				td
-					a href="https://github.com/effekseer/EffekseerForDXLib/releases/download/100_314d/EffekseerForDXLib_100_314d.zip" Download
+				tr
+					td 1.00
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/100/Effekseer100.zip" Download
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/100/EffekseerRuntime100.zip" Download
+					td
+						a href="https://github.com/effekseer/Effekseer/releases/download/100/EffekseerForUnity100.zip" Download
+					td
+						a href="https://github.com/effekseer/EffekseerForDXLib/releases/download/100_314d/EffekseerForDXLib_100_314d.zip" Download
 	

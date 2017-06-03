@@ -59,13 +59,15 @@
     browser_warning: "※ 需要emscripten"
 
   download:
+    beta: "測試版"
+    beta_desc: "* 它正在開發中。 可能存在錯誤和規範更改。"
     tool_desc: "給設計師製作粒子效果的工具。"
     tool_runtime: "DirectX或OpenGL應用程式中顯示效果的runtime。"
     tool_unity: "Unity內播放效果的插件。"
     tool_dxlib: "DXLibrary應用程式中顯示效果的函式庫。"
 
     prev: "以前的版本"
-    eff_dxlib122: "Effekseer 1.22 For DXLibrary"
+    eff_dxlib: "Effekseer For DXLibrary"
 
 
   development_program: "關於本工具"

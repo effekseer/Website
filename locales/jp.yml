@@ -59,13 +59,15 @@
     browser_warning: "※ ブラウザで再生するにはemscriptenを使用する必要があります。"
 
   download:
+    beta: "ベータバージョン"
+    beta_desc: "* 開発中です。バグや仕様変更がある可能性があります。"
     tool_desc: "デザイナー向けのエフェクトを作成するためのツールです。"
     tool_runtime: "DirectXやOpenGLを用いたアプリケーション中でエフェクトを再生できるようにするランタイムです。"
     tool_unity: "Unityで簡単に作成したエフェクトを再生できるようにするプラグインです。"
     tool_dxlib: "DXライブラリで簡単に作成したエフェクトを再生できるようにするライブラリです。"
 
     prev: "以前のバージョン"
-    eff_dxlib122: "Effekseer 1.22 For DXライブラリ"
+    eff_dxlib: "Effekseer For DXライブラリ"
 
 
   development_program: "ツールについて"

@@ -97,8 +97,10 @@ body
  color : #ffffff
 
 #contents .main
- width: 1000px
- margin: 0 auto
+ @media screen and (min-width: 1000px)
+  width: 1000px
+  margin: 0 auto
+
 
 #contents
  color : #ffffff
@@ -124,3 +126,13 @@ body
 
 #contents .adopted_label
  width: 100px
+
+#contents .download_contents
+ float : left
+ width: 320px
+ background-color : #1A1A1A
+ margin: 10px
+ padding: 10px
+
+#contents .download_prev
+ clear : both
