@@ -11,7 +11,6 @@ kind: documentation
 
 		p =t('documentation.quicktutorial_desc')
 
-		- aaa = 'aaa'
 		- if I18n.locale.to_s == 'jp'
 			p
 				a href="/QuickTutorial_Tool/QuickTutorial_jp.html" チュートリアル
@@ -28,8 +27,10 @@ kind: documentation
 				td Effekseer
 				td =t('documentation.help_effekseer')
 				td
-					a href ="/Help_Tool/index.html" =t('documentation.to_help')
-
+					- if I18n.locale.to_s == 'jp'
+						a href ="/Help_Tool/index_ja.html" =t('documentation.to_help')
+					-else	
+						a href ="/Help_Tool/index_en.html" =t('documentation.to_help')
 			tr
 				td Effekseer for Runtime
 				td =t('documentation.help_runtime')
@@ -70,6 +71,11 @@ kind: documentation
 		p
 			a href="http://effekseer.github.io/Effekseer/Help_Tool/ja/ToolTutorial/05.html" No05. ヒットマーク(斬撃)を作成しよう！
 
+		p
+			a href="http://effekseer.github.io/Effekseer/Help_Tool/ja/ToolTutorial/06.html" No06. 円形のパーティクルを作成しよう！
+
+		p
+			a href="http://effekseer.github.io/Effekseer/Help_Tool/ja/ToolTutorial/07.html" No07. 親子関係で複雑な動きしよう！
 
 		h4 旧チュートリアル
 
