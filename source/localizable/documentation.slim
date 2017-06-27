@@ -47,7 +47,12 @@ kind: documentation
 				td =t('documentation.dxlib')
 				td =t('documentation.help_dxlib')
 				td
-					a href ="/Help_DxLib/index.html" =t('documentation.to_help')
+					- if I18n.locale.to_s == 'jp'
+						a href ="/Help_DxLib/index_ja.html" =t('documentation.to_help')
+					-else	
+						a href ="/Help_DxLib/index_en.html" =t('documentation.to_help')
+
+					
 
 
 		h3 =t('documentation.tutorial')
