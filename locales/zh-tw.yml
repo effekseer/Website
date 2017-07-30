@@ -60,7 +60,7 @@
 
   download:
     beta: "測試版"
-    beta_desc: "* 它正在開發中。 可能存在錯誤和規範更改。"
+    beta_desc: "* 基本上使用1.3。 1.2中發生的錯誤已經修復。"
     tool_desc: "給設計師製作粒子效果的工具。"
     tool_runtime: "DirectX或OpenGL應用程式中顯示效果的runtime。"
     tool_unity: "Unity內播放效果的插件。"
