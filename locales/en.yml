@@ -18,7 +18,7 @@
     desc_movie1: "You can create effects easily:"
     desc_movie2: "Examples of created effects:"
 
-    news_0: "2017.08.20 Effekseer and Effekseer for Unity beta2 version is released."
+    news_0: "2017.08.20 Effekseer 1.30RC1 version is released."
     news_1: "2017.01.24 Add samples. Update documents."
     news_2: "2016.05.23 Effekseer for Unity is updated."
     news_3: "2016.08.21 Effekseer is updated to 1.22. A license of part of effects is changed into CC-0."
@@ -97,7 +97,7 @@
     dxlib: "Effekseer for DX Library"
     help_dxlib: "used for showing the effects in your DX Library applications."
     tutorial: "Tutorial"
-    tutorial_desc: "Here are other tutorials: (Sorry, only Japanese versions are available)"
+    tutorial_desc: "Here are tutorials"
 
     quicktutorial: "Quick Tutorial"
     quicktutorial_desc: "This is a quick tutorial for Effekseer."
