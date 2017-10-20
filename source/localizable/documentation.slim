@@ -7,17 +7,6 @@ kind: documentation
 	.main
 		h2 =t(:documentation_header)
 
-		h3 =t('documentation.quicktutorial')
-
-		p =t('documentation.quicktutorial_desc')
-
-		- if I18n.locale.to_s == 'jp'
-			p
-				a href="/QuickTutorial_Tool/QuickTutorial_jp.html" チュートリアル
-		-else	
-			p
-				a href="/QuickTutorial_Tool/QuickTutorial_en.html" Tutorial
-
 		h3 =t('documentation.help')
 
 		p =t('documentation.description')
@@ -35,13 +24,19 @@ kind: documentation
 				td Effekseer for Runtime
 				td =t('documentation.help_runtime')
 				td
-					a href ="/Help_Runtime/index.html" =t('documentation.to_help')
+					- if I18n.locale.to_s == 'jp'
+						a href ="/Help_Runtime/index_ja.html" =t('documentation.to_help')
+					-else	
+						a href ="/Help_Runtime/index_en.html" =t('documentation.to_help')
 
 			tr
 				td Effekseer for Unity
 				td =t('documentation.help_unity')
 				td
-					a href ="/Help_Unity/index.html" =t('documentation.to_help')
+					- if I18n.locale.to_s == 'jp'
+						a href ="/Help_Unity/index_ja.html" =t('documentation.to_help')
+					-else	
+						a href ="/Help_Unity/index_en.html" =t('documentation.to_help')
 
 			tr
 				td =t('documentation.dxlib')
@@ -51,9 +46,6 @@ kind: documentation
 						a href ="/Help_DxLib/index_ja.html" =t('documentation.to_help')
 					-else	
 						a href ="/Help_DxLib/index_en.html" =t('documentation.to_help')
-
-					
-
 
 		h3 =t('documentation.tutorial')
 
@@ -117,4 +109,13 @@ kind: documentation
 			p
 				a href="http://effekseer.github.io/Effekseer/Help_Tool/en/ToolTutorial/08.html" No08. Let's arrange particles by spawn method!
 
+		h3 =t('documentation.quicktutorial')
 
+		p =t('documentation.quicktutorial_desc')
+
+		- if I18n.locale.to_s == 'jp'
+			p
+				a href="/QuickTutorial_Tool/QuickTutorial_jp.html" クイックチュートリアル
+		-else	
+			p
+				a href="/QuickTutorial_Tool/QuickTutorial_en.html" QuickTutorial

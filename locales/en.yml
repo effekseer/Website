@@ -89,7 +89,7 @@
 
   documentation:
     help: "Help"
-    description: "Help files are also bundled with each package: (Sorry, only Japanese versions are available)"
+    description: "Help files are also bundled with each package"
     to_help: "[View]"
     help_effekseer: "used by designers to create the effects."
     help_runtime: "used for showing the effects in your DirectX or OpenGL applications."
