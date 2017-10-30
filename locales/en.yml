@@ -172,6 +172,34 @@
     tktk01_List11: "Wind（風系）2種"
 
   releasenote:
+    v130: "1.30"
+    v130_1: "File viewer"
+    v130_1_desc: "You can now easily select Effekseer's files and images, model files etc from Effekseer. It is convenient when viewing samples or selecting images."
+
+    v130_2: "Launch you effects on UnrealEngine4, Cocos2d-x"
+    v130_2_desc: "UnrealEngine4, Cocos2d-x now also allows you to play Effekseer 's effects. This makes it possible to play effects in all major development environments."
+
+    v130_3: "Improvements to loading 3d model"
+    v130_3_desc: "You can now load FBX and mqo files directly from Effekseer. It makes it easier to use the model."
+
+    v130_4: "Color inheritance"
+    v130_4_desc: "It is now possible to inherit the parent's color as well as position, rotation and enlargement. This makes it possible to create more complicated effects."
+
+    v130_5: "Icons"
+    v130_5_desc: "Icons are now displayed in the UI. This makes the structure of the effect easy to see."
+
+    v130_6: "Many sample effects"
+    v130_6_desc: "More than 70 new sample effects are added. You can download these from the official website, too."
+
+    v130_7: "Improvements to the Unity Plugin"
+    v130_7_desc: "We corresponded to the timeline experimentally."
+
+    v130_7: "Bug fixes"
+    v130_7_desc: "Fixed many bugs."
+
+    v130_8: "Specification change"
+    v130_8_desc: "Specifications of distortion and effect generation timing have been changed. Please read help for details."
+
     v120: "1.20"
     v120_1: "Alpha channel estimation"
     v120_1_desc: "Alpha channels can be estimated when an effect is exported. With this, you can render effects on other screens without having to use additive blending. This is useful when showing effects in 2D games."
