@@ -18,10 +18,11 @@
     desc_movie1: "You can create effects easily:"
     desc_movie2: "Examples of created effects:"
 
-    news_0: "2017.11.01 Effekseer 1.30 version is released."
-    news_1: "2017.01.24 Add samples. Update documents."
-    news_2: "2016.05.23 Effekseer for Unity is updated."
-    news_3: "2016.08.21 Effekseer is updated to 1.22. A license of part of effects is changed into CC-0."
+    news_0: "2017.11.04 Effekseer 1.31 version is released."
+    news_1: "2017.11.01 Effekseer 1.30 version is released."
+    news_2: "2017.01.24 Add samples. Update documents."
+    news_3: "2016.05.23 Effekseer for Unity is updated."
+    news_4: "2016.08.21 Effekseer is updated to 1.22. A license of part of effects is changed into CC-0."
 
     for_designer: "For Designers"
     for_programmer: "For Programmers"
