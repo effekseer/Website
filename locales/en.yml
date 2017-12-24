@@ -176,6 +176,18 @@
     tktk01_List10: "Sword（斬撃系）22種"
     tktk01_List11: "Wind（風系）2種"
 
+    title_tktk02: "tktk Effects vol.2"
+    tktk02_Desc1: "このエフェクトは、ゲームエンジンにはUVアニメーションで表示させる事を想定した作りになっております。\n比較的に描画負担が重たかったり、向きによる破綻も比較的に大きくなってしまっていると思います。\n基本的に加算合成のみで作ってあるので、画像として出力すると綺麗に映りますが\n歪みも加算合成で尚且つ、歪みの影響が比較的に大きいので\nEfkファイルにする場合は、歪みを調整した方が良いかと思います。（主にDistortionという名前のノードが歪みになっています）\n確認が大変になってしまったので、使用していないほかの方のテクスチャも入ってしまっています。"
+    tktk02_List: "Contents of package"
+    tktk02_List1: "Blow x6"
+    tktk02_List2: "Claw x4"
+    tktk02_List3: "Dark x2"
+    tktk02_List4: "Fire x8"
+    tktk02_List5: "Gun x9"
+    tktk02_List6: "Light x4"
+    tktk02_List7: "Spear x4"
+    tktk02_List8: "Sword x6"
+
   releasenote:
     v130: "1.30"
     v130_1: "File viewer"
