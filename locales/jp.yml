@@ -86,8 +86,9 @@
   adoption_andsoon: "他にも色々!"
   
   support:
-    content_1: "基本的にサポートはgithub上で行っております。"
-    content_2: "githubのアカウントが無い方は、メール ( effekseer(at)gmail.com ) か、Twitterでも受け付けています。"
+    content_1: "基本的にサポートはTwitter、Github、Slack、Discord上で行っております。"
+    content_2: "アカウントが無い方は、メール ( effekseer(at)gmail.com ) でも受け付けています。"
+    content_3: "バグ報告、要望、質問、自作エフェクト投稿等何でもどうぞ。"
     
     forum: "フォーラム"
     forum_content: "フォーラムとしてGithubのissueを使用しています。バグ報告、要望、質問、自作エフェクト投稿等何でもどうぞ。"

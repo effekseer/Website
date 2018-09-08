@@ -86,8 +86,9 @@
   adoption_andsoon: "還有其他!"
   
   support:
-    content_1: "基本支援是在GitHub上進行。"
-    content_2: "如沒有github帳戶,可以電郵致( effekseer(at)gmail.com ) 或在官方Twitter留言。"
+    content_1: "基本支援是在Twitter, Github, Slack, Discord上進行。"
+    content_2: "如沒有帳戶,可以電郵致( effekseer(at)gmail.com ) 。"
+    content_3: "錯誤報告、要求、疑問、自製效果投稿等。"
 
     forum: "討論區"
     forum_content: "錯誤報告、要求、疑問、自製效果投稿等。歡迎在Github issue內作出討論。"

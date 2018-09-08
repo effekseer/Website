@@ -76,8 +76,9 @@
   adoption_andsoon: "And many more!"
 
   support:
-    content_1: "Usually, Effekseer supports users on a github."
-    content_2: "If you don't have an acount of github, you can send a mail ( effekseer(at)gmail.com ), or ask on Twitter."
+    content_1: "Usually, Effekseer supports users on Twitter, Github, Slack and Discord."
+    content_2: "If you don't have an acount, you can send a mail ( effekseer(at)gmail.com )."
+    content_3: "You can use this to discuss bug reports, requests, questions and so on."
     
     forum: "Forum"
     forum_content: "We use Github's issues as a forum. You can use this to discuss bug reports, requests, questions and so on."
