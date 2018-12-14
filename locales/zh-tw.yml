@@ -7,7 +7,7 @@
   contribute_header: "效果發布"
   development_header: "開発"
   documentation_header: "文件"
-  releasenote_header: "Release Notes"
+  releasenote_header: "發佈通知"
 
   forum_header: "討論區"
 
@@ -51,7 +51,7 @@
 
   top_content_3: "
     透過組合 runtime 後,使用C++便能夠在DirectX和OpenGL中播放效果。
-	也UnityUnrealEngine 4，Cocos2d-x內，播放。
+	也可以在Unity，UnrealEngine 4，Cocos2d-x內播放。
 	並支援 Windows,Mac OS X,Linux,iOS,Android,Emscripten等。"
 
   top_underconstruction: ""
@@ -63,7 +63,7 @@
     2d: "可以輸出成連環圖"
     2d_desc: "利用錄影功能,可以做出連環圖或gif檔案。"
     browser: "網頁遊戲也可以使用"
-    browser_warning: "※ 需要emscripten"
+    browser_warning: "※ 需要使用emscripten"
 
   download:
     beta: "測試版"
