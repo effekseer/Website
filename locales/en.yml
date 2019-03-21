@@ -67,6 +67,7 @@
     tool_runtime: "This is a runtime to show effects in your DirectX or OpenGL applications."
     tool_unity: "This is a plugin to show effects in your Unity applications."
     tool_dxlib: "This is a library to show effects in your DXLibrary applications."
+    tool_unity_renewal: "This is a plugin to show effects in your Unity applications. This is renewal version in Beta. It supports Metal, LWRP, etc"
 
     prev: "Previous Versions"
     eff_dxlib: "Effekseer for DXLibrary"

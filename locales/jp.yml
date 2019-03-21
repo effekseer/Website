@@ -72,6 +72,7 @@
     tool_runtime: "DirectXやOpenGLを用いたアプリケーション中でエフェクトを再生できるようにするランタイムです。"
     tool_unity: "Unityで簡単に作成したエフェクトを再生できるようにするプラグインです。"
     tool_dxlib: "DXライブラリで簡単に作成したエフェクトを再生できるようにするライブラリです。"
+    tool_unity_renewal: "Unityで簡単に作成したエフェクトを再生できるようにするプラグインです。リニューアル版でβバージョンです。MetalやLWRP等をサポートしています。"
 
     prev: "以前のバージョン"
     eff_dxlib: "Effekseer For DXライブラリ"
