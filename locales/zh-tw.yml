@@ -18,11 +18,12 @@
     desc_movie1: "能輕鬆地製作："
     desc_movie2: "製作完成的效果："
 
-    news_0: "2019.03.17 發布了Effekseer 1.43b版本."
-    news_1: "2019.03.02 發布了Effekseer 1.43版本."
-    news_2: "2019.01.20 發布了Effekseer 1.42f版本."
-    news_3: "2019.01.03 升級EffekseerForDXLib。"
-    news_4: "2018.11.12 升級EffekseerForUnity,Cocos2d-x。"
+    news_0: "2019.05.01 升級EffekseerForUnity,UE4。"
+    news_1: "2019.03.17 發布了Effekseer 1.43b版本."
+    news_2: "2019.03.02 發布了Effekseer 1.43版本."
+    news_3: "2019.01.20 發布了Effekseer 1.42f版本."
+    news_4: "2019.01.03 升級EffekseerForDXLib。"
+    news_4__: "2018.11.12 升級EffekseerForUnity,Cocos2d-x。"
     news_4_: "2017.11.21 發布了Effekseer 1.32版本."
     news_5: "2017.11.04 發布了Effekseer 1.31版本."
     news_6: "2017.11.01 發布了Effekseer 1.30版本."
@@ -42,6 +43,8 @@
 
     contribute_desc: "下載其他Effekseer用戶提供的免費/任意編輯的效果："
     to_contribute: "前住效果發布區"
+
+    book_header: "書籍(日文)"
 
   top_content_1: "Effekseer是能夠容易地做出粒子效果的編輯工具。"
 
@@ -72,6 +75,7 @@
     tool_runtime: "DirectX或OpenGL應用程式中顯示效果的runtime。"
     tool_unity: "Unity內播放效果的插件。"
     tool_dxlib: "DXLibrary應用程式中顯示效果的函式庫。"
+    tool_unity_legacy: "Unity內播放效果的插件。這是一個5.6兼容的插件，主要開發到2018年。"
 
     prev: "以前的版本"
     eff_dxlib: "Effekseer For DXLibrary"

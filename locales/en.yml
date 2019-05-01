@@ -18,10 +18,11 @@
     desc_movie1: "You can create effects easily:"
     desc_movie2: "Examples of created effects:"
 
-    news_0: "2019.03.17 Effekseer 1.43b version is released."
-    news_1: "2019.03.02 Effekseer 1.43 version is released."
-    news_2: "2019.01.20 Effekseer 1.42f version is released."
-    news_3: "2019.01.03 Effekseer for DXLib is updated."
+    news_0: "2019.05.01 Effekseer for Unity and UE4 is updated."
+    news_1: "2019.03.17 Effekseer 1.43b version is released."
+    news_2: "2019.03.02 Effekseer 1.43 version is released."
+    news_3: "2019.01.20 Effekseer 1.42f version is released."
+    news_4__: "2019.01.03 Effekseer for DXLib is updated."
     news_4: "2018.11.12 Effekseer for Unity and Cocos2d-x is updated."
     news_4_: "2017.11.21 Effekseer 1.32 version is released."
     news_5: "2017.11.04 Effekseer 1.31 version is released."
@@ -42,6 +43,8 @@
 
     contribute_desc: "Download free-to-use/free-to-edit effects contributed by other Effekseer users:"
     to_contribute: "View Contributed Effects"
+
+    book_header: "Book (Japanese)"
 
   top_content_1: "Effekseer is a tool that allows easy creation of beautiful particle effects for games and movies."
 
@@ -67,7 +70,7 @@
     tool_runtime: "This is a runtime to show effects in your DirectX or OpenGL applications."
     tool_unity: "This is a plugin to show effects in your Unity applications."
     tool_dxlib: "This is a library to show effects in your DXLibrary applications."
-    tool_unity_renewal: "This is a plugin to show effects in your Unity applications. This is renewal version in Beta. It supports Metal, LWRP, etc"
+    tool_unity_legacy: "This is a plugin to show effects in your Unity applications. This is a 5.6 compatible plugin that was mainly developed until 2018."
 
     prev: "Previous Versions"
     eff_dxlib: "Effekseer for DXLibrary"
