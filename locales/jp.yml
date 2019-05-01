@@ -18,11 +18,12 @@
     desc_movie1: "ツールで容易にエフェクト編集！"
     desc_movie2: "こんなエフェクト作れます"
 
-    news_0: "2019.03.17 Effekseer 1.43bバージョンが公開されました。"
-    news_1: "2019.03.02 Effekseer 1.43バージョンが公開されました。"
-    news_2: "2019.01.20 Effekseer 1.42fバージョンが公開されました。"
-    news_3: "2019.01.03 EffekseerForDXLibをバージョンアップしました。"
-    news_4: "2018.11.12 EffekseerForUnity, Cocos2d-xをバージョンアップしました。"
+    news_0: "2019.05.01 EffekseerForUnity, UE4をバージョンアップしました。"
+    news_1: "2019.03.17 Effekseer 1.43bバージョンが公開されました。"
+    news_2: "2019.03.02 Effekseer 1.43バージョンが公開されました。"
+    news_3: "2019.01.20 Effekseer 1.42fバージョンが公開されました。"
+    news_4: "2019.01.03 EffekseerForDXLibをバージョンアップしました。"
+    news_4__: "2018.11.12 EffekseerForUnity, Cocos2d-xをバージョンアップしました。"
     news_4_: "2017.11.21 Effekseer 1.32バージョンが公開されました。"
     news_5: "2017.11.04 Effekseer 1.31バージョンが公開されました。"
     news_6: "2017.11.01 Effekseer 1.30バージョンが公開されました。"
@@ -42,6 +43,8 @@
 
     contribute_desc: "ユーザー様方が投稿したエフェクト&エフェクトの投稿はこちら"
     to_contribute: "投稿エフェクトへ"
+
+    book_header: "書籍"
 
   top_content_1: "Effekseerは簡単に綺麗なパーティクルエフェクトを制作できるツールです。"
 
@@ -72,7 +75,7 @@
     tool_runtime: "DirectXやOpenGLを用いたアプリケーション中でエフェクトを再生できるようにするランタイムです。"
     tool_unity: "Unityで簡単に作成したエフェクトを再生できるようにするプラグインです。"
     tool_dxlib: "DXライブラリで簡単に作成したエフェクトを再生できるようにするライブラリです。"
-    tool_unity_renewal: "Unityで簡単に作成したエフェクトを再生できるようにするプラグインです。リニューアル版でβバージョンです。MetalやLWRP等をサポートしています。"
+    tool_unity_legacy: "Unityで簡単に作成したエフェクトを再生できるようにするプラグインです。主に2018年まで開発していた5.6対応のプラグインです。"
 
     prev: "以前のバージョン"
     eff_dxlib: "Effekseer For DXライブラリ"
