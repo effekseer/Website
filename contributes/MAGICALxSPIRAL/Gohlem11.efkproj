@@ -654,7 +654,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>meteo1.efkproj</ColorTexture>
+          <ColorTexture>Texture/meteo1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -3124,7 +3124,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>meteo1.efkproj</ColorTexture>
+              <ColorTexture>Texture/meteo1.efkproj</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -5594,7 +5594,7 @@
                   </Circle>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>Hammer1.png</ColorTexture>
+                  <ColorTexture>Texture/Hammer1.png</ColorTexture>
                   <AlphaBlend>1</AlphaBlend>
                   <Filter>1</Filter>
                   <Wrap>0</Wrap>
@@ -7243,7 +7243,7 @@
                     </InnerColor_Easing>
                   </Ring>
                   <Model>
-                    <Model>block1.efkmodel</Model>
+                    <Model>Model/block1.efkmodel</Model>
                     <NormalTexture>meteo1.efkproj</NormalTexture>
                     <Lighting>True</Lighting>
                     <Culling>0</Culling>
@@ -8069,7 +8069,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Hammer1.png</ColorTexture>
+          <ColorTexture>Texture/Hammer1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -9718,7 +9718,7 @@
             </InnerColor_Easing>
           </Ring>
           <Model>
-            <Model>block2.efkmodel</Model>
+            <Model>Model/block2.efkmodel</Model>
             <NormalTexture>meteo1.efkproj</NormalTexture>
             <Lighting>True</Lighting>
             <Culling>0</Culling>
@@ -10539,7 +10539,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Hammer1.png</ColorTexture>
+              <ColorTexture>Texture/Hammer1.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -12188,7 +12188,7 @@
                 </InnerColor_Easing>
               </Ring>
               <Model>
-                <Model>block2.efkmodel</Model>
+                <Model>Model/block2.efkmodel</Model>
                 <NormalTexture>meteo1.efkproj</NormalTexture>
                 <Lighting>True</Lighting>
                 <Culling>0</Culling>
@@ -13012,7 +13012,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave1.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -15483,7 +15483,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>meteo1.efkproj</ColorTexture>
+          <ColorTexture>Texture/meteo1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -17953,7 +17953,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line6.png</ColorTexture>
+              <ColorTexture>Texture/Line6.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -20426,7 +20426,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave1.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>

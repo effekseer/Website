@@ -655,7 +655,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -3129,7 +3129,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Sylph2.efkproj</ColorTexture>
+              <ColorTexture>Texture/Sylph2.efkproj</ColorTexture>
               <AlphaBlend>1</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -5599,7 +5599,7 @@
                   </Circle>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>Sylph2.efkproj</ColorTexture>
+                  <ColorTexture>Texture/Sylph2.efkproj</ColorTexture>
                   <AlphaBlend>1</AlphaBlend>
                   <Filter>1</Filter>
                   <Wrap>0</Wrap>
@@ -8069,7 +8069,7 @@
                       </Circle>
                     </GenerationLocationValues>
                     <RendererCommonValues>
-                      <ColorTexture>Sylph2.efkproj</ColorTexture>
+                      <ColorTexture>Texture/Sylph2.efkproj</ColorTexture>
                       <AlphaBlend>2</AlphaBlend>
                       <Filter>1</Filter>
                       <Wrap>0</Wrap>
@@ -10539,7 +10539,7 @@
                           </Circle>
                         </GenerationLocationValues>
                         <RendererCommonValues>
-                          <ColorTexture>ShockWave8.png</ColorTexture>
+                          <ColorTexture>Texture/ShockWave8.png</ColorTexture>
                           <AlphaBlend>2</AlphaBlend>
                           <Filter>1</Filter>
                           <Wrap>0</Wrap>
@@ -13016,7 +13016,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Sylph2.efkproj</ColorTexture>
+              <ColorTexture>Texture/Sylph2.efkproj</ColorTexture>
               <AlphaBlend>1</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -15486,7 +15486,7 @@
                   </Circle>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>particle2.png</ColorTexture>
+                  <ColorTexture>Texture/particle2.png</ColorTexture>
                   <AlphaBlend>2</AlphaBlend>
                   <Filter>1</Filter>
                   <Wrap>0</Wrap>

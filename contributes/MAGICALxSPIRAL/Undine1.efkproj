@@ -654,7 +654,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave5.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave5.png</ColorTexture>
           <AlphaBlend>3</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -3125,7 +3125,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>WaterForm1.png</ColorTexture>
+          <ColorTexture>Texture/WaterForm1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -5596,7 +5596,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave1.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -8067,7 +8067,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave1.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -10538,7 +10538,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave1.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -13009,7 +13009,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Salamander4.efkproj</ColorTexture>
+          <ColorTexture>Texture/Salamander4.efkproj</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -15480,7 +15480,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave2.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave2.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -17951,7 +17951,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave2.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave2.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -20422,7 +20422,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>WaterForm1.png</ColorTexture>
+          <ColorTexture>Texture/WaterForm1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -22893,7 +22893,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>particle3.png</ColorTexture>
+          <ColorTexture>Texture/particle3.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -25365,7 +25365,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -27840,7 +27840,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>
+              <ColorTexture>Texture/
               </ColorTexture>
               <AlphaBlend>1</AlphaBlend>
               <Filter>1</Filter>
@@ -30315,7 +30315,7 @@
                   </Circle>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>particle4.png</ColorTexture>
+                  <ColorTexture>Texture/particle4.png</ColorTexture>
                   <AlphaBlend>2</AlphaBlend>
                   <Filter>1</Filter>
                   <Wrap>0</Wrap>

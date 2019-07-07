@@ -655,7 +655,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -3130,7 +3130,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Fire1.png</ColorTexture>
+              <ColorTexture>Texture/Fire1.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -5605,7 +5605,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Fire1.png</ColorTexture>
+              <ColorTexture>Texture/Fire1.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -8080,7 +8080,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Fire1.png</ColorTexture>
+              <ColorTexture>Texture/Fire1.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -10557,7 +10557,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -13032,7 +13032,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>fireline2.png</ColorTexture>
+              <ColorTexture>Texture/fireline2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -15509,7 +15509,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave4.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave4.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -17984,7 +17984,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave4.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave4.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>

@@ -632,7 +632,7 @@
           </Model>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Attack1.efkproj</ColorTexture>
+          <ColorTexture>Texture/Attack1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -3080,7 +3080,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave7.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave7.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -5529,7 +5529,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Fire4.png</ColorTexture>
+              <ColorTexture>Texture/Fire4.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -7978,7 +7978,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line4.png</ColorTexture>
+              <ColorTexture>Texture/Line4.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -10429,7 +10429,7 @@
           </Model>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Attack1.efkproj</ColorTexture>
+          <ColorTexture>Texture/Attack1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -12877,7 +12877,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave7.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave7.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -15328,7 +15328,7 @@
           </Model>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Attack1.efkproj</ColorTexture>
+          <ColorTexture>Texture/Attack1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -17776,7 +17776,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave7.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave7.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -20227,7 +20227,7 @@
           </Model>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Attack1.efkproj</ColorTexture>
+          <ColorTexture>Texture/Attack1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -22675,7 +22675,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>particle2.png</ColorTexture>
+              <ColorTexture>Texture/particle2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -25124,7 +25124,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>star.png</ColorTexture>
+              <ColorTexture>Texture/star.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>

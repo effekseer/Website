@@ -655,7 +655,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -3129,7 +3129,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Sylph1.efkproj</ColorTexture>
+              <ColorTexture>Texture/Sylph1.efkproj</ColorTexture>
               <AlphaBlend>1</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -5599,7 +5599,7 @@
                   </Circle>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>Line1.png</ColorTexture>
+                  <ColorTexture>Texture/Line1.png</ColorTexture>
                   <AlphaBlend>2</AlphaBlend>
                   <Filter>1</Filter>
                   <Wrap>0</Wrap>
@@ -8070,7 +8070,7 @@
                   </Circle>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>Line1.png</ColorTexture>
+                  <ColorTexture>Texture/Line1.png</ColorTexture>
                   <AlphaBlend>2</AlphaBlend>
                   <Filter>1</Filter>
                   <Wrap>0</Wrap>
@@ -10545,7 +10545,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Attack1.efkproj</ColorTexture>
+          <ColorTexture>Texture/Attack1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -13015,7 +13015,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>particle2.png</ColorTexture>
+              <ColorTexture>Texture/particle2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -15488,7 +15488,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Sylph7.efkproj</ColorTexture>
+          <ColorTexture>Texture/Sylph7.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -17958,7 +17958,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave5.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave5.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>

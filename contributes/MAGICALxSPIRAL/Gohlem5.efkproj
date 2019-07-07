@@ -654,7 +654,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Attack1.efkproj</ColorTexture>
+          <ColorTexture>Texture/Attack1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -3124,7 +3124,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave7.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave7.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -5595,7 +5595,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line4.png</ColorTexture>
+              <ColorTexture>Texture/Line4.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -8068,7 +8068,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Attack1.efkproj</ColorTexture>
+          <ColorTexture>Texture/Attack1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -10538,7 +10538,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave7.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave7.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -13011,7 +13011,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Attack1.efkproj</ColorTexture>
+          <ColorTexture>Texture/Attack1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -15481,7 +15481,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave7.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave7.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -17954,7 +17954,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Attack1.efkproj</ColorTexture>
+          <ColorTexture>Texture/Attack1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -20424,7 +20424,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>particle2.png</ColorTexture>
+              <ColorTexture>Texture/particle2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -22895,7 +22895,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>star.png</ColorTexture>
+              <ColorTexture>Texture/star.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -25366,7 +25366,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Hammer1.png</ColorTexture>
+              <ColorTexture>Texture/Hammer1.png</ColorTexture>
               <AlphaBlend>1</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -27015,7 +27015,7 @@
                 </InnerColor_Easing>
               </Ring>
               <Model>
-                <Model>block2.efkmodel</Model>
+                <Model>Model/block2.efkmodel</Model>
                 <NormalTexture>A_Gohlem1.efkproj</NormalTexture>
                 <Lighting>False</Lighting>
                 <Culling>0</Culling>
@@ -27837,7 +27837,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Hammer1.png</ColorTexture>
+              <ColorTexture>Texture/Hammer1.png</ColorTexture>
               <AlphaBlend>1</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -29486,7 +29486,7 @@
                 </InnerColor_Easing>
               </Ring>
               <Model>
-                <Model>block3.efkmodel</Model>
+                <Model>Model/block3.efkmodel</Model>
                 <NormalTexture>A_Gohlem1.efkproj</NormalTexture>
                 <Lighting>False</Lighting>
                 <Culling>0</Culling>
@@ -30308,7 +30308,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave1.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave1.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -32779,7 +32779,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave1.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave1.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -35250,7 +35250,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave1.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave1.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -37723,7 +37723,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>A_Gohlem1.efkproj</ColorTexture>
+          <ColorTexture>Texture/A_Gohlem1.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -40193,7 +40193,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Hammer1.png</ColorTexture>
+              <ColorTexture>Texture/Hammer1.png</ColorTexture>
               <AlphaBlend>1</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -41842,7 +41842,7 @@
                 </InnerColor_Easing>
               </Ring>
               <Model>
-                <Model>Hammer.efkmodel</Model>
+                <Model>Model/Hammer.efkmodel</Model>
                 <NormalTexture>A_Gohlem1.efkproj</NormalTexture>
                 <Lighting>False</Lighting>
                 <Culling>0</Culling>
@@ -42667,7 +42667,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -45142,7 +45142,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>fireline2.png</ColorTexture>
+              <ColorTexture>Texture/fireline2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -47617,7 +47617,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>fireline2.png</ColorTexture>
+              <ColorTexture>Texture/fireline2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -50094,7 +50094,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -52569,7 +52569,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave6.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave6.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -55044,7 +55044,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave6.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave6.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>

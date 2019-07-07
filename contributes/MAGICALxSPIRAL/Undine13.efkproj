@@ -655,7 +655,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>WaterForm1.png</ColorTexture>
+          <ColorTexture>Texture/WaterForm1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -2304,7 +2304,7 @@
             </InnerColor_Easing>
           </Ring>
           <Model>
-            <Model>sphere.efkmodel</Model>
+            <Model>Model/sphere.efkmodel</Model>
             <NormalTexture>
             </NormalTexture>
             <Lighting>False</Lighting>
@@ -3129,7 +3129,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>WaterForm1.png</ColorTexture>
+          <ColorTexture>Texture/WaterForm1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -4778,7 +4778,7 @@
             </InnerColor_Easing>
           </Ring>
           <Model>
-            <Model>sphere.efkmodel</Model>
+            <Model>Model/sphere.efkmodel</Model>
             <NormalTexture>
             </NormalTexture>
             <Lighting>False</Lighting>
@@ -5602,7 +5602,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Undine12.efkproj</ColorTexture>
+          <ColorTexture>Texture/Undine12.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -8072,7 +8072,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Undine12.efkproj</ColorTexture>
+              <ColorTexture>Texture/Undine12.efkproj</ColorTexture>
               <AlphaBlend>1</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -10542,7 +10542,7 @@
                   </Circle>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>particle2.png</ColorTexture>
+                  <ColorTexture>Texture/particle2.png</ColorTexture>
                   <AlphaBlend>2</AlphaBlend>
                   <Filter>1</Filter>
                   <Wrap>0</Wrap>

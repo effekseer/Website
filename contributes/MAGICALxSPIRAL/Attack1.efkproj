@@ -633,7 +633,7 @@
           </Model>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -3086,7 +3086,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave7.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave7.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -5539,7 +5539,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line4.png</ColorTexture>
+              <ColorTexture>Texture/Line4.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -7994,7 +7994,7 @@
           </Model>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -10447,7 +10447,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave7.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave7.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -12902,7 +12902,7 @@
           </Model>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -15355,7 +15355,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>ShockWave7.png</ColorTexture>
+              <ColorTexture>Texture/ShockWave7.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -17810,7 +17810,7 @@
           </Model>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -20263,7 +20263,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>particle2.png</ColorTexture>
+              <ColorTexture>Texture/particle2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -22716,7 +22716,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>star.png</ColorTexture>
+              <ColorTexture>Texture/star.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>

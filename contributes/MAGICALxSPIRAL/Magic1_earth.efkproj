@@ -654,7 +654,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Magic1_fire.efkproj</ColorTexture>
+          <ColorTexture>Texture/Magic1_fire.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -3124,7 +3124,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line1.png</ColorTexture>
+              <ColorTexture>Texture/Line1.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -5595,7 +5595,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line1.png</ColorTexture>
+              <ColorTexture>Texture/Line1.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -8068,7 +8068,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Magic1_fire.efkproj</ColorTexture>
+          <ColorTexture>Texture/Magic1_fire.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -10538,7 +10538,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line2.png</ColorTexture>
+              <ColorTexture>Texture/Line2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -13009,7 +13009,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line2.png</ColorTexture>
+              <ColorTexture>Texture/Line2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -15482,7 +15482,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Magic1_fire.efkproj</ColorTexture>
+          <ColorTexture>Texture/Magic1_fire.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -17952,7 +17952,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line1.png</ColorTexture>
+              <ColorTexture>Texture/Line1.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -20423,7 +20423,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line1.png</ColorTexture>
+              <ColorTexture>Texture/Line1.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -22896,7 +22896,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Magic1_fire.efkproj</ColorTexture>
+          <ColorTexture>Texture/Magic1_fire.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -25366,7 +25366,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line2.png</ColorTexture>
+              <ColorTexture>Texture/Line2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -27836,7 +27836,7 @@
                   </Circle>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>Line1.png</ColorTexture>
+                  <ColorTexture>Texture/Line1.png</ColorTexture>
                   <AlphaBlend>2</AlphaBlend>
                   <Filter>1</Filter>
                   <Wrap>0</Wrap>
@@ -30311,7 +30311,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Magic1_fire.efkproj</ColorTexture>
+          <ColorTexture>Texture/Magic1_fire.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -32817,7 +32817,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Line4.png</ColorTexture>
+              <ColorTexture>Texture/Line4.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -35287,7 +35287,7 @@
                   </Circle>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>Magic1_fire.efkproj</ColorTexture>
+                  <ColorTexture>Texture/Magic1_fire.efkproj</ColorTexture>
                   <AlphaBlend>1</AlphaBlend>
                   <Filter>1</Filter>
                   <Wrap>0</Wrap>
@@ -37757,7 +37757,7 @@
                       </Circle>
                     </GenerationLocationValues>
                     <RendererCommonValues>
-                      <ColorTexture>Magic1_fire.efkproj</ColorTexture>
+                      <ColorTexture>Texture/Magic1_fire.efkproj</ColorTexture>
                       <AlphaBlend>1</AlphaBlend>
                       <Filter>1</Filter>
                       <Wrap>0</Wrap>
@@ -40227,7 +40227,7 @@
                           </Circle>
                         </GenerationLocationValues>
                         <RendererCommonValues>
-                          <ColorTexture>Line6.png</ColorTexture>
+                          <ColorTexture>Texture/Line6.png</ColorTexture>
                           <AlphaBlend>2</AlphaBlend>
                           <Filter>1</Filter>
                           <Wrap>0</Wrap>

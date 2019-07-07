@@ -655,7 +655,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Hammer1.png</ColorTexture>
+          <ColorTexture>Texture/Hammer1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -2304,7 +2304,7 @@
             </InnerColor_Easing>
           </Ring>
           <Model>
-            <Model>rock1.efkmodel</Model>
+            <Model>Model/rock1.efkmodel</Model>
             <NormalTexture>
             </NormalTexture>
             <Lighting>False</Lighting>
@@ -3128,7 +3128,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Hammer1.png</ColorTexture>
+          <ColorTexture>Texture/Hammer1.png</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -4777,7 +4777,7 @@
             </InnerColor_Easing>
           </Ring>
           <Model>
-            <Model>block2.efkmodel</Model>
+            <Model>Model/block2.efkmodel</Model>
             <NormalTexture>
             </NormalTexture>
             <Lighting>False</Lighting>
@@ -5600,7 +5600,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Hammer1.png</ColorTexture>
+          <ColorTexture>Texture/Hammer1.png</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -7249,7 +7249,7 @@
             </InnerColor_Easing>
           </Ring>
           <Model>
-            <Model>block3.efkmodel</Model>
+            <Model>Model/block3.efkmodel</Model>
             <NormalTexture>
             </NormalTexture>
             <Lighting>False</Lighting>
@@ -8073,7 +8073,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -10548,7 +10548,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>
+              <ColorTexture>Texture/
               </ColorTexture>
               <AlphaBlend>1</AlphaBlend>
               <Filter>1</Filter>
@@ -13023,7 +13023,7 @@
                   </Circle>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>
+                  <ColorTexture>Texture/
                   </ColorTexture>
                   <AlphaBlend>2</AlphaBlend>
                   <Filter>1</Filter>
@@ -15498,7 +15498,7 @@
                       </Circle>
                     </GenerationLocationValues>
                     <RendererCommonValues>
-                      <ColorTexture>Line6.png</ColorTexture>
+                      <ColorTexture>Texture/Line6.png</ColorTexture>
                       <AlphaBlend>2</AlphaBlend>
                       <Filter>1</Filter>
                       <Wrap>0</Wrap>
@@ -17979,7 +17979,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>
+          <ColorTexture>Texture/
           </ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
@@ -20454,7 +20454,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>particle2.png</ColorTexture>
+              <ColorTexture>Texture/particle2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
