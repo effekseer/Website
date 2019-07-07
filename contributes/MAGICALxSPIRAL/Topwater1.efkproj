@@ -654,7 +654,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave1.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -3125,7 +3125,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Water_Impact.efkproj</ColorTexture>
+          <ColorTexture>Texture/Water_Impact.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -5595,7 +5595,7 @@
               </Circle>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>Water_Impact.efkproj</ColorTexture>
+              <ColorTexture>Texture/Water_Impact.efkproj</ColorTexture>
               <AlphaBlend>1</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>
@@ -8065,7 +8065,7 @@
                   </Circle>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>particle.png</ColorTexture>
+                  <ColorTexture>Texture/particle.png</ColorTexture>
                   <AlphaBlend>2</AlphaBlend>
                   <Filter>1</Filter>
                   <Wrap>0</Wrap>
@@ -10540,7 +10540,7 @@
           </Circle>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>ShockWave1.png</ColorTexture>
+          <ColorTexture>Texture/ShockWave1.png</ColorTexture>
           <AlphaBlend>2</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>

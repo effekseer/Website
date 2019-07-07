@@ -632,7 +632,7 @@
           </Model>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>Icicle2.efkproj</ColorTexture>
+          <ColorTexture>Texture/Icicle2.efkproj</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -3081,7 +3081,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>
+              <ColorTexture>Texture/
               </ColorTexture>
               <AlphaBlend>1</AlphaBlend>
               <Filter>1</Filter>
@@ -5534,7 +5534,7 @@
                   </Model>
                 </GenerationLocationValues>
                 <RendererCommonValues>
-                  <ColorTexture>icicle2.png</ColorTexture>
+                  <ColorTexture>Texture/icicle2.png</ColorTexture>
                   <AlphaBlend>1</AlphaBlend>
                   <Filter>1</Filter>
                   <Wrap>0</Wrap>
@@ -7183,7 +7183,7 @@
                     </InnerColor_Easing>
                   </Ring>
                   <Model>
-                    <Model>icicle3.efkmodel</Model>
+                    <Model>Model/icicle3.efkmodel</Model>
                     <NormalTexture>
                     </NormalTexture>
                     <Lighting>False</Lighting>
@@ -7988,7 +7988,7 @@
               </Model>
             </GenerationLocationValues>
             <RendererCommonValues>
-              <ColorTexture>particle2.png</ColorTexture>
+              <ColorTexture>Texture/particle2.png</ColorTexture>
               <AlphaBlend>2</AlphaBlend>
               <Filter>1</Filter>
               <Wrap>0</Wrap>

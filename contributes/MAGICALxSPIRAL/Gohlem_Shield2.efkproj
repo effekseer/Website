@@ -632,7 +632,7 @@
           </Model>
         </GenerationLocationValues>
         <RendererCommonValues>
-          <ColorTexture>shield_color.png</ColorTexture>
+          <ColorTexture>Texture/shield_color.png</ColorTexture>
           <AlphaBlend>1</AlphaBlend>
           <Filter>1</Filter>
           <Wrap>0</Wrap>
@@ -2281,7 +2281,7 @@
             </InnerColor_Easing>
           </Ring>
           <Model>
-            <Model>gohlem_shield.efkmodel</Model>
+            <Model>Model/gohlem_shield.efkmodel</Model>
             <NormalTexture>Gohlem_Shield1.efkproj</NormalTexture>
             <Lighting>True</Lighting>
             <Culling>0</Culling>
