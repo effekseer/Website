@@ -5,6 +5,7 @@
     <Children>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>50</Center>
             <Max>50</Max>
@@ -168,6 +169,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>30</Center>
             <Max>30</Max>
@@ -201,6 +203,7 @@
               <MaxGeneration>
                 <Value>1500</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>10</Center>
                 <Max>10</Max>
@@ -623,7 +626,9 @@
                       <ColorTexture>Texture/Fog3002.png</ColorTexture>
                       <AlphaBlend>2</AlphaBlend>
                       <UVAnimation>
-                        <FrameLength>14</FrameLength>
+                        <FrameLength>
+                          <Value>14</Value>
+                        </FrameLength>
                         <FrameCountX>5</FrameCountX>
                         <FrameCountY>5</FrameCountY>
                       </UVAnimation>
@@ -682,7 +687,7 @@
   <Culling>
     <Type>1</Type>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>4</StartFrame>
   <EndFrame>45</EndFrame>

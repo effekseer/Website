@@ -8,6 +8,7 @@
           <MaxGeneration>
             <Value>58</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>0.4</Center>
             <Max>0.4</Max>
@@ -41,6 +42,7 @@
         <Children>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>20</Center>
                 <Max>25</Max>
@@ -151,6 +153,7 @@
             <Children>
               <Node>
                 <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <Life>
                     <Center>20</Center>
                     <Max>20</Max>
@@ -355,6 +358,9 @@
         </Children>
       </Node>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <ScalingValues>
           <Type>4</Type>
           <SingleEasing>
@@ -477,6 +483,9 @@
             <Children />
           </Node>
           <Node>
+            <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+            </CommonValues>
             <ScalingValues>
               <Fixed>
                 <Scale>
@@ -829,7 +838,7 @@
       <Y>15</Y>
     </TargetLocation>
   </Behavior>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>6</StartFrame>
   <EndFrame>54</EndFrame>

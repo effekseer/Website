@@ -26,48 +26,6 @@
             </Rotation>
           </Fixed>
         </RotationValues>
-        <ScalingValues>
-          <Type>2</Type>
-          <Fixed>
-            <Scale>
-              <Y>5</Y>
-            </Scale>
-          </Fixed>
-          <Easing>
-            <Start>
-              <X>
-                <Center>1.5</Center>
-                <Max>1.5</Max>
-                <Min>1.5</Min>
-              </X>
-              <Y>
-                <Center>6</Center>
-                <Max>6</Max>
-                <Min>6</Min>
-              </Y>
-            </Start>
-            <End>
-              <X>
-                <Center>0.75</Center>
-                <Max>0.75</Max>
-                <Min>0.75</Min>
-              </X>
-              <Y>
-                <Center>12</Center>
-                <Max>15</Max>
-                <Min>9</Min>
-              </Y>
-            </End>
-          </Easing>
-        </ScalingValues>
-        <RendererCommonValues>
-          <ColorTexture>Texture/Line01.png</ColorTexture>
-          <AlphaBlend>2</AlphaBlend>
-          <FadeOutType>1</FadeOutType>
-          <FadeOut>
-            <Frame>10</Frame>
-          </FadeOut>
-        </RendererCommonValues>
         <DrawingValues>
           <Sprite>
             <Billboard>1</Billboard>
@@ -173,42 +131,6 @@
                 </Velocity>
               </PVA>
             </RotationValues>
-            <ScalingValues>
-              <Fixed>
-                <Scale>
-                  <Y>6</Y>
-                </Scale>
-              </Fixed>
-              <Easing>
-                <Start>
-                  <Y>
-                    <Center>5</Center>
-                    <Max>5</Max>
-                    <Min>5</Min>
-                  </Y>
-                </Start>
-                <End>
-                  <X>
-                    <Center>0.5</Center>
-                    <Max>0.5</Max>
-                    <Min>0.5</Min>
-                  </X>
-                  <Y>
-                    <Center>12</Center>
-                    <Max>15</Max>
-                    <Min>9</Min>
-                  </Y>
-                </End>
-              </Easing>
-            </ScalingValues>
-            <RendererCommonValues>
-              <ColorTexture>Texture/Line01.png</ColorTexture>
-              <AlphaBlend>2</AlphaBlend>
-              <FadeOutType>1</FadeOutType>
-              <FadeOut>
-                <Frame>10</Frame>
-              </FadeOut>
-            </RendererCommonValues>
             <DrawingValues>
               <Sprite>
                 <Billboard>2</Billboard>
@@ -264,8 +186,86 @@
             </DrawingValues>
             <Name>メイン斬撃</Name>
             <Children />
+            <ScalingValues>
+              <Fixed>
+                <Scale>
+                  <Y>6</Y>
+                </Scale>
+              </Fixed>
+              <Easing>
+                <Start>
+                  <Y>
+                    <Center>5</Center>
+                    <Max>5</Max>
+                    <Min>5</Min>
+                  </Y>
+                </Start>
+                <End>
+                  <X>
+                    <Center>0.5</Center>
+                    <Max>0.5</Max>
+                    <Min>0.5</Min>
+                  </X>
+                  <Y>
+                    <Center>12</Center>
+                    <Max>15</Max>
+                    <Min>9</Min>
+                  </Y>
+                </End>
+              </Easing>
+            </ScalingValues>
+            <RendererCommonValues>
+              <ColorTexture>Texture/Line01.png</ColorTexture>
+              <AlphaBlend>2</AlphaBlend>
+              <FadeOutType>1</FadeOutType>
+              <FadeOut>
+                <Frame>10</Frame>
+              </FadeOut>
+            </RendererCommonValues>
           </Node>
         </Children>
+        <ScalingValues>
+          <Type>2</Type>
+          <Fixed>
+            <Scale>
+              <Y>5</Y>
+            </Scale>
+          </Fixed>
+          <Easing>
+            <Start>
+              <X>
+                <Center>1.5</Center>
+                <Max>1.5</Max>
+                <Min>1.5</Min>
+              </X>
+              <Y>
+                <Center>6</Center>
+                <Max>6</Max>
+                <Min>6</Min>
+              </Y>
+            </Start>
+            <End>
+              <X>
+                <Center>0.75</Center>
+                <Max>0.75</Max>
+                <Min>0.75</Min>
+              </X>
+              <Y>
+                <Center>12</Center>
+                <Max>15</Max>
+                <Min>9</Min>
+              </Y>
+            </End>
+          </Easing>
+        </ScalingValues>
+        <RendererCommonValues>
+          <ColorTexture>Texture/Line01.png</ColorTexture>
+          <AlphaBlend>2</AlphaBlend>
+          <FadeOutType>1</FadeOutType>
+          <FadeOut>
+            <Frame>10</Frame>
+          </FadeOut>
+        </RendererCommonValues>
       </Node>
       <Node>
         <CommonValues>
@@ -299,6 +299,63 @@
             </Rotation>
           </PVA>
         </RotationValues>
+        <DrawingValues>
+          <Type>4</Type>
+          <Sprite>
+            <Billboard>2</Billboard>
+            <ColorAll>2</ColorAll>
+            <ColorAll_Fixed>
+              <R>245</R>
+              <G>116</G>
+              <B>242</B>
+            </ColorAll_Fixed>
+            <ColorAll_Easing>
+              <Start>
+                <R>
+                  <Center>239</Center>
+                  <Max>239</Max>
+                  <Min>239</Min>
+                </R>
+                <A>
+                  <Center>50</Center>
+                  <Max>50</Max>
+                  <Min>50</Min>
+                </A>
+              </Start>
+              <End>
+                <G>
+                  <Center>125</Center>
+                  <Max>125</Max>
+                  <Min>125</Min>
+                </G>
+                <A>
+                  <Center>0</Center>
+                  <Max>0</Max>
+                  <Min>0</Min>
+                </A>
+              </End>
+            </ColorAll_Easing>
+            <Position>1</Position>
+          </Sprite>
+          <Ring>
+            <VertexCount>250</VertexCount>
+            <OuterColor_Fixed>
+              <G>82</G>
+              <B>108</B>
+            </OuterColor_Fixed>
+            <CenterColor_Fixed>
+              <G>82</G>
+              <B>108</B>
+              <A>50</A>
+            </CenterColor_Fixed>
+            <InnerColor_Fixed>
+              <G>82</G>
+              <B>108</B>
+            </InnerColor_Fixed>
+          </Ring>
+        </DrawingValues>
+        <Name>月</Name>
+        <Children />
         <ScalingValues>
           <Type>2</Type>
           <PVA>
@@ -362,69 +419,13 @@
             <Frame>7</Frame>
           </FadeOut>
         </RendererCommonValues>
-        <DrawingValues>
-          <Type>4</Type>
-          <Sprite>
-            <Billboard>2</Billboard>
-            <ColorAll>2</ColorAll>
-            <ColorAll_Fixed>
-              <R>245</R>
-              <G>116</G>
-              <B>242</B>
-            </ColorAll_Fixed>
-            <ColorAll_Easing>
-              <Start>
-                <R>
-                  <Center>239</Center>
-                  <Max>239</Max>
-                  <Min>239</Min>
-                </R>
-                <A>
-                  <Center>50</Center>
-                  <Max>50</Max>
-                  <Min>50</Min>
-                </A>
-              </Start>
-              <End>
-                <G>
-                  <Center>125</Center>
-                  <Max>125</Max>
-                  <Min>125</Min>
-                </G>
-                <A>
-                  <Center>0</Center>
-                  <Max>0</Max>
-                  <Min>0</Min>
-                </A>
-              </End>
-            </ColorAll_Easing>
-            <Position>1</Position>
-          </Sprite>
-          <Ring>
-            <VertexCount>250</VertexCount>
-            <OuterColor_Fixed>
-              <G>82</G>
-              <B>108</B>
-            </OuterColor_Fixed>
-            <CenterColor_Fixed>
-              <G>82</G>
-              <B>108</B>
-              <A>50</A>
-            </CenterColor_Fixed>
-            <InnerColor_Fixed>
-              <G>82</G>
-              <B>108</B>
-            </InnerColor_Fixed>
-          </Ring>
-        </DrawingValues>
-        <Name>月</Name>
-        <Children />
       </Node>
       <Node>
         <CommonValues>
           <MaxGeneration>
             <Value>150</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>0.01</Center>
             <Max>0.01</Max>
@@ -525,22 +526,6 @@
                 <StartSpeed>20</StartSpeed>
               </Easing>
             </RotationValues>
-            <ScalingValues>
-              <Fixed>
-                <Scale>
-                  <Y>0.4</Y>
-                  <Z>0.4</Z>
-                </Scale>
-              </Fixed>
-            </ScalingValues>
-            <RendererCommonValues>
-              <ColorTexture>Texture/Particle01.png</ColorTexture>
-              <AlphaBlend>2</AlphaBlend>
-              <FadeOutType>1</FadeOutType>
-              <FadeOut>
-                <Frame>10</Frame>
-              </FadeOut>
-            </RendererCommonValues>
             <DrawingValues>
               <Sprite>
                 <Billboard>2</Billboard>
@@ -587,6 +572,22 @@
             </DrawingValues>
             <Name>花びら</Name>
             <Children />
+            <ScalingValues>
+              <Fixed>
+                <Scale>
+                  <Y>0.4</Y>
+                  <Z>0.4</Z>
+                </Scale>
+              </Fixed>
+            </ScalingValues>
+            <RendererCommonValues>
+              <ColorTexture>Texture/Particle01.png</ColorTexture>
+              <AlphaBlend>2</AlphaBlend>
+              <FadeOutType>1</FadeOutType>
+              <FadeOut>
+                <Frame>10</Frame>
+              </FadeOut>
+            </RendererCommonValues>
           </Node>
         </Children>
       </Node>
@@ -603,7 +604,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>2</StartFrame>
   <EndFrame>30</EndFrame>

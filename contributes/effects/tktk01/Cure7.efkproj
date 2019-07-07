@@ -4,6 +4,9 @@
     <Name>Root</Name>
     <Children>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
@@ -15,6 +18,7 @@
               <MaxGeneration>
                 <Value>100</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>40</Center>
                 <Max>50</Max>
@@ -59,6 +63,7 @@
             <Children>
               <Node>
                 <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <Life>
                     <Center>30</Center>
                     <Max>30</Max>
@@ -463,6 +468,9 @@
         </Children>
       </Node>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
@@ -1009,6 +1017,7 @@
               <MaxGeneration>
                 <Value>25</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.25</Center>
                 <Max>0.25</Max>
@@ -1074,6 +1083,7 @@
                   <MaxGeneration>
                     <Value>2</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <Life>
                     <Center>50</Center>
                     <Max>50</Max>
@@ -2051,6 +2061,7 @@
               </Node>
               <Node>
                 <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <Life>
                     <Center>50</Center>
                     <Max>50</Max>
@@ -3045,7 +3056,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>5</StartFrame>
   <EndFrame>77</EndFrame>

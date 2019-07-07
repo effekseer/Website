@@ -85,17 +85,6 @@
             <RotationValues>
               <Type>1</Type>
             </RotationValues>
-            <ScalingValues>
-              <Fixed>
-                <Scale>
-                  <X>1.5</X>
-                  <Y>0.05</Y>
-                </Scale>
-              </Fixed>
-            </ScalingValues>
-            <RendererCommonValues>
-              <AlphaBlend>2</AlphaBlend>
-            </RendererCommonValues>
             <DrawingValues>
               <Type>4</Type>
               <Ring>
@@ -121,10 +110,24 @@
             </DrawingValues>
             <Name>斬撃</Name>
             <Children />
+            <ScalingValues>
+              <Fixed>
+                <Scale>
+                  <X>1.5</X>
+                  <Y>0.05</Y>
+                </Scale>
+              </Fixed>
+            </ScalingValues>
+            <RendererCommonValues>
+              <AlphaBlend>2</AlphaBlend>
+            </RendererCommonValues>
           </Node>
         </Children>
       </Node>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <RotationValues>
           <Fixed>
             <Rotation>
@@ -143,6 +146,7 @@
               <MaxGeneration>
                 <Value>1000</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.002</Center>
                 <Max>0.002</Max>
@@ -210,30 +214,6 @@
                 <RotationValues>
                   <Type>1</Type>
                 </RotationValues>
-                <ScalingValues>
-                  <Type>4</Type>
-                  <Fixed>
-                    <Scale>
-                      <X>10</X>
-                      <Y>10</Y>
-                    </Scale>
-                  </Fixed>
-                  <SingleEasing>
-                    <End>
-                      <Center>6</Center>
-                      <Max>6</Max>
-                      <Min>6</Min>
-                    </End>
-                  </SingleEasing>
-                </ScalingValues>
-                <RendererCommonValues>
-                  <ColorTexture>Texture/Fog3001.png</ColorTexture>
-                  <AlphaBlend>2</AlphaBlend>
-                  <FadeOutType>1</FadeOutType>
-                  <FadeOut>
-                    <Frame>12</Frame>
-                  </FadeOut>
-                </RendererCommonValues>
                 <DrawingValues>
                   <Sprite>
                     <Billboard>2</Billboard>
@@ -272,6 +252,30 @@
                 </DrawingValues>
                 <Name>冷気</Name>
                 <Children />
+                <ScalingValues>
+                  <Type>4</Type>
+                  <Fixed>
+                    <Scale>
+                      <X>10</X>
+                      <Y>10</Y>
+                    </Scale>
+                  </Fixed>
+                  <SingleEasing>
+                    <End>
+                      <Center>6</Center>
+                      <Max>6</Max>
+                      <Min>6</Min>
+                    </End>
+                  </SingleEasing>
+                </ScalingValues>
+                <RendererCommonValues>
+                  <ColorTexture>Texture/Fog3001.png</ColorTexture>
+                  <AlphaBlend>2</AlphaBlend>
+                  <FadeOutType>1</FadeOutType>
+                  <FadeOut>
+                    <Frame>12</Frame>
+                  </FadeOut>
+                </RendererCommonValues>
               </Node>
             </Children>
           </Node>
@@ -305,36 +309,6 @@
             </Rotation>
           </Fixed>
         </RotationValues>
-        <ScalingValues>
-          <Type>4</Type>
-          <SingleEasing>
-            <End>
-              <Center>5</Center>
-              <Max>5</Max>
-              <Min>5</Min>
-            </End>
-            <StartSpeed>20</StartSpeed>
-            <EndSpeed>-30</EndSpeed>
-          </SingleEasing>
-        </ScalingValues>
-        <RendererCommonValues>
-          <ColorTexture>Texture/Aurora_B.png</ColorTexture>
-          <AlphaBlend>2</AlphaBlend>
-          <FadeOutType>1</FadeOutType>
-          <FadeOut>
-            <Frame>25</Frame>
-          </FadeOut>
-          <UVScroll>
-            <Size>
-              <X>100</X>
-              <Y>100</Y>
-            </Size>
-            <Speed>
-              <X>12</X>
-              <Y>11</Y>
-            </Speed>
-          </UVScroll>
-        </RendererCommonValues>
         <DrawingValues>
           <Type>4</Type>
           <Ring>
@@ -364,6 +338,52 @@
         </DrawingValues>
         <Name>Node</Name>
         <Children />
+        <ScalingValues>
+          <Type>4</Type>
+          <SingleEasing>
+            <End>
+              <Center>5</Center>
+              <Max>5</Max>
+              <Min>5</Min>
+            </End>
+            <StartSpeed>20</StartSpeed>
+            <EndSpeed>-30</EndSpeed>
+          </SingleEasing>
+        </ScalingValues>
+        <RendererCommonValues>
+          <ColorTexture>Texture/Aurora_B.png</ColorTexture>
+          <AlphaBlend>2</AlphaBlend>
+          <FadeOutType>1</FadeOutType>
+          <FadeOut>
+            <Frame>25</Frame>
+          </FadeOut>
+          <UVScroll>
+            <Size>
+              <X>
+                <Center>100</Center>
+                <Max>100</Max>
+                <Min>100</Min>
+              </X>
+              <Y>
+                <Center>100</Center>
+                <Max>100</Max>
+                <Min>100</Min>
+              </Y>
+            </Size>
+            <Speed>
+              <X>
+                <Center>12</Center>
+                <Max>12</Max>
+                <Min>12</Min>
+              </X>
+              <Y>
+                <Center>11</Center>
+                <Max>11</Max>
+                <Min>11</Min>
+              </Y>
+            </Speed>
+          </UVScroll>
+        </RendererCommonValues>
       </Node>
     </Children>
   </Root>
@@ -378,7 +398,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>3</StartFrame>
   <EndFrame>35</EndFrame>

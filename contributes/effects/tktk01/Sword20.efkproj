@@ -8,6 +8,7 @@
           <MaxGeneration>
             <Value>8</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>6</Center>
             <Max>6</Max>
@@ -25,6 +26,7 @@
               <MaxGeneration>
                 <Value>7</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.01</Center>
                 <Max>0.01</Max>
@@ -203,6 +205,7 @@
                         <Value>40</Value>
                       </MaxGeneration>
                       <ScaleEffectType>0</ScaleEffectType>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>0.25</Center>
                         <Max>0.25</Max>
@@ -513,6 +516,7 @@
                         <Value>16</Value>
                       </MaxGeneration>
                       <ScaleEffectType>0</ScaleEffectType>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <Life>
                         <Center>10</Center>
                         <Max>10</Max>
@@ -746,7 +750,7 @@
       </Node>
     </Children>
   </Root>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>5</StartFrame>
   <EndFrame>80</EndFrame>

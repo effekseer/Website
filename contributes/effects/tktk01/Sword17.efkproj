@@ -4,6 +4,9 @@
     <Name>Root</Name>
     <Children>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <LocationValues>
           <Fixed>
             <Location>
@@ -20,6 +23,7 @@
         <Children>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>15</Center>
                 <Max>15</Max>
@@ -98,6 +102,7 @@
             <Children>
               <Node>
                 <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <Life>
                     <Center>20</Center>
                     <Max>20</Max>
@@ -185,8 +190,16 @@
                       </UVFixed>
                       <UVScroll>
                         <Size>
-                          <X>128</X>
-                          <Y>128</Y>
+                          <X>
+                            <Center>128</Center>
+                            <Max>128</Max>
+                            <Min>128</Min>
+                          </X>
+                          <Y>
+                            <Center>128</Center>
+                            <Max>128</Max>
+                            <Min>128</Min>
+                          </Y>
                         </Size>
                       </UVScroll>
                     </RendererCommonValues>
@@ -315,8 +328,16 @@
                       </UVFixed>
                       <UVScroll>
                         <Size>
-                          <X>128</X>
-                          <Y>128</Y>
+                          <X>
+                            <Center>128</Center>
+                            <Max>128</Max>
+                            <Min>128</Min>
+                          </X>
+                          <Y>
+                            <Center>128</Center>
+                            <Max>128</Max>
+                            <Min>128</Min>
+                          </Y>
                         </Size>
                       </UVScroll>
                     </RendererCommonValues>
@@ -341,6 +362,7 @@
                 <Value>500</Value>
               </MaxGeneration>
               <RemoveWhenLifeIsExtinct>False</RemoveWhenLifeIsExtinct>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.002</Center>
                 <Max>0.002</Max>
@@ -1006,6 +1028,7 @@
           </Node>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTimeOffset>
                 <Center>14</Center>
                 <Max>14</Max>
@@ -1043,6 +1066,7 @@
                   <MaxGeneration>
                     <Value>1000</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.0001</Center>
                     <Max>0.0001</Max>
@@ -1326,7 +1350,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>8</StartFrame>
   <EndFrame>61</EndFrame>

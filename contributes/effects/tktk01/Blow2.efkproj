@@ -108,37 +108,49 @@
             </OuterColor_Fixed>
             <OuterColor_Easing>
               <Start>
+                <R>
+                  <DrawnAs>0</DrawnAs>
+                </R>
                 <G>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </Start>
               <End>
+                <R>
+                  <DrawnAs>0</DrawnAs>
+                </R>
                 <G>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </End>
               <StartSpeed>30</StartSpeed>
@@ -147,32 +159,46 @@
             <CenterColor>2</CenterColor>
             <CenterColor_Easing>
               <Start>
+                <R>
+                  <DrawnAs>0</DrawnAs>
+                </R>
                 <G>
                   <Center>100</Center>
                   <Max>100</Max>
                   <Min>100</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>100</Center>
                   <Max>100</Max>
                   <Min>100</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
+                <A>
+                  <DrawnAs>0</DrawnAs>
+                </A>
               </Start>
               <End>
+                <R>
+                  <DrawnAs>0</DrawnAs>
+                </R>
                 <G>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </End>
               <StartSpeed>30</StartSpeed>
@@ -185,37 +211,49 @@
             </InnerColor_Fixed>
             <InnerColor_Easing>
               <Start>
+                <R>
+                  <DrawnAs>0</DrawnAs>
+                </R>
                 <G>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </Start>
               <End>
+                <R>
+                  <DrawnAs>0</DrawnAs>
+                </R>
                 <G>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </End>
             </InnerColor_Easing>
@@ -226,9 +264,7 @@
       </Node>
       <Node>
         <CommonValues>
-          <MaxGeneration>
-            <Value>0</Value>
-          </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>30</Center>
             <Max>30</Max>
@@ -406,6 +442,7 @@
           <MaxGeneration>
             <Value>100</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>30</Center>
             <Max>30</Max>
@@ -810,6 +847,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>5</Center>
             <Max>5</Max>
@@ -827,6 +865,7 @@
               <MaxGeneration>
                 <Value>500</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.001</Center>
                 <Max>0.001</Max>
@@ -1097,9 +1136,9 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>5</StartFrame>
-  <EndFrame>30</EndFrame>
+  <EndFrame>50</EndFrame>
   <IsLoop>True</IsLoop>
 </EffekseerProject>

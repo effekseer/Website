@@ -4,6 +4,9 @@
     <Name>Root</Name>
     <Children>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
@@ -11,6 +14,9 @@
         <Name>*斬撃セット</Name>
         <Children>
           <Node>
+            <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+            </CommonValues>
             <RotationValues>
               <Fixed>
                 <Rotation>
@@ -230,6 +236,9 @@
                 </Children>
               </Node>
               <Node>
+                <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                </CommonValues>
                 <LocationValues>
                   <Type>3</Type>
                   <Easing>
@@ -373,6 +382,9 @@
                 <Name>*制御用斬撃</Name>
                 <Children>
                   <Node>
+                    <CommonValues>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                    </CommonValues>
                     <ScalingValues>
                       <Fixed>
                         <Scale>
@@ -403,6 +415,7 @@
                       <MaxGeneration>
                         <Value>75</Value>
                       </MaxGeneration>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>0.1</Center>
                         <Max>0.1</Max>
@@ -516,17 +529,23 @@
                                     <Center>128</Center>
                                     <Max>160</Max>
                                     <Min>96</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </R>
                                   <G>
                                     <Center>0</Center>
                                     <Max>0</Max>
                                     <Min>0</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </G>
                                   <B>
                                     <Center>64</Center>
                                     <Max>96</Max>
                                     <Min>32</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </B>
+                                  <A>
+                                    <DrawnAs>0</DrawnAs>
+                                  </A>
                                 </ColorAll_Random>
                               </Sprite>
                             </DrawingValues>
@@ -593,21 +612,25 @@
                                       <Center>128</Center>
                                       <Max>160</Max>
                                       <Min>96</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>64</Center>
                                       <Max>96</Max>
                                       <Min>32</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>50</Center>
                                       <Max>50</Max>
                                       <Min>50</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                   </Start>
                                   <End>
@@ -615,21 +638,25 @@
                                       <Center>128</Center>
                                       <Max>160</Max>
                                       <Min>96</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>64</Center>
                                       <Max>96</Max>
                                       <Min>32</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                   </End>
                                 </ColorAll_Easing>
@@ -723,9 +750,10 @@
                       <MaxGeneration>
                         <Value>250</Value>
                       </MaxGeneration>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>0</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>0.0001</Center>
                         <Max>0.0001</Max>
@@ -1073,6 +1101,7 @@
           </Node>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTimeOffset>
                 <Center>10</Center>
                 <Max>10</Max>
@@ -1298,6 +1327,9 @@
                 </Children>
               </Node>
               <Node>
+                <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                </CommonValues>
                 <LocationValues>
                   <Type>3</Type>
                   <Easing>
@@ -1441,6 +1473,9 @@
                 <Name>*制御斬撃</Name>
                 <Children>
                   <Node>
+                    <CommonValues>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                    </CommonValues>
                     <ScalingValues>
                       <Fixed>
                         <Scale>
@@ -1471,6 +1506,7 @@
                       <MaxGeneration>
                         <Value>95</Value>
                       </MaxGeneration>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>0.1</Center>
                         <Max>0.1</Max>
@@ -1584,17 +1620,23 @@
                                     <Center>128</Center>
                                     <Max>160</Max>
                                     <Min>96</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </R>
                                   <G>
                                     <Center>0</Center>
                                     <Max>0</Max>
                                     <Min>0</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </G>
                                   <B>
                                     <Center>64</Center>
                                     <Max>96</Max>
                                     <Min>32</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </B>
+                                  <A>
+                                    <DrawnAs>0</DrawnAs>
+                                  </A>
                                 </ColorAll_Random>
                               </Sprite>
                             </DrawingValues>
@@ -1661,21 +1703,25 @@
                                       <Center>128</Center>
                                       <Max>160</Max>
                                       <Min>96</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>64</Center>
                                       <Max>96</Max>
                                       <Min>32</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>50</Center>
                                       <Max>50</Max>
                                       <Min>50</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                   </Start>
                                   <End>
@@ -1683,21 +1729,25 @@
                                       <Center>128</Center>
                                       <Max>160</Max>
                                       <Min>96</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>64</Center>
                                       <Max>96</Max>
                                       <Min>32</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                   </End>
                                 </ColorAll_Easing>
@@ -1791,9 +1841,10 @@
                       <MaxGeneration>
                         <Value>250</Value>
                       </MaxGeneration>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>0</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>0.0001</Center>
                         <Max>0.0001</Max>
@@ -1929,17 +1980,23 @@
                                     <Center>128</Center>
                                     <Max>160</Max>
                                     <Min>96</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </R>
                                   <G>
                                     <Center>0</Center>
                                     <Max>0</Max>
                                     <Min>0</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </G>
                                   <B>
                                     <Center>64</Center>
                                     <Max>96</Max>
                                     <Min>32</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </B>
+                                  <A>
+                                    <DrawnAs>0</DrawnAs>
+                                  </A>
                                 </ColorAll_Random>
                               </Sprite>
                             </DrawingValues>
@@ -2006,21 +2063,25 @@
                                       <Center>128</Center>
                                       <Max>160</Max>
                                       <Min>96</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>64</Center>
                                       <Max>96</Max>
                                       <Min>32</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>50</Center>
                                       <Max>50</Max>
                                       <Min>50</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                   </Start>
                                   <End>
@@ -2028,21 +2089,25 @@
                                       <Center>128</Center>
                                       <Max>160</Max>
                                       <Min>96</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>64</Center>
                                       <Max>96</Max>
                                       <Min>32</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                   </End>
                                 </ColorAll_Easing>
@@ -2141,6 +2206,7 @@
           </Node>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTimeOffset>
                 <Center>20</Center>
                 <Max>20</Max>
@@ -2366,6 +2432,9 @@
                 </Children>
               </Node>
               <Node>
+                <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                </CommonValues>
                 <LocationValues>
                   <Type>3</Type>
                   <Easing>
@@ -2509,6 +2578,9 @@
                 <Name>*制御用斬撃</Name>
                 <Children>
                   <Node>
+                    <CommonValues>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                    </CommonValues>
                     <ScalingValues>
                       <Fixed>
                         <Scale>
@@ -2539,6 +2611,7 @@
                       <MaxGeneration>
                         <Value>95</Value>
                       </MaxGeneration>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>0.1</Center>
                         <Max>0.1</Max>
@@ -2652,17 +2725,23 @@
                                     <Center>128</Center>
                                     <Max>160</Max>
                                     <Min>96</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </R>
                                   <G>
                                     <Center>0</Center>
                                     <Max>0</Max>
                                     <Min>0</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </G>
                                   <B>
                                     <Center>64</Center>
                                     <Max>96</Max>
                                     <Min>32</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </B>
+                                  <A>
+                                    <DrawnAs>0</DrawnAs>
+                                  </A>
                                 </ColorAll_Random>
                               </Sprite>
                             </DrawingValues>
@@ -2729,21 +2808,25 @@
                                       <Center>128</Center>
                                       <Max>160</Max>
                                       <Min>96</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>64</Center>
                                       <Max>96</Max>
                                       <Min>32</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>50</Center>
                                       <Max>50</Max>
                                       <Min>50</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                   </Start>
                                   <End>
@@ -2751,21 +2834,25 @@
                                       <Center>128</Center>
                                       <Max>160</Max>
                                       <Min>96</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>64</Center>
                                       <Max>96</Max>
                                       <Min>32</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                   </End>
                                 </ColorAll_Easing>
@@ -2859,9 +2946,10 @@
                       <MaxGeneration>
                         <Value>250</Value>
                       </MaxGeneration>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>0</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>0.0001</Center>
                         <Max>0.0001</Max>
@@ -2997,17 +3085,23 @@
                                     <Center>128</Center>
                                     <Max>160</Max>
                                     <Min>96</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </R>
                                   <G>
                                     <Center>0</Center>
                                     <Max>0</Max>
                                     <Min>0</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </G>
                                   <B>
                                     <Center>64</Center>
                                     <Max>96</Max>
                                     <Min>32</Min>
+                                    <DrawnAs>0</DrawnAs>
                                   </B>
+                                  <A>
+                                    <DrawnAs>0</DrawnAs>
+                                  </A>
                                 </ColorAll_Random>
                               </Sprite>
                             </DrawingValues>
@@ -3074,21 +3168,25 @@
                                       <Center>128</Center>
                                       <Max>160</Max>
                                       <Min>96</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>64</Center>
                                       <Max>96</Max>
                                       <Min>32</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>50</Center>
                                       <Max>50</Max>
                                       <Min>50</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                   </Start>
                                   <End>
@@ -3096,21 +3194,25 @@
                                       <Center>128</Center>
                                       <Max>160</Max>
                                       <Min>96</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>64</Center>
                                       <Max>96</Max>
                                       <Min>32</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>0</Center>
                                       <Max>0</Max>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                   </End>
                                 </ColorAll_Easing>
@@ -3211,6 +3313,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTimeOffset>
             <Center>40</Center>
             <Max>40</Max>
@@ -3438,6 +3541,9 @@
             </Children>
           </Node>
           <Node>
+            <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+            </CommonValues>
             <LocationValues>
               <Type>3</Type>
               <Easing>
@@ -3581,6 +3687,9 @@
             <Name>*制御用斬撃</Name>
             <Children>
               <Node>
+                <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                </CommonValues>
                 <ScalingValues>
                   <Fixed>
                     <Scale>
@@ -3687,9 +3796,10 @@
                   <MaxGeneration>
                     <Value>250</Value>
                   </MaxGeneration>
-                  <LocationEffectType>0</LocationEffectType>
+                  <LocationEffectType>1</LocationEffectType>
                   <RotationEffectType>0</RotationEffectType>
                   <ScaleEffectType>0</ScaleEffectType>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.0001</Center>
                     <Max>0.0001</Max>
@@ -3828,17 +3938,23 @@
                                 <Center>128</Center>
                                 <Max>160</Max>
                                 <Min>96</Min>
+                                <DrawnAs>0</DrawnAs>
                               </R>
                               <G>
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </G>
                               <B>
                                 <Center>64</Center>
                                 <Max>96</Max>
                                 <Min>32</Min>
+                                <DrawnAs>0</DrawnAs>
                               </B>
+                              <A>
+                                <DrawnAs>0</DrawnAs>
+                              </A>
                             </ColorAll_Random>
                           </Sprite>
                         </DrawingValues>
@@ -3905,21 +4021,25 @@
                                   <Center>128</Center>
                                   <Max>160</Max>
                                   <Min>96</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </R>
                                 <G>
                                   <Center>0</Center>
                                   <Max>0</Max>
                                   <Min>0</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </G>
                                 <B>
                                   <Center>64</Center>
                                   <Max>96</Max>
                                   <Min>32</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </B>
                                 <A>
                                   <Center>50</Center>
                                   <Max>50</Max>
                                   <Min>50</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </A>
                               </Start>
                               <End>
@@ -3927,21 +4047,25 @@
                                   <Center>128</Center>
                                   <Max>160</Max>
                                   <Min>96</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </R>
                                 <G>
                                   <Center>0</Center>
                                   <Max>0</Max>
                                   <Min>0</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </G>
                                 <B>
                                   <Center>64</Center>
                                   <Max>96</Max>
                                   <Min>32</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </B>
                                 <A>
                                   <Center>0</Center>
                                   <Max>0</Max>
                                   <Min>0</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </A>
                               </End>
                             </ColorAll_Easing>
@@ -4245,6 +4369,7 @@
                   <MaxGeneration>
                     <Value>95</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.1</Center>
                     <Max>0.1</Max>
@@ -4358,17 +4483,23 @@
                                 <Center>128</Center>
                                 <Max>160</Max>
                                 <Min>96</Min>
+                                <DrawnAs>0</DrawnAs>
                               </R>
                               <G>
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </G>
                               <B>
                                 <Center>64</Center>
                                 <Max>96</Max>
                                 <Min>32</Min>
+                                <DrawnAs>0</DrawnAs>
                               </B>
+                              <A>
+                                <DrawnAs>0</DrawnAs>
+                              </A>
                             </ColorAll_Random>
                           </Sprite>
                         </DrawingValues>
@@ -4435,21 +4566,25 @@
                                   <Center>128</Center>
                                   <Max>160</Max>
                                   <Min>96</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </R>
                                 <G>
                                   <Center>0</Center>
                                   <Max>0</Max>
                                   <Min>0</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </G>
                                 <B>
                                   <Center>64</Center>
                                   <Max>96</Max>
                                   <Min>32</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </B>
                                 <A>
                                   <Center>50</Center>
                                   <Max>50</Max>
                                   <Min>50</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </A>
                               </Start>
                               <End>
@@ -4457,21 +4592,25 @@
                                   <Center>128</Center>
                                   <Max>160</Max>
                                   <Min>96</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </R>
                                 <G>
                                   <Center>0</Center>
                                   <Max>0</Max>
                                   <Min>0</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </G>
                                 <B>
                                   <Center>64</Center>
                                   <Max>96</Max>
                                   <Min>32</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </B>
                                 <A>
                                   <Center>0</Center>
                                   <Max>0</Max>
                                   <Min>0</Min>
+                                  <DrawnAs>0</DrawnAs>
                                 </A>
                               </End>
                             </ColorAll_Easing>
@@ -4504,7 +4643,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>5</StartFrame>
   <EndFrame>84</EndFrame>

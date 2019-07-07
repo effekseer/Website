@@ -5,6 +5,7 @@
     <Children>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>15</Center>
             <Max>15</Max>
@@ -40,6 +41,7 @@
               <LocationEffectType>1</LocationEffectType>
               <RotationEffectType>1</RotationEffectType>
               <ScaleEffectType>1</ScaleEffectType>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>20</Center>
                 <Max>20</Max>
@@ -104,6 +106,9 @@
             <Name>振り制御用</Name>
             <Children>
               <Node>
+                <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                </CommonValues>
                 <LocationValues>
                   <Type>2</Type>
                   <Easing>
@@ -162,7 +167,9 @@
                           <X>500</X>
                           <Y>500</Y>
                         </Size>
-                        <FrameLength>6</FrameLength>
+                        <FrameLength>
+                          <Value>6</Value>
+                        </FrameLength>
                         <FrameCountX>7</FrameCountX>
                         <FrameCountY>7</FrameCountY>
                         <LoopType>1</LoopType>
@@ -472,7 +479,7 @@
       <Y>15</Y>
     </TargetLocation>
   </Behavior>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>7</StartFrame>
   <EndFrame>53</EndFrame>

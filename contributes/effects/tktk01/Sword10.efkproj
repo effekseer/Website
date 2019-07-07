@@ -31,6 +31,8 @@
                 <Min>0.1</Min>
               </GenerationTime>
             </CommonValues>
+            <Name>斬撃</Name>
+            <Children />
             <LocationValues>
               <Type>1</Type>
               <PVA>
@@ -217,8 +219,6 @@
                 </InnerColor_Fixed>
               </Ring>
             </DrawingValues>
-            <Name>斬撃</Name>
-            <Children />
           </Node>
         </Children>
       </Node>
@@ -227,6 +227,7 @@
           <MaxGeneration>
             <Value>200</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>0.001</Center>
             <Max>0.001</Max>
@@ -238,57 +239,6 @@
             <Min>10</Min>
           </GenerationTimeOffset>
         </CommonValues>
-        <LocationValues>
-          <Type>2</Type>
-          <Fixed>
-            <Location>
-              <X>-9</X>
-            </Location>
-          </Fixed>
-          <Easing>
-            <Start>
-              <X>
-                <Center>-9</Center>
-                <Max>-9</Max>
-                <Min>-9</Min>
-              </X>
-            </Start>
-            <End>
-              <X>
-                <Center>-3</Center>
-                <Max>-3</Max>
-                <Min>-3</Min>
-              </X>
-              <Y>
-                <Center>-1</Center>
-                <Min>-2</Min>
-              </Y>
-            </End>
-            <StartSpeed>20</StartSpeed>
-            <EndSpeed>-30</EndSpeed>
-          </Easing>
-        </LocationValues>
-        <RotationValues>
-          <Type>1</Type>
-          <PVA>
-            <Rotation>
-              <X>
-                <Max>180</Max>
-                <Min>-180</Min>
-              </X>
-              <Y>
-                <Center>30</Center>
-                <Max>140</Max>
-                <Min>-80</Min>
-              </Y>
-              <Z>
-                <Center>30</Center>
-                <Max>140</Max>
-                <Min>-80</Min>
-              </Z>
-            </Rotation>
-          </PVA>
-        </RotationValues>
         <IsRendered>False</IsRendered>
         <Name>*粒制御</Name>
         <Children>
@@ -300,6 +250,8 @@
                 <Min>10</Min>
               </Life>
             </CommonValues>
+            <Name>衝撃粒</Name>
+            <Children />
             <LocationValues>
               <Type>2</Type>
               <Fixed>
@@ -375,10 +327,62 @@
                 </ColorAll_Easing>
               </Sprite>
             </DrawingValues>
-            <Name>衝撃粒</Name>
-            <Children />
           </Node>
         </Children>
+        <LocationValues>
+          <Type>2</Type>
+          <Fixed>
+            <Location>
+              <X>-9</X>
+            </Location>
+          </Fixed>
+          <Easing>
+            <Start>
+              <X>
+                <Center>-9</Center>
+                <Max>-9</Max>
+                <Min>-9</Min>
+              </X>
+            </Start>
+            <End>
+              <X>
+                <Center>-3</Center>
+                <Max>-3</Max>
+                <Min>-3</Min>
+              </X>
+              <Y>
+                <Center>-1</Center>
+                <Min>-2</Min>
+              </Y>
+            </End>
+            <StartSpeed>20</StartSpeed>
+            <EndSpeed>-30</EndSpeed>
+          </Easing>
+        </LocationValues>
+        <RotationValues>
+          <Type>1</Type>
+          <PVA>
+            <Rotation>
+              <X>
+                <Max>180</Max>
+                <Min>-180</Min>
+              </X>
+              <Y>
+                <Center>30</Center>
+                <Max>140</Max>
+                <Min>-80</Min>
+              </Y>
+              <Z>
+                <Center>30</Center>
+                <Max>140</Max>
+                <Min>-80</Min>
+              </Z>
+            </Rotation>
+          </PVA>
+        </RotationValues>
+        <DrawingValues>
+          <Type>0</Type>
+        </DrawingValues>
       </Node>
       <Node>
         <CommonValues>
@@ -401,6 +405,8 @@
             <Min>12</Min>
           </GenerationTimeOffset>
         </CommonValues>
+        <Name>Node</Name>
+        <Children />
         <LocationValues>
           <Fixed>
             <Location>
@@ -509,8 +515,6 @@
             </CenterColor_Easing>
           </Ring>
         </DrawingValues>
-        <Name>Node</Name>
-        <Children />
       </Node>
     </Children>
   </Root>
@@ -531,7 +535,7 @@
       </Location>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>4</StartFrame>
   <EndFrame>40</EndFrame>

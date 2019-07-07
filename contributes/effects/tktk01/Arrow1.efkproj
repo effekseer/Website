@@ -370,6 +370,7 @@
                   <MaxGeneration>
                     <Value>30</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.25</Center>
                     <Max>0.25</Max>
@@ -484,6 +485,7 @@
           </Node>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>25</Center>
                 <Max>25</Max>
@@ -794,6 +796,7 @@
                   <MaxGeneration>
                     <Value>30</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.25</Center>
                     <Max>0.25</Max>
@@ -908,6 +911,7 @@
           </Node>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>25</Center>
                 <Max>25</Max>
@@ -1212,6 +1216,7 @@
                   <MaxGeneration>
                     <Value>30</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.25</Center>
                     <Max>0.25</Max>
@@ -1325,6 +1330,7 @@
           </Node>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>25</Center>
                 <Max>25</Max>
@@ -1635,6 +1641,7 @@
                   <MaxGeneration>
                     <Value>30</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.25</Center>
                     <Max>0.25</Max>
@@ -1749,6 +1756,7 @@
           </Node>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>25</Center>
                 <Max>25</Max>
@@ -2053,6 +2061,7 @@
                   <MaxGeneration>
                     <Value>30</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.25</Center>
                     <Max>0.25</Max>
@@ -2166,6 +2175,7 @@
           </Node>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>25</Center>
                 <Max>25</Max>
@@ -2476,6 +2486,7 @@
                   <MaxGeneration>
                     <Value>30</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.25</Center>
                     <Max>0.25</Max>
@@ -2590,6 +2601,7 @@
           </Node>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>25</Center>
                 <Max>25</Max>
@@ -2900,6 +2912,7 @@
                   <MaxGeneration>
                     <Value>30</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.25</Center>
                     <Max>0.25</Max>
@@ -3030,7 +3043,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>0</StartFrame>
   <EndFrame>40</EndFrame>

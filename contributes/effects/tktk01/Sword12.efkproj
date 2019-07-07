@@ -184,12 +184,28 @@
               <AlphaBlend>2</AlphaBlend>
               <UVScroll>
                 <Size>
-                  <X>512</X>
-                  <Y>512</Y>
+                  <X>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </X>
+                  <Y>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </Y>
                 </Size>
                 <Speed>
-                  <X>8</X>
-                  <Y>11</Y>
+                  <X>
+                    <Center>8</Center>
+                    <Max>8</Max>
+                    <Min>8</Min>
+                  </X>
+                  <Y>
+                    <Center>11</Center>
+                    <Max>11</Max>
+                    <Min>11</Min>
+                  </Y>
                 </Speed>
               </UVScroll>
             </RendererCommonValues>
@@ -200,11 +216,19 @@
                   <R>
                     <Center>230</Center>
                     <Min>205</Min>
+                    <DrawnAs>0</DrawnAs>
                   </R>
+                  <G>
+                    <DrawnAs>0</DrawnAs>
+                  </G>
+                  <B>
+                    <DrawnAs>0</DrawnAs>
+                  </B>
                   <A>
                     <Center>150</Center>
                     <Max>150</Max>
                     <Min>150</Min>
+                    <DrawnAs>0</DrawnAs>
                   </A>
                 </ColorAll_Random>
                 <ColorAll_Easing>
@@ -298,12 +322,28 @@
               <AlphaBlend>2</AlphaBlend>
               <UVScroll>
                 <Size>
-                  <X>512</X>
-                  <Y>512</Y>
+                  <X>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </X>
+                  <Y>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </Y>
                 </Size>
                 <Speed>
-                  <X>8</X>
-                  <Y>11</Y>
+                  <X>
+                    <Center>8</Center>
+                    <Max>8</Max>
+                    <Min>8</Min>
+                  </X>
+                  <Y>
+                    <Center>11</Center>
+                    <Max>11</Max>
+                    <Min>11</Min>
+                  </Y>
                 </Speed>
               </UVScroll>
             </RendererCommonValues>
@@ -314,11 +354,19 @@
                   <R>
                     <Center>230</Center>
                     <Min>205</Min>
+                    <DrawnAs>0</DrawnAs>
                   </R>
+                  <G>
+                    <DrawnAs>0</DrawnAs>
+                  </G>
+                  <B>
+                    <DrawnAs>0</DrawnAs>
+                  </B>
                   <A>
                     <Center>150</Center>
                     <Max>150</Max>
                     <Min>150</Min>
+                    <DrawnAs>0</DrawnAs>
                   </A>
                 </ColorAll_Random>
                 <ColorAll_Easing>
@@ -531,12 +579,28 @@
               <AlphaBlend>2</AlphaBlend>
               <UVScroll>
                 <Size>
-                  <X>512</X>
-                  <Y>512</Y>
+                  <X>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </X>
+                  <Y>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </Y>
                 </Size>
                 <Speed>
-                  <X>8</X>
-                  <Y>11</Y>
+                  <X>
+                    <Center>8</Center>
+                    <Max>8</Max>
+                    <Min>8</Min>
+                  </X>
+                  <Y>
+                    <Center>11</Center>
+                    <Max>11</Max>
+                    <Min>11</Min>
+                  </Y>
                 </Speed>
               </UVScroll>
             </RendererCommonValues>
@@ -547,11 +611,19 @@
                   <R>
                     <Center>230</Center>
                     <Min>205</Min>
+                    <DrawnAs>0</DrawnAs>
                   </R>
+                  <G>
+                    <DrawnAs>0</DrawnAs>
+                  </G>
+                  <B>
+                    <DrawnAs>0</DrawnAs>
+                  </B>
                   <A>
                     <Center>150</Center>
                     <Max>150</Max>
                     <Min>150</Min>
+                    <DrawnAs>0</DrawnAs>
                   </A>
                 </ColorAll_Random>
                 <ColorAll_Easing>
@@ -645,12 +717,28 @@
               <AlphaBlend>2</AlphaBlend>
               <UVScroll>
                 <Size>
-                  <X>512</X>
-                  <Y>512</Y>
+                  <X>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </X>
+                  <Y>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </Y>
                 </Size>
                 <Speed>
-                  <X>8</X>
-                  <Y>11</Y>
+                  <X>
+                    <Center>8</Center>
+                    <Max>8</Max>
+                    <Min>8</Min>
+                  </X>
+                  <Y>
+                    <Center>11</Center>
+                    <Max>11</Max>
+                    <Min>11</Min>
+                  </Y>
                 </Speed>
               </UVScroll>
             </RendererCommonValues>
@@ -661,11 +749,19 @@
                   <R>
                     <Center>230</Center>
                     <Min>205</Min>
+                    <DrawnAs>0</DrawnAs>
                   </R>
+                  <G>
+                    <DrawnAs>0</DrawnAs>
+                  </G>
+                  <B>
+                    <DrawnAs>0</DrawnAs>
+                  </B>
                   <A>
                     <Center>150</Center>
                     <Max>150</Max>
                     <Min>150</Min>
+                    <DrawnAs>0</DrawnAs>
                   </A>
                 </ColorAll_Random>
                 <ColorAll_Easing>
@@ -694,6 +790,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>30</Center>
             <Max>30</Max>
@@ -762,8 +859,16 @@
               </UVFixed>
               <UVScroll>
                 <Size>
-                  <X>256</X>
-                  <Y>100</Y>
+                  <X>
+                    <Center>256</Center>
+                    <Max>256</Max>
+                    <Min>256</Min>
+                  </X>
+                  <Y>
+                    <Center>100</Center>
+                    <Max>100</Max>
+                    <Min>100</Min>
+                  </Y>
                 </Size>
               </UVScroll>
             </RendererCommonValues>
@@ -834,6 +939,7 @@
               <MaxGeneration>
                 <Value>100</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.01</Center>
                 <Max>0.01</Max>
@@ -1037,6 +1143,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>30</Center>
             <Max>30</Max>
@@ -1097,8 +1204,16 @@
               </UVFixed>
               <UVScroll>
                 <Size>
-                  <X>256</X>
-                  <Y>100</Y>
+                  <X>
+                    <Center>256</Center>
+                    <Max>256</Max>
+                    <Min>256</Min>
+                  </X>
+                  <Y>
+                    <Center>100</Center>
+                    <Max>100</Max>
+                    <Min>100</Min>
+                  </Y>
                 </Size>
               </UVScroll>
             </RendererCommonValues>
@@ -1169,6 +1284,7 @@
               <MaxGeneration>
                 <Value>300</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.001</Center>
                 <Max>0.001</Max>
@@ -1409,7 +1525,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>2</StartFrame>
   <EndFrame>36</EndFrame>

@@ -5,6 +5,7 @@
     <Children>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>32</Center>
             <Max>32</Max>
@@ -246,6 +247,7 @@
                   </MaxGeneration>
                   <LocationEffectType>1</LocationEffectType>
                   <ScaleEffectType>0</ScaleEffectType>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.001</Center>
                     <Max>0.001</Max>
@@ -528,7 +530,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>3</StartFrame>
   <EndFrame>66</EndFrame>

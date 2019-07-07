@@ -9,6 +9,7 @@
           <MaxGeneration>
             <Value>9</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>7</Center>
             <Max>7</Max>
@@ -259,6 +260,7 @@
               <MaxGeneration>
                 <Value>30</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>22</Center>
                 <Max>22</Max>
@@ -444,6 +446,9 @@
             </Children>
           </Node>
           <Node>
+            <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+            </CommonValues>
             <RotationValues>
               <Type>1</Type>
               <PVA>
@@ -790,6 +795,7 @@
               <MaxGeneration>
                 <Value>50</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>35</Center>
                 <Max>35</Max>
@@ -1101,12 +1107,12 @@
     </Children>
   </Root>
   <Behavior>
-    <Distance>1</Distance>
     <TargetLocation>
       <X>11</X>
       <Y>11</Y>
       <Z>11</Z>
     </TargetLocation>
+    <Distance>1</Distance>
   </Behavior>
   <Culling>
     <Type>1</Type>
@@ -1114,7 +1120,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>3</StartFrame>
   <EndFrame>78</EndFrame>
