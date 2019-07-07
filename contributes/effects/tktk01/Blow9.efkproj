@@ -4,6 +4,9 @@
     <Name>Root</Name>
     <Children>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
@@ -78,6 +81,7 @@
               <MaxGeneration>
                 <Value>500</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.001</Center>
                 <Max>0.001</Max>
@@ -367,6 +371,7 @@
           <MaxGeneration>
             <Value>30</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>0.01</Center>
             <Max>0.01</Max>
@@ -600,6 +605,9 @@
         </Children>
       </Node>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
@@ -970,6 +978,7 @@
           <MaxGeneration>
             <Value>100</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>0.1</Center>
             <Max>0.1</Max>
@@ -1176,12 +1185,12 @@
     </Children>
   </Root>
   <Behavior>
-    <Distance>1</Distance>
     <TargetLocation>
       <X>11</X>
       <Y>15</Y>
       <Z>11</Z>
     </TargetLocation>
+    <Distance>1</Distance>
   </Behavior>
   <Culling>
     <Type>1</Type>
@@ -1189,9 +1198,9 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>3</StartFrame>
-  <EndFrame>38</EndFrame>
+  <EndFrame>78</EndFrame>
   <IsLoop>True</IsLoop>
 </EffekseerProject>

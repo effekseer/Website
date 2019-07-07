@@ -5,6 +5,7 @@
     <Children>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>70</Center>
             <Max>70</Max>
@@ -127,8 +128,16 @@
               <UV>3</UV>
               <UVScroll>
                 <Size>
-                  <X>512</X>
-                  <Y>512</Y>
+                  <X>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </X>
+                  <Y>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </Y>
                 </Size>
               </UVScroll>
               <DistortionIntensity>1.2</DistortionIntensity>
@@ -225,8 +234,16 @@
               <UV>3</UV>
               <UVScroll>
                 <Size>
-                  <X>512</X>
-                  <Y>512</Y>
+                  <X>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </X>
+                  <Y>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </Y>
                 </Size>
               </UVScroll>
               <DistortionIntensity>1.2</DistortionIntensity>
@@ -323,8 +340,16 @@
               <UV>3</UV>
               <UVScroll>
                 <Size>
-                  <X>512</X>
-                  <Y>512</Y>
+                  <X>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </X>
+                  <Y>
+                    <Center>512</Center>
+                    <Max>512</Max>
+                    <Min>512</Min>
+                  </Y>
                 </Size>
               </UVScroll>
               <DistortionIntensity>1.2</DistortionIntensity>
@@ -437,6 +462,7 @@
       <Node>
         <CommonValues>
           <ScaleEffectType>0</ScaleEffectType>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>17</Center>
             <Max>17</Max>
@@ -484,6 +510,7 @@
                 <Value>2500</Value>
               </MaxGeneration>
               <ScaleEffectType>1</ScaleEffectType>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>50</Center>
                 <Max>50</Max>
@@ -723,6 +750,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>15</Center>
             <Max>15</Max>
@@ -773,6 +801,7 @@
               <LocationEffectType>1</LocationEffectType>
               <RotationEffectType>1</RotationEffectType>
               <ScaleEffectType>1</ScaleEffectType>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>20</Center>
                 <Max>20</Max>
@@ -837,6 +866,9 @@
             <Name>振り制御用</Name>
             <Children>
               <Node>
+                <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                </CommonValues>
                 <LocationValues>
                   <Type>2</Type>
                   <Easing>
@@ -895,7 +927,9 @@
                           <X>500</X>
                           <Y>500</Y>
                         </Size>
-                        <FrameLength>6</FrameLength>
+                        <FrameLength>
+                          <Value>6</Value>
+                        </FrameLength>
                         <FrameCountX>7</FrameCountX>
                         <FrameCountY>7</FrameCountY>
                         <LoopType>1</LoopType>
@@ -953,7 +987,7 @@
       <Radius>11</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>14</StartFrame>
   <EndFrame>75</EndFrame>

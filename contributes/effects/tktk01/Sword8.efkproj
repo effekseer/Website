@@ -5,6 +5,7 @@
     <Children>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>200</Center>
             <Max>200</Max>
@@ -37,6 +38,7 @@
               </MaxGeneration>
               <ScaleEffectType>1</ScaleEffectType>
               <RemoveWhenParentIsRemoved>True</RemoveWhenParentIsRemoved>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>75</Center>
                 <Max>75</Max>
@@ -239,6 +241,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>200</Center>
             <Max>200</Max>
@@ -537,11 +540,23 @@
           <AlphaBlend>2</AlphaBlend>
           <UVScroll>
             <Size>
-              <X>128</X>
-              <Y>64</Y>
+              <X>
+                <Center>128</Center>
+                <Max>128</Max>
+                <Min>128</Min>
+              </X>
+              <Y>
+                <Center>64</Center>
+                <Max>64</Max>
+                <Min>64</Min>
+              </Y>
             </Size>
             <Speed>
-              <Y>1</Y>
+              <Y>
+                <Center>1</Center>
+                <Max>1</Max>
+                <Min>1</Min>
+              </Y>
             </Speed>
           </UVScroll>
         </RendererCommonValues>
@@ -707,11 +722,23 @@
           <AlphaBlend>2</AlphaBlend>
           <UVScroll>
             <Size>
-              <X>128</X>
-              <Y>64</Y>
+              <X>
+                <Center>128</Center>
+                <Max>128</Max>
+                <Min>128</Min>
+              </X>
+              <Y>
+                <Center>64</Center>
+                <Max>64</Max>
+                <Min>64</Min>
+              </Y>
             </Size>
             <Speed>
-              <Y>1</Y>
+              <Y>
+                <Center>1</Center>
+                <Max>1</Max>
+                <Min>1</Min>
+              </Y>
             </Speed>
           </UVScroll>
         </RendererCommonValues>
@@ -792,6 +819,7 @@
           <MaxGeneration>
             <Value>300</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>20</Center>
             <Max>30</Max>
@@ -947,7 +975,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>4</StartFrame>
   <EndFrame>87</EndFrame>

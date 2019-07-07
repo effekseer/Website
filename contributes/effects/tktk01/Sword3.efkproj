@@ -4,6 +4,9 @@
     <Name>Root</Name>
     <Children>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
@@ -208,6 +211,7 @@
               <MaxGeneration>
                 <Value>100</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.1</Center>
                 <Max>0.1</Max>
@@ -301,6 +305,9 @@
         </Children>
       </Node>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
@@ -431,6 +438,9 @@
             <Children />
           </Node>
           <Node>
+            <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+            </CommonValues>
             <RotationValues>
               <Type>2</Type>
               <PVA>
@@ -464,6 +474,7 @@
                   <MaxGeneration>
                     <Value>100</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.1</Center>
                     <Max>0.1</Max>
@@ -955,6 +966,7 @@
               <MaxGeneration>
                 <Value>100</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.05</Center>
                 <Max>0.05</Max>
@@ -1074,7 +1086,7 @@
       </Node>
     </Children>
   </Root>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>4</StartFrame>
   <EndFrame>55</EndFrame>

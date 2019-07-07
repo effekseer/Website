@@ -79,11 +79,23 @@
               </UVAnimation>
               <UVScroll>
                 <Size>
-                  <X>1000</X>
-                  <Y>1000</Y>
+                  <X>
+                    <Center>1000</Center>
+                    <Max>1000</Max>
+                    <Min>1000</Min>
+                  </X>
+                  <Y>
+                    <Center>1000</Center>
+                    <Max>1000</Max>
+                    <Min>1000</Min>
+                  </Y>
                 </Size>
                 <Speed>
-                  <Y>4</Y>
+                  <Y>
+                    <Center>4</Center>
+                    <Max>4</Max>
+                    <Min>4</Min>
+                  </Y>
                 </Speed>
               </UVScroll>
               <DistortionIntensity>1.4</DistortionIntensity>
@@ -99,6 +111,36 @@
                 </Inner_Fixed>
                 <CenterRatio_Fixed>0</CenterRatio_Fixed>
                 <CenterColor>2</CenterColor>
+                <CenterColor_Easing>
+                  <Start>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
+                  </Start>
+                  <End>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
+                  </End>
+                </CenterColor_Easing>
               </Ring>
             </DrawingValues>
             <Name>溶岩本体</Name>
@@ -165,6 +207,7 @@
                   <RotationEffectType>1</RotationEffectType>
                   <ScaleEffectType>1</ScaleEffectType>
                   <RemoveWhenLifeIsExtinct>False</RemoveWhenLifeIsExtinct>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.1</Center>
                     <Max>0.1</Max>
@@ -339,6 +382,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>45</Center>
             <Max>45</Max>
@@ -363,6 +407,7 @@
         <Children>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>45</Center>
                 <Max>45</Max>
@@ -396,6 +441,7 @@
                   <RotationEffectType>1</RotationEffectType>
                   <ScaleEffectType>1</ScaleEffectType>
                   <RemoveWhenLifeIsExtinct>False</RemoveWhenLifeIsExtinct>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.2</Center>
                     <Max>0.2</Max>
@@ -575,7 +621,7 @@
       <Y>15</Y>
     </TargetLocation>
   </Behavior>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>4</StartFrame>
   <EndFrame>63</EndFrame>

@@ -4,6 +4,9 @@
     <Name>Root</Name>
     <Children>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
@@ -15,6 +18,7 @@
               <MaxGeneration>
                 <Value>100</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.01</Center>
                 <Max>0.01</Max>
@@ -706,6 +710,9 @@
             </Children>
           </Node>
           <Node>
+            <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+            </CommonValues>
             <RotationValues>
               <Fixed>
                 <Rotation>
@@ -1273,6 +1280,9 @@
             </Children>
           </Node>
           <Node>
+            <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+            </CommonValues>
             <RotationValues>
               <Fixed>
                 <Rotation>
@@ -1445,6 +1455,7 @@
                   <MaxGeneration>
                     <Value>100</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <GenerationTime>
                     <Center>0.01</Center>
                     <Max>0.01</Max>
@@ -1598,30 +1609,42 @@
                                     <R>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
+                                    <A>
+                                      <DrawnAs>0</DrawnAs>
+                                    </A>
                                     <DrawnAs>0</DrawnAs>
                                   </Start>
                                   <End>
                                     <R>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
+                                    <A>
+                                      <DrawnAs>0</DrawnAs>
+                                    </A>
                                     <DrawnAs>0</DrawnAs>
                                   </End>
                                 </ColorAll_Easing>
@@ -1659,19 +1682,23 @@
                                     <R>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>64</Center>
                                       <Max>64</Max>
                                       <Min>64</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                     <DrawnAs>0</DrawnAs>
                                   </Start>
@@ -1679,19 +1706,23 @@
                                     <R>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </R>
                                     <G>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </G>
                                     <B>
                                       <Center>127</Center>
                                       <Min>0</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </B>
                                     <A>
                                       <Center>64</Center>
                                       <Max>64</Max>
                                       <Min>64</Min>
+                                      <DrawnAs>0</DrawnAs>
                                     </A>
                                     <DrawnAs>0</DrawnAs>
                                   </End>
@@ -1714,6 +1745,7 @@
               <MaxGeneration>
                 <Value>50</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.1</Center>
                 <Max>0.1</Max>
@@ -1836,6 +1868,13 @@
                 <Name>ライン</Name>
                 <Children>
                   <Node>
+                    <CommonValues>
+                      <Life>
+                        <Center>45</Center>
+                        <Max>45</Max>
+                        <Min>45</Min>
+                      </Life>
+                    </CommonValues>
                     <ScalingValues>
                       <Fixed>
                         <Scale>
@@ -1856,19 +1895,23 @@
                             <R>
                               <Center>127</Center>
                               <Min>0</Min>
+                              <DrawnAs>0</DrawnAs>
                             </R>
                             <G>
                               <Center>127</Center>
                               <Min>0</Min>
+                              <DrawnAs>0</DrawnAs>
                             </G>
                             <B>
                               <Center>127</Center>
                               <Min>0</Min>
+                              <DrawnAs>0</DrawnAs>
                             </B>
                             <A>
                               <Center>192</Center>
                               <Max>192</Max>
                               <Min>192</Min>
+                              <DrawnAs>0</DrawnAs>
                             </A>
                             <DrawnAs>0</DrawnAs>
                           </Start>
@@ -1876,19 +1919,23 @@
                             <R>
                               <Center>127</Center>
                               <Min>0</Min>
+                              <DrawnAs>0</DrawnAs>
                             </R>
                             <G>
                               <Center>127</Center>
                               <Min>0</Min>
+                              <DrawnAs>0</DrawnAs>
                             </G>
                             <B>
                               <Center>127</Center>
                               <Min>0</Min>
+                              <DrawnAs>0</DrawnAs>
                             </B>
                             <A>
                               <Center>192</Center>
                               <Max>192</Max>
                               <Min>192</Min>
+                              <DrawnAs>0</DrawnAs>
                             </A>
                             <DrawnAs>0</DrawnAs>
                           </End>
@@ -1907,12 +1954,12 @@
     </Children>
   </Root>
   <Behavior>
-    <Distance>1</Distance>
     <TargetLocation>
       <X>11</X>
       <Y>15</Y>
       <Z>11</Z>
     </TargetLocation>
+    <Distance>1</Distance>
   </Behavior>
   <Culling>
     <Type>1</Type>
@@ -1923,7 +1970,7 @@
       </Location>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>4</StartFrame>
   <EndFrame>37</EndFrame>

@@ -121,6 +121,9 @@
             <Name>剣降らし</Name>
             <Children>
               <Node>
+                <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                </CommonValues>
                 <LocationValues>
                   <Fixed>
                     <Location>
@@ -788,7 +791,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>35</StartFrame>
   <EndFrame>81</EndFrame>

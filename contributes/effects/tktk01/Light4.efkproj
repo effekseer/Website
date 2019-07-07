@@ -8,6 +8,7 @@
           <MaxGeneration>
             <Value>6</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>7</Center>
             <Max>7</Max>
@@ -36,6 +37,7 @@
         <Children>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>50</Center>
                 <Max>50</Max>
@@ -88,6 +90,7 @@
             <Children>
               <Node>
                 <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <Life>
                     <Center>17</Center>
                     <Max>17</Max>
@@ -122,6 +125,9 @@
                 <Name>*弾幕纏め</Name>
                 <Children>
                   <Node>
+                    <CommonValues>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                    </CommonValues>
                     <DrawingValues>
                       <Type>0</Type>
                     </DrawingValues>
@@ -913,6 +919,7 @@
           </Node>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>50</Center>
                 <Max>50</Max>
@@ -970,6 +977,7 @@
             <Children>
               <Node>
                 <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <Life>
                     <Center>17</Center>
                     <Max>17</Max>
@@ -1004,6 +1012,9 @@
                 <Name>*弾幕纏め</Name>
                 <Children>
                   <Node>
+                    <CommonValues>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+                    </CommonValues>
                     <DrawingValues>
                       <Type>0</Type>
                     </DrawingValues>
@@ -6210,7 +6221,7 @@
       <Radius>11</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>6</StartFrame>
   <EndFrame>85</EndFrame>

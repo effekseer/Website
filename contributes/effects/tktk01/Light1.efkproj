@@ -5,6 +5,7 @@
     <Children>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>9999</Center>
             <Max>9999</Max>
@@ -53,7 +54,7 @@
               <MaxGeneration>
                 <Value>5</Value>
               </MaxGeneration>
-              <RemoveWhenParentIsRemoved>True</RemoveWhenParentIsRemoved>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>15</Center>
                 <Max>15</Max>
@@ -121,6 +122,7 @@
                       <MaxGeneration>
                         <Value>5</Value>
                       </MaxGeneration>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>16</Center>
                         <Max>16</Max>
@@ -411,6 +413,7 @@
                       <MaxGeneration>
                         <Value>5</Value>
                       </MaxGeneration>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>16</Center>
                         <Max>16</Max>
@@ -1312,6 +1315,7 @@
                 <Value>6</Value>
               </MaxGeneration>
               <RemoveWhenParentIsRemoved>True</RemoveWhenParentIsRemoved>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>150</Center>
                 <Max>150</Max>
@@ -1366,6 +1370,7 @@
               <Node>
                 <CommonValues>
                   <LocationEffectType>1</LocationEffectType>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                 </CommonValues>
                 <LocationValues>
                   <Fixed>
@@ -1392,6 +1397,7 @@
                       <MaxGeneration>
                         <Value>5</Value>
                       </MaxGeneration>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>16</Center>
                         <Max>16</Max>
@@ -1682,6 +1688,7 @@
                       <MaxGeneration>
                         <Value>5</Value>
                       </MaxGeneration>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>16</Center>
                         <Max>16</Max>
@@ -2669,7 +2676,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>3</StartFrame>
   <EndFrame>163</EndFrame>

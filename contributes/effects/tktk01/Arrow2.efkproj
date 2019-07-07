@@ -5,6 +5,9 @@
     <Name>Root</Name>
     <Children>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
@@ -281,7 +284,6 @@
                 <Children>
                   <Node>
                     <CommonValues>
-                      <LocationEffectType>0</LocationEffectType>
                       <RotationEffectType>1</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
                       <Life>
@@ -345,14 +347,22 @@
                               <B>0</B>
                             </ColorAll_Fixed>
                             <ColorAll_Random>
+                              <R>
+                                <DrawnAs>0</DrawnAs>
+                              </R>
+                              <G>
+                                <DrawnAs>0</DrawnAs>
+                              </G>
                               <B>
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </B>
                               <A>
                                 <Center>205</Center>
                                 <Min>155</Min>
+                                <DrawnAs>0</DrawnAs>
                               </A>
                             </ColorAll_Random>
                           </Sprite>
@@ -364,7 +374,7 @@
                   </Node>
                   <Node>
                     <CommonValues>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>1</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
                       <Life>
@@ -472,14 +482,22 @@
                               <B>0</B>
                             </ColorAll_Fixed>
                             <ColorAll_Random>
+                              <R>
+                                <DrawnAs>0</DrawnAs>
+                              </R>
+                              <G>
+                                <DrawnAs>0</DrawnAs>
+                              </G>
                               <B>
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </B>
                               <A>
                                 <Center>205</Center>
                                 <Min>155</Min>
+                                <DrawnAs>0</DrawnAs>
                               </A>
                             </ColorAll_Random>
                           </Sprite>
@@ -849,7 +867,7 @@
                 <Children>
                   <Node>
                     <CommonValues>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>1</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
                       <Life>
@@ -917,15 +935,21 @@
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </R>
+                              <G>
+                                <DrawnAs>0</DrawnAs>
+                              </G>
                               <B>
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </B>
                               <A>
                                 <Center>205</Center>
                                 <Min>155</Min>
+                                <DrawnAs>0</DrawnAs>
                               </A>
                             </ColorAll_Random>
                           </Sprite>
@@ -937,7 +961,7 @@
                   </Node>
                   <Node>
                     <CommonValues>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>1</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
                       <Life>
@@ -1049,15 +1073,21 @@
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </R>
+                              <G>
+                                <DrawnAs>0</DrawnAs>
+                              </G>
                               <B>
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </B>
                               <A>
                                 <Center>205</Center>
                                 <Min>155</Min>
+                                <DrawnAs>0</DrawnAs>
                               </A>
                             </ColorAll_Random>
                           </Sprite>
@@ -1119,16 +1149,22 @@
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </R>
+                        <G>
+                          <DrawnAs>0</DrawnAs>
+                        </G>
                         <B>
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </B>
                         <A>
                           <Center>100</Center>
                           <Max>100</Max>
                           <Min>100</Min>
+                          <DrawnAs>0</DrawnAs>
                         </A>
                       </Start>
                       <End>
@@ -1136,16 +1172,22 @@
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </R>
+                        <G>
+                          <DrawnAs>0</DrawnAs>
+                        </G>
                         <B>
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </B>
                         <A>
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </A>
                       </End>
                     </ColorAll_Easing>
@@ -1439,7 +1481,7 @@
                 <Children>
                   <Node>
                     <CommonValues>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>1</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
                       <Life>
@@ -1507,10 +1549,18 @@
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </R>
+                              <G>
+                                <DrawnAs>0</DrawnAs>
+                              </G>
+                              <B>
+                                <DrawnAs>0</DrawnAs>
+                              </B>
                               <A>
                                 <Center>205</Center>
                                 <Min>155</Min>
+                                <DrawnAs>0</DrawnAs>
                               </A>
                             </ColorAll_Random>
                           </Sprite>
@@ -1522,7 +1572,7 @@
                   </Node>
                   <Node>
                     <CommonValues>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>1</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
                       <Life>
@@ -1634,10 +1684,18 @@
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </R>
+                              <G>
+                                <DrawnAs>0</DrawnAs>
+                              </G>
+                              <B>
+                                <DrawnAs>0</DrawnAs>
+                              </B>
                               <A>
                                 <Center>205</Center>
                                 <Min>155</Min>
+                                <DrawnAs>0</DrawnAs>
                               </A>
                             </ColorAll_Random>
                           </Sprite>
@@ -1699,11 +1757,19 @@
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </R>
+                        <G>
+                          <DrawnAs>0</DrawnAs>
+                        </G>
+                        <B>
+                          <DrawnAs>0</DrawnAs>
+                        </B>
                         <A>
                           <Center>100</Center>
                           <Max>100</Max>
                           <Min>100</Min>
+                          <DrawnAs>0</DrawnAs>
                         </A>
                       </Start>
                       <End>
@@ -1711,11 +1777,19 @@
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </R>
+                        <G>
+                          <DrawnAs>0</DrawnAs>
+                        </G>
+                        <B>
+                          <DrawnAs>0</DrawnAs>
+                        </B>
                         <A>
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </A>
                       </End>
                     </ColorAll_Easing>
@@ -2011,7 +2085,7 @@
                 <Children>
                   <Node>
                     <CommonValues>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>1</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
                       <Life>
@@ -2079,15 +2153,21 @@
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </R>
                               <G>
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </G>
+                              <B>
+                                <DrawnAs>0</DrawnAs>
+                              </B>
                               <A>
                                 <Center>205</Center>
                                 <Min>155</Min>
+                                <DrawnAs>0</DrawnAs>
                               </A>
                             </ColorAll_Random>
                           </Sprite>
@@ -2099,7 +2179,7 @@
                   </Node>
                   <Node>
                     <CommonValues>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>1</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
                       <Life>
@@ -2211,15 +2291,21 @@
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </R>
                               <G>
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </G>
+                              <B>
+                                <DrawnAs>0</DrawnAs>
+                              </B>
                               <A>
                                 <Center>205</Center>
                                 <Min>155</Min>
+                                <DrawnAs>0</DrawnAs>
                               </A>
                             </ColorAll_Random>
                           </Sprite>
@@ -2281,16 +2367,22 @@
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </R>
                         <G>
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </G>
+                        <B>
+                          <DrawnAs>0</DrawnAs>
+                        </B>
                         <A>
                           <Center>100</Center>
                           <Max>100</Max>
                           <Min>100</Min>
+                          <DrawnAs>0</DrawnAs>
                         </A>
                       </Start>
                       <End>
@@ -2298,16 +2390,22 @@
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </R>
                         <G>
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </G>
+                        <B>
+                          <DrawnAs>0</DrawnAs>
+                        </B>
                         <A>
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </A>
                       </End>
                     </ColorAll_Easing>
@@ -2599,7 +2697,7 @@
                 <Children>
                   <Node>
                     <CommonValues>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>1</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
                       <Life>
@@ -2663,19 +2761,25 @@
                               <B>0</B>
                             </ColorAll_Fixed>
                             <ColorAll_Random>
+                              <R>
+                                <DrawnAs>0</DrawnAs>
+                              </R>
                               <G>
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </G>
                               <B>
                                 <Center>128</Center>
                                 <Max>128</Max>
                                 <Min>128</Min>
+                                <DrawnAs>0</DrawnAs>
                               </B>
                               <A>
                                 <Center>205</Center>
                                 <Min>155</Min>
+                                <DrawnAs>0</DrawnAs>
                               </A>
                             </ColorAll_Random>
                           </Sprite>
@@ -2687,7 +2791,7 @@
                   </Node>
                   <Node>
                     <CommonValues>
-                      <LocationEffectType>0</LocationEffectType>
+                      <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>1</RotationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
                       <Life>
@@ -2799,19 +2903,25 @@
                               <B>0</B>
                             </ColorAll_Fixed>
                             <ColorAll_Random>
+                              <R>
+                                <DrawnAs>0</DrawnAs>
+                              </R>
                               <G>
                                 <Center>0</Center>
                                 <Max>0</Max>
                                 <Min>0</Min>
+                                <DrawnAs>0</DrawnAs>
                               </G>
                               <B>
                                 <Center>128</Center>
                                 <Max>128</Max>
                                 <Min>128</Min>
+                                <DrawnAs>0</DrawnAs>
                               </B>
                               <A>
                                 <Center>205</Center>
                                 <Min>155</Min>
+                                <DrawnAs>0</DrawnAs>
                               </A>
                             </ColorAll_Random>
                           </Sprite>
@@ -2873,16 +2983,22 @@
                           <Center>128</Center>
                           <Max>128</Max>
                           <Min>128</Min>
+                          <DrawnAs>0</DrawnAs>
                         </R>
                         <G>
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </G>
+                        <B>
+                          <DrawnAs>0</DrawnAs>
+                        </B>
                         <A>
                           <Center>100</Center>
                           <Max>100</Max>
                           <Min>100</Min>
+                          <DrawnAs>0</DrawnAs>
                         </A>
                       </Start>
                       <End>
@@ -2890,16 +3006,22 @@
                           <Center>128</Center>
                           <Max>128</Max>
                           <Min>128</Min>
+                          <DrawnAs>0</DrawnAs>
                         </R>
                         <G>
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </G>
+                        <B>
+                          <DrawnAs>0</DrawnAs>
+                        </B>
                         <A>
                           <Center>0</Center>
                           <Max>0</Max>
                           <Min>0</Min>
+                          <DrawnAs>0</DrawnAs>
                         </A>
                       </End>
                     </ColorAll_Easing>
@@ -2928,9 +3050,9 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>4</StartFrame>
-  <EndFrame>54</EndFrame>
+  <EndFrame>80</EndFrame>
   <IsLoop>True</IsLoop>
 </EffekseerProject>

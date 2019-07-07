@@ -9,6 +9,7 @@
             <Value>5</Value>
           </MaxGeneration>
           <RemoveWhenLifeIsExtinct>False</RemoveWhenLifeIsExtinct>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>20</Center>
             <Max>20</Max>
@@ -137,6 +138,7 @@
             <Value>5</Value>
           </MaxGeneration>
           <RemoveWhenLifeIsExtinct>False</RemoveWhenLifeIsExtinct>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>20</Center>
             <Max>20</Max>
@@ -582,6 +584,7 @@
             <Value>5</Value>
           </MaxGeneration>
           <RemoveWhenLifeIsExtinct>False</RemoveWhenLifeIsExtinct>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>20</Center>
             <Max>20</Max>
@@ -1041,6 +1044,7 @@
           <MaxGeneration>
             <Value>300</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTime>
             <Center>0.01</Center>
             <Max>0.01</Max>
@@ -1519,7 +1523,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>5</StartFrame>
   <EndFrame>75</EndFrame>

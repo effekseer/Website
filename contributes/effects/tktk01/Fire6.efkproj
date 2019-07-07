@@ -5,6 +5,7 @@
     <Children>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>50</Center>
             <Max>50</Max>
@@ -42,6 +43,7 @@
               <MaxGeneration>
                 <Value>350</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>10</Center>
                 <Max>10</Max>
@@ -265,6 +267,7 @@
                       <LocationEffectType>1</LocationEffectType>
                       <RotationEffectType>1</RotationEffectType>
                       <ScaleEffectType>1</ScaleEffectType>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                     </CommonValues>
                     <ScalingValues>
                       <Fixed>
@@ -693,6 +696,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTimeOffset>
             <Center>40</Center>
             <Max>40</Max>
@@ -1248,7 +1252,7 @@
       <Radius>11</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>7</StartFrame>
   <EndFrame>73</EndFrame>

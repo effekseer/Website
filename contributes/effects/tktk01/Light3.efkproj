@@ -8,6 +8,7 @@
           <MaxGeneration>
             <Value>10</Value>
           </MaxGeneration>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>60</Center>
             <Max>60</Max>
@@ -85,8 +86,16 @@
               </UVFixed>
               <UVScroll>
                 <Size>
-                  <X>1024</X>
-                  <Y>127</Y>
+                  <X>
+                    <Center>1024</Center>
+                    <Max>1024</Max>
+                    <Min>1024</Min>
+                  </X>
+                  <Y>
+                    <Center>127</Center>
+                    <Max>127</Max>
+                    <Min>127</Min>
+                  </Y>
                 </Size>
               </UVScroll>
             </RendererCommonValues>
@@ -270,8 +279,16 @@
               </UVFixed>
               <UVScroll>
                 <Size>
-                  <X>1024</X>
-                  <Y>127</Y>
+                  <X>
+                    <Center>1024</Center>
+                    <Max>1024</Max>
+                    <Min>1024</Min>
+                  </X>
+                  <Y>
+                    <Center>127</Center>
+                    <Max>127</Max>
+                    <Min>127</Min>
+                  </Y>
                 </Size>
               </UVScroll>
             </RendererCommonValues>
@@ -471,8 +488,16 @@
               </UVFixed>
               <UVScroll>
                 <Size>
-                  <X>1024</X>
-                  <Y>127</Y>
+                  <X>
+                    <Center>1024</Center>
+                    <Max>1024</Max>
+                    <Min>1024</Min>
+                  </X>
+                  <Y>
+                    <Center>127</Center>
+                    <Max>127</Max>
+                    <Min>127</Min>
+                  </Y>
                 </Size>
               </UVScroll>
             </RendererCommonValues>
@@ -629,6 +654,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>65</Center>
             <Max>65</Max>
@@ -698,8 +724,16 @@
               <AlphaBlend>2</AlphaBlend>
               <UVScroll>
                 <Size>
-                  <X>516</X>
-                  <Y>100</Y>
+                  <X>
+                    <Center>516</Center>
+                    <Max>516</Max>
+                    <Min>516</Min>
+                  </X>
+                  <Y>
+                    <Center>100</Center>
+                    <Max>100</Max>
+                    <Min>100</Min>
+                  </Y>
                 </Size>
               </UVScroll>
             </RendererCommonValues>
@@ -810,8 +844,16 @@
               <AlphaBlend>2</AlphaBlend>
               <UVScroll>
                 <Size>
-                  <X>516</X>
-                  <Y>100</Y>
+                  <X>
+                    <Center>516</Center>
+                    <Max>516</Max>
+                    <Min>516</Min>
+                  </X>
+                  <Y>
+                    <Center>100</Center>
+                    <Max>100</Max>
+                    <Min>100</Min>
+                  </Y>
                 </Size>
               </UVScroll>
             </RendererCommonValues>
@@ -909,8 +951,16 @@
               <AlphaBlend>2</AlphaBlend>
               <UVScroll>
                 <Size>
-                  <X>516</X>
-                  <Y>100</Y>
+                  <X>
+                    <Center>516</Center>
+                    <Max>516</Max>
+                    <Min>516</Min>
+                  </X>
+                  <Y>
+                    <Center>100</Center>
+                    <Max>100</Max>
+                    <Min>100</Min>
+                  </Y>
                 </Size>
               </UVScroll>
             </RendererCommonValues>
@@ -1027,7 +1077,7 @@
       <Radius>11</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>3</StartFrame>
   <EndFrame>62</EndFrame>

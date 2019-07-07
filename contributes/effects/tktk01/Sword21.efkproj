@@ -6,6 +6,7 @@
       <Node>
         <CommonValues>
           <RemoveWhenLifeIsExtinct>False</RemoveWhenLifeIsExtinct>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
         </CommonValues>
         <RotationValues>
           <Fixed>
@@ -22,6 +23,7 @@
         <Children>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>50</Center>
                 <Max>50</Max>
@@ -130,6 +132,7 @@
             <Children>
               <Node>
                 <CommonValues>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <Life>
                     <Center>50</Center>
                     <Max>50</Max>
@@ -294,6 +297,7 @@
                       </MaxGeneration>
                       <LocationEffectType>1</LocationEffectType>
                       <ScaleEffectType>0</ScaleEffectType>
+                      <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                       <GenerationTime>
                         <Center>0.05</Center>
                         <Max>0.05</Max>
@@ -1724,7 +1728,7 @@
       </Node>
     </Children>
   </Root>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>6</StartFrame>
   <EndFrame>45</EndFrame>

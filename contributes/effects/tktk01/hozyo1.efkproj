@@ -4,6 +4,9 @@
     <Name>Root</Name>
     <Children>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <RotationValues>
           <Fixed>
             <Rotation>
@@ -22,6 +25,7 @@
               <MaxGeneration>
                 <Value>100</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.025</Center>
                 <Max>0.025</Max>
@@ -195,8 +199,16 @@
                       <UV>3</UV>
                       <UVScroll>
                         <Size>
-                          <X>64</X>
-                          <Y>256</Y>
+                          <X>
+                            <Center>64</Center>
+                            <Max>64</Max>
+                            <Min>64</Min>
+                          </X>
+                          <Y>
+                            <Center>256</Center>
+                            <Max>256</Max>
+                            <Min>256</Min>
+                          </Y>
                         </Size>
                       </UVScroll>
                     </RendererCommonValues>
@@ -246,8 +258,16 @@
                       <UV>3</UV>
                       <UVScroll>
                         <Size>
-                          <X>64</X>
-                          <Y>256</Y>
+                          <X>
+                            <Center>64</Center>
+                            <Max>64</Max>
+                            <Min>64</Min>
+                          </X>
+                          <Y>
+                            <Center>256</Center>
+                            <Max>256</Max>
+                            <Min>256</Min>
+                          </Y>
                         </Size>
                       </UVScroll>
                     </RendererCommonValues>
@@ -378,6 +398,7 @@
               <MaxGeneration>
                 <Value>200</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <GenerationTime>
                 <Center>0.1</Center>
                 <Max>0.1</Max>
@@ -543,8 +564,16 @@
                       <UV>3</UV>
                       <UVScroll>
                         <Size>
-                          <X>64</X>
-                          <Y>256</Y>
+                          <X>
+                            <Center>64</Center>
+                            <Max>64</Max>
+                            <Min>64</Min>
+                          </X>
+                          <Y>
+                            <Center>256</Center>
+                            <Max>256</Max>
+                            <Min>256</Min>
+                          </Y>
                         </Size>
                       </UVScroll>
                     </RendererCommonValues>
@@ -599,8 +628,16 @@
                       <UV>3</UV>
                       <UVScroll>
                         <Size>
-                          <X>64</X>
-                          <Y>256</Y>
+                          <X>
+                            <Center>64</Center>
+                            <Max>64</Max>
+                            <Min>64</Min>
+                          </X>
+                          <Y>
+                            <Center>256</Center>
+                            <Max>256</Max>
+                            <Min>256</Min>
+                          </Y>
                         </Size>
                       </UVScroll>
                     </RendererCommonValues>
@@ -1065,7 +1102,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>4</StartFrame>
   <EndFrame>72</EndFrame>

@@ -139,33 +139,45 @@
                   <Center>175</Center>
                   <Max>175</Max>
                   <Min>175</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>60</Center>
                   <Max>60</Max>
                   <Min>60</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
+                <B>
+                  <DrawnAs>0</DrawnAs>
+                </B>
+                <A>
+                  <DrawnAs>0</DrawnAs>
+                </A>
               </Start>
               <End>
                 <R>
                   <Center>100</Center>
                   <Max>100</Max>
                   <Min>100</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>200</Center>
                   <Max>200</Max>
                   <Min>200</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </End>
               <StartSpeed>-30</StartSpeed>
@@ -253,28 +265,42 @@
                   <Center>150</Center>
                   <Max>150</Max>
                   <Min>150</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
+                <B>
+                  <DrawnAs>0</DrawnAs>
+                </B>
+                <A>
+                  <DrawnAs>0</DrawnAs>
+                </A>
               </Start>
               <End>
                 <R>
                   <Center>100</Center>
                   <Max>100</Max>
                   <Min>100</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>25</Center>
                   <Max>25</Max>
                   <Min>25</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
+                <B>
+                  <DrawnAs>0</DrawnAs>
+                </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </End>
             </ColorAll_Easing>
@@ -592,33 +618,45 @@
                   <Center>175</Center>
                   <Max>175</Max>
                   <Min>175</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>60</Center>
                   <Max>60</Max>
                   <Min>60</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
+                <B>
+                  <DrawnAs>0</DrawnAs>
+                </B>
+                <A>
+                  <DrawnAs>0</DrawnAs>
+                </A>
               </Start>
               <End>
                 <R>
                   <Center>100</Center>
                   <Max>100</Max>
                   <Min>100</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>200</Center>
                   <Max>200</Max>
                   <Min>200</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </End>
               <StartSpeed>-30</StartSpeed>
@@ -778,21 +816,25 @@
                   <Center>100</Center>
                   <Max>100</Max>
                   <Min>100</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>150</Center>
                   <Max>150</Max>
                   <Min>150</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </Start>
               <End>
@@ -800,21 +842,25 @@
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>75</Center>
                   <Max>75</Max>
                   <Min>75</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </End>
             </OuterColor_Easing>
@@ -1041,21 +1087,25 @@
                   <Center>100</Center>
                   <Max>100</Max>
                   <Min>100</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>150</Center>
                   <Max>150</Max>
                   <Min>150</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </Start>
               <End>
@@ -1063,21 +1113,25 @@
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>150</Center>
                   <Max>150</Max>
                   <Min>150</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </End>
             </OuterColor_Easing>
@@ -1313,38 +1367,48 @@
                       <Center>100</Center>
                       <Max>100</Max>
                       <Min>100</Min>
+                      <DrawnAs>0</DrawnAs>
                     </R>
                     <G>
                       <Center>20</Center>
                       <Max>20</Max>
                       <Min>20</Min>
+                      <DrawnAs>0</DrawnAs>
                     </G>
                     <B>
                       <Center>150</Center>
                       <Max>150</Max>
                       <Min>150</Min>
+                      <DrawnAs>0</DrawnAs>
                     </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
                   </Start>
                   <End>
                     <R>
                       <Center>100</Center>
                       <Max>100</Max>
                       <Min>100</Min>
+                      <DrawnAs>0</DrawnAs>
                     </R>
                     <G>
                       <Center>20</Center>
                       <Max>20</Max>
                       <Min>20</Min>
+                      <DrawnAs>0</DrawnAs>
                     </G>
                     <B>
                       <Center>150</Center>
                       <Max>150</Max>
                       <Min>150</Min>
+                      <DrawnAs>0</DrawnAs>
                     </B>
                     <A>
                       <Center>0</Center>
                       <Max>0</Max>
                       <Min>0</Min>
+                      <DrawnAs>0</DrawnAs>
                     </A>
                   </End>
                 </ColorAll_Easing>
@@ -1360,7 +1424,6 @@
           <MaxGeneration>
             <Value>5</Value>
           </MaxGeneration>
-          <RemoveWhenLifeIsExtinct>False</RemoveWhenLifeIsExtinct>
           <Life>
             <Center>25</Center>
             <Max>25</Max>
@@ -1485,21 +1548,25 @@
                   <Center>100</Center>
                   <Max>100</Max>
                   <Min>100</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>20</Center>
                   <Max>20</Max>
                   <Min>20</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>150</Center>
                   <Max>150</Max>
                   <Min>150</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </Start>
               <End>
@@ -1507,21 +1574,25 @@
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>20</Center>
                   <Max>20</Max>
                   <Min>20</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>75</Center>
                   <Max>75</Max>
                   <Min>75</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </End>
             </OuterColor_Easing>
@@ -1535,38 +1606,48 @@
                   <Center>100</Center>
                   <Max>100</Max>
                   <Min>100</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>25</Center>
                   <Max>25</Max>
                   <Min>25</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>150</Center>
                   <Max>150</Max>
                   <Min>150</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
+                <A>
+                  <DrawnAs>0</DrawnAs>
+                </A>
               </Start>
               <End>
                 <R>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>20</Center>
                   <Max>20</Max>
                   <Min>20</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>75</Center>
                   <Max>75</Max>
                   <Min>75</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </End>
               <StartSpeed>30</StartSpeed>
@@ -1585,38 +1666,48 @@
                   <Center>100</Center>
                   <Max>100</Max>
                   <Min>100</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>50</Center>
                   <Max>50</Max>
                   <Min>50</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>175</Center>
                   <Max>175</Max>
                   <Min>175</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
+                <A>
+                  <DrawnAs>0</DrawnAs>
+                </A>
               </Start>
               <End>
                 <R>
                   <Center>100</Center>
                   <Max>100</Max>
                   <Min>100</Min>
+                  <DrawnAs>0</DrawnAs>
                 </R>
                 <G>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </G>
                 <B>
                   <Center>175</Center>
                   <Max>175</Max>
                   <Min>175</Min>
+                  <DrawnAs>0</DrawnAs>
                 </B>
                 <A>
                   <Center>0</Center>
                   <Max>0</Max>
                   <Min>0</Min>
+                  <DrawnAs>0</DrawnAs>
                 </A>
               </End>
             </InnerColor_Easing>
@@ -2152,7 +2243,7 @@
       <Radius>11</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>2</StartFrame>
   <EndFrame>81</EndFrame>

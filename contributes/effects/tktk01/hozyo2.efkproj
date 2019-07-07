@@ -4,6 +4,9 @@
     <Name>Root</Name>
     <Children>
       <Node>
+        <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+        </CommonValues>
         <RotationValues>
           <Fixed>
             <Rotation>
@@ -14,10 +17,12 @@
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
-        <IsRendered>False</IsRendered>
         <Name>Node</Name>
         <Children>
           <Node>
+            <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
+            </CommonValues>
             <RotationValues>
               <Type>2</Type>
               <Easing>
@@ -34,7 +39,6 @@
             <DrawingValues>
               <Type>0</Type>
             </DrawingValues>
-            <IsRendered>False</IsRendered>
             <Name>*ヘックス公転</Name>
             <Children>
               <Node>
@@ -42,6 +46,7 @@
                   <MaxGeneration>
                     <Value>6</Value>
                   </MaxGeneration>
+                  <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
                   <Life>
                     <Center>50</Center>
                     <Max>50</Max>
@@ -103,7 +108,6 @@
                 <DrawingValues>
                   <Type>0</Type>
                 </DrawingValues>
-                <IsRendered>False</IsRendered>
                 <Name>*ヘックス立てる</Name>
                 <Children>
                   <Node>
@@ -536,6 +540,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <Life>
             <Center>20</Center>
             <Max>20</Max>
@@ -557,11 +562,11 @@
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
-        <IsRendered>False</IsRendered>
         <Name>*ランダム回転</Name>
         <Children>
           <Node>
             <CommonValues>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>50</Center>
                 <Max>50</Max>
@@ -612,7 +617,6 @@
             <DrawingValues>
               <Type>0</Type>
             </DrawingValues>
-            <IsRendered>False</IsRendered>
             <Name>*ヘックス立てる中心</Name>
             <Children>
               <Node>
@@ -1039,6 +1043,7 @@
               <MaxGeneration>
                 <Value>6</Value>
               </MaxGeneration>
+              <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
               <Life>
                 <Center>50</Center>
                 <Max>50</Max>
@@ -1099,7 +1104,6 @@
             <DrawingValues>
               <Type>0</Type>
             </DrawingValues>
-            <IsRendered>False</IsRendered>
             <Name>*ヘックス立てる</Name>
             <Children>
               <Node>
@@ -1525,6 +1529,7 @@
       </Node>
       <Node>
         <CommonValues>
+          <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTimeOffset>
             <Center>25</Center>
             <Max>25</Max>
@@ -1542,7 +1547,6 @@
         <DrawingValues>
           <Type>0</Type>
         </DrawingValues>
-        <IsRendered>False</IsRendered>
         <Name>*〆の大ヘックス</Name>
         <Children>
           <Node>
@@ -1642,12 +1646,36 @@
                 </CenterColor_Fixed>
                 <CenterColor_Easing>
                   <Start>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
                     <A>
                       <Center>150</Center>
                       <Max>150</Max>
                       <Min>150</Min>
+                      <DrawnAs>0</DrawnAs>
                     </A>
                   </Start>
+                  <End>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
+                  </End>
                 </CenterColor_Easing>
               </Ring>
             </DrawingValues>
@@ -1751,12 +1779,36 @@
                 </CenterColor_Fixed>
                 <CenterColor_Easing>
                   <Start>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
                     <A>
                       <Center>150</Center>
                       <Max>150</Max>
                       <Min>150</Min>
+                      <DrawnAs>0</DrawnAs>
                     </A>
                   </Start>
+                  <End>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
+                  </End>
                 </CenterColor_Easing>
               </Ring>
             </DrawingValues>
@@ -1869,6 +1921,36 @@
                 <CenterColor_Fixed>
                   <R>0</R>
                 </CenterColor_Fixed>
+                <CenterColor_Easing>
+                  <Start>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
+                  </Start>
+                  <End>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
+                  </End>
+                </CenterColor_Easing>
               </Ring>
             </DrawingValues>
             <Name>ヘックス模様</Name>
@@ -1982,23 +2064,39 @@
                       <Center>150</Center>
                       <Max>150</Max>
                       <Min>150</Min>
+                      <DrawnAs>0</DrawnAs>
                     </R>
                     <G>
                       <Center>0</Center>
                       <Max>0</Max>
                       <Min>0</Min>
+                      <DrawnAs>0</DrawnAs>
                     </G>
                     <B>
                       <Center>0</Center>
                       <Max>0</Max>
                       <Min>0</Min>
+                      <DrawnAs>0</DrawnAs>
                     </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
                   </Start>
                   <End>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
                     <A>
                       <Center>0</Center>
                       <Max>0</Max>
                       <Min>0</Min>
+                      <DrawnAs>0</DrawnAs>
                     </A>
                   </End>
                 </OuterColor_Easing>
@@ -2008,27 +2106,43 @@
                 </CenterColor_Fixed>
                 <CenterColor_Easing>
                   <Start>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
                     <G>
                       <Center>0</Center>
                       <Max>0</Max>
                       <Min>0</Min>
+                      <DrawnAs>0</DrawnAs>
                     </G>
                     <B>
                       <Center>0</Center>
                       <Max>0</Max>
                       <Min>0</Min>
+                      <DrawnAs>0</DrawnAs>
                     </B>
                     <A>
                       <Center>100</Center>
                       <Max>100</Max>
                       <Min>100</Min>
+                      <DrawnAs>0</DrawnAs>
                     </A>
                   </Start>
                   <End>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
                     <A>
                       <Center>0</Center>
                       <Max>0</Max>
                       <Min>0</Min>
+                      <DrawnAs>0</DrawnAs>
                     </A>
                   </End>
                 </CenterColor_Easing>
@@ -2043,23 +2157,39 @@
                       <Center>150</Center>
                       <Max>150</Max>
                       <Min>150</Min>
+                      <DrawnAs>0</DrawnAs>
                     </R>
                     <G>
                       <Center>0</Center>
                       <Max>0</Max>
                       <Min>0</Min>
+                      <DrawnAs>0</DrawnAs>
                     </G>
                     <B>
                       <Center>0</Center>
                       <Max>0</Max>
                       <Min>0</Min>
+                      <DrawnAs>0</DrawnAs>
                     </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
                   </Start>
                   <End>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
                     <A>
                       <Center>0</Center>
                       <Max>0</Max>
                       <Min>0</Min>
+                      <DrawnAs>0</DrawnAs>
                     </A>
                   </End>
                 </InnerColor_Easing>
@@ -2158,12 +2288,36 @@
                 </CenterColor_Fixed>
                 <CenterColor_Easing>
                   <Start>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
                     <A>
                       <Center>150</Center>
                       <Max>150</Max>
                       <Min>150</Min>
+                      <DrawnAs>0</DrawnAs>
                     </A>
                   </Start>
+                  <End>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
+                  </End>
                 </CenterColor_Easing>
               </Ring>
             </DrawingValues>
@@ -2260,12 +2414,36 @@
                 </CenterColor_Fixed>
                 <CenterColor_Easing>
                   <Start>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
                     <A>
                       <Center>150</Center>
                       <Max>150</Max>
                       <Min>150</Min>
+                      <DrawnAs>0</DrawnAs>
                     </A>
                   </Start>
+                  <End>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
+                  </End>
                 </CenterColor_Easing>
               </Ring>
             </DrawingValues>
@@ -2609,12 +2787,36 @@
                 </CenterColor_Fixed>
                 <CenterColor_Easing>
                   <Start>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
                     <A>
                       <Center>150</Center>
                       <Max>150</Max>
                       <Min>150</Min>
+                      <DrawnAs>0</DrawnAs>
                     </A>
                   </Start>
+                  <End>
+                    <R>
+                      <DrawnAs>0</DrawnAs>
+                    </R>
+                    <G>
+                      <DrawnAs>0</DrawnAs>
+                    </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
+                  </End>
                 </CenterColor_Easing>
               </Ring>
             </DrawingValues>
@@ -2772,7 +2974,7 @@
       <Radius>14</Radius>
     </Sphere>
   </Culling>
-  <ToolVersion>1.22</ToolVersion>
+  <ToolVersion>1.43</ToolVersion>
   <Version>3</Version>
   <StartFrame>4</StartFrame>
   <EndFrame>66</EndFrame>
