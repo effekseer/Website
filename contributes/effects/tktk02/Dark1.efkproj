@@ -56,6 +56,7 @@
                   </PVA>
                 </RotationValues>
                 <DrawingValues>
+                  <Type>0</Type>
                   <Sprite>
                     <ColorAll_Fixed>
                       <A>128</A>
@@ -125,14 +126,25 @@
                       <ColorInheritType>2</ColorInheritType>
                     </RendererCommonValues>
                     <DrawingValues>
+                      <Type>0</Type>
                       <Sprite>
                         <ColorAll>2</ColorAll>
                         <ColorAll_Easing>
                           <Start>
+                            <R>
+                              <DrawnAs>0</DrawnAs>
+                            </R>
                             <G>
                               <Center>223</Center>
                               <Min>192</Min>
+                              <DrawnAs>0</DrawnAs>
                             </G>
+                            <B>
+                              <DrawnAs>0</DrawnAs>
+                            </B>
+                            <A>
+                              <DrawnAs>0</DrawnAs>
+                            </A>
                             <DrawnAs>0</DrawnAs>
                           </Start>
                           <End>
@@ -140,12 +152,20 @@
                               <Center>160</Center>
                               <Max>192</Max>
                               <Min>128</Min>
+                              <DrawnAs>0</DrawnAs>
                             </R>
                             <G>
                               <Center>48</Center>
                               <Max>64</Max>
                               <Min>32</Min>
+                              <DrawnAs>0</DrawnAs>
                             </G>
+                            <B>
+                              <DrawnAs>0</DrawnAs>
+                            </B>
+                            <A>
+                              <DrawnAs>0</DrawnAs>
+                            </A>
                             <DrawnAs>0</DrawnAs>
                           </End>
                         </ColorAll_Easing>
@@ -532,6 +552,9 @@
                 <Type>1</Type>
               </Circle>
             </GenerationLocationValues>
+            <DrawingValues>
+              <Type>0</Type>
+            </DrawingValues>
             <IsRendered>False</IsRendered>
             <Name>Angle</Name>
             <Children>
@@ -579,15 +602,26 @@
                   <ColorInheritType>2</ColorInheritType>
                 </RendererCommonValues>
                 <DrawingValues>
+                  <Type>0</Type>
                   <Sprite>
                     <ColorAll>2</ColorAll>
                     <ColorAll_Easing>
                       <Start>
+                        <R>
+                          <DrawnAs>0</DrawnAs>
+                        </R>
                         <G>
                           <Center>160</Center>
                           <Max>192</Max>
                           <Min>128</Min>
+                          <DrawnAs>0</DrawnAs>
                         </G>
+                        <B>
+                          <DrawnAs>0</DrawnAs>
+                        </B>
+                        <A>
+                          <DrawnAs>0</DrawnAs>
+                        </A>
                         <DrawnAs>0</DrawnAs>
                       </Start>
                       <End>
@@ -595,12 +629,20 @@
                           <Center>160</Center>
                           <Max>192</Max>
                           <Min>128</Min>
+                          <DrawnAs>0</DrawnAs>
                         </R>
                         <G>
                           <Center>96</Center>
                           <Max>128</Max>
                           <Min>64</Min>
+                          <DrawnAs>0</DrawnAs>
                         </G>
+                        <B>
+                          <DrawnAs>0</DrawnAs>
+                        </B>
+                        <A>
+                          <DrawnAs>0</DrawnAs>
+                        </A>
                         <DrawnAs>0</DrawnAs>
                       </End>
                     </ColorAll_Easing>
@@ -996,11 +1038,21 @@
                     <ColorAll>2</ColorAll>
                     <ColorAll_Easing>
                       <Start>
+                        <R>
+                          <DrawnAs>0</DrawnAs>
+                        </R>
                         <G>
                           <Center>160</Center>
                           <Max>192</Max>
                           <Min>128</Min>
+                          <DrawnAs>0</DrawnAs>
                         </G>
+                        <B>
+                          <DrawnAs>0</DrawnAs>
+                        </B>
+                        <A>
+                          <DrawnAs>0</DrawnAs>
+                        </A>
                         <DrawnAs>0</DrawnAs>
                       </Start>
                       <End>
@@ -1008,12 +1060,20 @@
                           <Center>160</Center>
                           <Max>192</Max>
                           <Min>128</Min>
+                          <DrawnAs>0</DrawnAs>
                         </R>
                         <G>
                           <Center>96</Center>
                           <Max>128</Max>
                           <Min>64</Min>
+                          <DrawnAs>0</DrawnAs>
                         </G>
+                        <B>
+                          <DrawnAs>0</DrawnAs>
+                        </B>
+                        <A>
+                          <DrawnAs>0</DrawnAs>
+                        </A>
                         <DrawnAs>0</DrawnAs>
                       </End>
                     </ColorAll_Easing>
@@ -1247,7 +1307,6 @@
             <CommonValues>
               <MaxGeneration>
                 <Value>10</Value>
-                <Infinite>True</Infinite>
               </MaxGeneration>
               <Life>
                 <Center>30</Center>
@@ -1364,12 +1423,20 @@
                       <Center>192</Center>
                       <Max>192</Max>
                       <Min>192</Min>
+                      <DrawnAs>0</DrawnAs>
                     </R>
                     <G>
                       <Center>64</Center>
                       <Max>64</Max>
                       <Min>64</Min>
+                      <DrawnAs>0</DrawnAs>
                     </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
                     <DrawnAs>0</DrawnAs>
                   </Start>
                   <End>
@@ -1377,12 +1444,20 @@
                       <Center>128</Center>
                       <Max>128</Max>
                       <Min>128</Min>
+                      <DrawnAs>0</DrawnAs>
                     </R>
                     <G>
                       <Center>32</Center>
                       <Max>32</Max>
                       <Min>32</Min>
+                      <DrawnAs>0</DrawnAs>
                     </G>
+                    <B>
+                      <DrawnAs>0</DrawnAs>
+                    </B>
+                    <A>
+                      <DrawnAs>0</DrawnAs>
+                    </A>
                     <DrawnAs>0</DrawnAs>
                   </End>
                 </ColorAll_Easing>
@@ -1455,6 +1530,7 @@
                   </PVA>
                 </RotationValues>
                 <DrawingValues>
+                  <Type>0</Type>
                   <Sprite>
                     <ColorAll_Fixed>
                       <A>128</A>
@@ -1524,14 +1600,25 @@
                       <ColorInheritType>2</ColorInheritType>
                     </RendererCommonValues>
                     <DrawingValues>
+                      <Type>0</Type>
                       <Sprite>
                         <ColorAll>2</ColorAll>
                         <ColorAll_Easing>
                           <Start>
+                            <R>
+                              <DrawnAs>0</DrawnAs>
+                            </R>
                             <G>
                               <Center>223</Center>
                               <Min>192</Min>
+                              <DrawnAs>0</DrawnAs>
                             </G>
+                            <B>
+                              <DrawnAs>0</DrawnAs>
+                            </B>
+                            <A>
+                              <DrawnAs>0</DrawnAs>
+                            </A>
                             <DrawnAs>0</DrawnAs>
                           </Start>
                           <End>
@@ -1539,12 +1626,20 @@
                               <Center>160</Center>
                               <Max>192</Max>
                               <Min>128</Min>
+                              <DrawnAs>0</DrawnAs>
                             </R>
                             <G>
                               <Center>48</Center>
                               <Max>64</Max>
                               <Min>32</Min>
+                              <DrawnAs>0</DrawnAs>
                             </G>
+                            <B>
+                              <DrawnAs>0</DrawnAs>
+                            </B>
+                            <A>
+                              <DrawnAs>0</DrawnAs>
+                            </A>
                             <DrawnAs>0</DrawnAs>
                           </End>
                         </ColorAll_Easing>
@@ -1729,7 +1824,7 @@
       </Node>
     </Children>
   </Root>
-  <ToolVersion>1.32</ToolVersion>
+  <ToolVersion>1.43d</ToolVersion>
   <Version>3</Version>
   <StartFrame>4</StartFrame>
   <EndFrame>71</EndFrame>

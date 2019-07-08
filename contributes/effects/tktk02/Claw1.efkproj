@@ -6,8 +6,8 @@
     <Children>
       <Node>
         <CommonValues>
-          <LocationEffectType>0</LocationEffectType>
-          <RotationEffectType>0</RotationEffectType>
+          <LocationEffectType>1</LocationEffectType>
+          <RotationEffectType>1</RotationEffectType>
           <RemoveWhenAllChildrenAreRemoved>True</RemoveWhenAllChildrenAreRemoved>
           <GenerationTimeOffset>
             <Center>10</Center>
@@ -783,7 +783,7 @@
           <Type>0</Type>
         </DrawingValues>
         <IsRendered>False</IsRendered>
-        <Name>ｃｌａｗNull</Name>
+        <Name>ClawNull</Name>
         <Children>
           <Node>
             <CommonValues>
@@ -3912,7 +3912,7 @@
       </Location>
     </Sphere>
   </Culling>
-  <ToolVersion>1.32</ToolVersion>
+  <ToolVersion>1.43d</ToolVersion>
   <Version>3</Version>
   <StartFrame>3</StartFrame>
   <EndFrame>42</EndFrame>

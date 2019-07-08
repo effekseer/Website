@@ -60,6 +60,9 @@
                     </Velocity>
                   </PVA>
                 </RotationValues>
+                <DrawingValues>
+                  <Type>0</Type>
+                </DrawingValues>
                 <IsRendered>False</IsRendered>
                 <Name>LineNull</Name>
                 <Children>
@@ -90,6 +93,7 @@
                       </Circle>
                     </GenerationLocationValues>
                     <DrawingValues>
+                      <Type>0</Type>
                       <Sprite>
                         <ColorAll_Fixed>
                           <A>32</A>
@@ -156,6 +160,7 @@
                           <ColorInheritType>2</ColorInheritType>
                         </RendererCommonValues>
                         <DrawingValues>
+                          <Type>0</Type>
                           <Sprite>
                             <Billboard>2</Billboard>
                             <ColorAll>3</ColorAll>
@@ -483,6 +488,9 @@
                     </Velocity>
                   </PVA>
                 </RotationValues>
+                <DrawingValues>
+                  <Type>0</Type>
+                </DrawingValues>
                 <IsRendered>False</IsRendered>
                 <Name>LineNull</Name>
                 <Children>
@@ -512,6 +520,9 @@
                         <Type>1</Type>
                       </Circle>
                     </GenerationLocationValues>
+                    <DrawingValues>
+                      <Type>0</Type>
+                    </DrawingValues>
                     <IsRendered>False</IsRendered>
                     <Name>Angle</Name>
                     <Children>
@@ -581,6 +592,7 @@
                           <ColorInheritType>2</ColorInheritType>
                         </RendererCommonValues>
                         <DrawingValues>
+                          <Type>0</Type>
                           <Sprite>
                             <Billboard>2</Billboard>
                             <ColorAll>3</ColorAll>
@@ -1044,7 +1056,7 @@
                       <Type>0</Type>
                     </DrawingValues>
                     <IsRendered>False</IsRendered>
-                    <Name>ｉｎｔｅｒｖａｌ</Name>
+                    <Name>interval</Name>
                     <Children>
                       <Node>
                         <CommonValues>
@@ -1073,6 +1085,7 @@
                           </Circle>
                         </GenerationLocationValues>
                         <DrawingValues>
+                          <Type>0</Type>
                           <Sprite>
                             <Billboard>3</Billboard>
                             <ColorAll_Fixed>
@@ -2444,7 +2457,7 @@
       </Node>
     </Children>
   </Root>
-  <ToolVersion>1.32</ToolVersion>
+  <ToolVersion>1.43d</ToolVersion>
   <Version>3</Version>
   <StartFrame>2</StartFrame>
   <EndFrame>30</EndFrame>
