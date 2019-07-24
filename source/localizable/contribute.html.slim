@@ -4,241 +4,263 @@ kind: contribute
 ---
 
 #contents
-	.main
-		h2 =t(:contribute_header)
+  .inner
+    .main
+      .contribute_title_bg
+        .contribute_title_set
+          .contribute_title
+            h2 =t(:contribute_header)
+  
+            p =t('contribute.line1')
+  
+            p =t('contribute.line2')
+  
+          .contribute_title
+            h3 =t('contribute.how')
+  
+            p =t('contribute.how_line1')
+  
+            p =t('contribute.how_line2')
+  
+          .contribute_title
+            .name_boxs
+              p =t('contribute.name')
+  
+              p =t('contribute.effectname')
+  
+              p =t('contribute.comment')
+  
+          .contribute_title
+            h3 =t('contribute.contributed')
+  
+            p =t('contribute.contributed_desc')
+    
+            - if I18n.locale.to_s == "jp"
+              a href='http://creativecommons.jp/sciencecommons/aboutcc0/' CC-0について
+  
+            - if I18n.locale.to_s == "en"
+              a href='http://creativecommons.org/share-your-work/public-domain/cc0' About CC-0
+  
+  
+      .contribute_sample_effect
 
-		p =t('contribute.line1')
+        .contribute_effect_title
+          h3 =t('contributed.title_Effekseer')
+          h3 =t('contributed.tno_works')
+          h3 13
+        .sample_effect
+          p
+            a href="contributes/Effekseer01/index.html" 
+              img src="/images/contributes/Effekseer01/01.png"
+          p
+            a href="contributes/Effekseer01/index.html" 
+              img src="/images/contributes/Effekseer01/02.png"
+          p
+            a href="contributes/Effekseer01/index.html" 
+              img src="/images/contributes/Effekseer01/03.png"
+          p
+            a href="contributes/Effekseer01/index.html" 
+              img src="/images/contributes/Effekseer01/04.png"
 
-		p =t('contribute.line2')
+        .contribute_effect_title
+          h3 =t('contributed.title_NextSoft01')
+          h3 =t('contributed.tno_works')
+          h3 20
+        .sample_effect2
+          p
+            a href="contributes/NextSoft01/index.html" 
+              img src="/images/contributes/NextSoft01/01.png"
+          p
+            a href="contributes/NextSoft01/index.html" 
+              img src="/images/contributes/NextSoft01/02.png"
+          p
+            a href="contributes/NextSoft01/index.html" 
+              img src="/images/contributes/NextSoft01/03.png"
+          p
+            a href="contributes/NextSoft01/index.html" 
+              img src="/images/contributes/NextSoft01/04.png"
 
-		h3 =t('contribute.how')
+        .contribute_effect_title
+          h3 =t('contributed.title_Pierre01')
+          h3 =t('contributed.tno_works')
+          h3 11
+        .sample_effect
+          p
+            a href="contributes/Pierre01/index.html" 
+              img src="/images/contributes/Pierre01/01.png"
+          p
+            a href="contributes/Pierre01/index.html" 
+              img src="/images/contributes/Pierre01/02.png"
+          p
+            a href="contributes/Pierre01/index.html" 
+              img src="/images/contributes/Pierre01/03.png"
+          p
+            a href="contributes/Pierre01/index.html" 
+              img src="/images/contributes/Pierre01/04.png"
 
-		p =t('contribute.how_line1')
+        .contribute_effect_title
+          h3 =t('contributed.title_Pierre02')
+          h3 =t('contributed.tno_works')
+          h3 12
+        .sample_effect2
+          p
+            a href="contributes/Pierre02/index.html" 
+              img src="/images/contributes/Pierre02/01.png"
+          p
+            a href="contributes/Pierre02/index.html" 
+              img src="/images/contributes/Pierre02/02.png"
+          p
+            a href="contributes/Pierre02/index.html" 
+              img src="/images/contributes/Pierre02/03.png"
+          p
+            a href="contributes/Pierre02/index.html" 
+              img src="/images/contributes/Pierre02/04.png"
 
-		p =t('contribute.how_line2')
+        .contribute_effect_title
+          h3 =t('contributed.title_MAGICALxSPIRAL')
+          h3 =t('contributed.tno_works')
+          h3 103
+        .sample_effect
+          p
+            a href="contributes/MAGICALxSPIRAL/index.html" 
+              img src="/images/contributes/MAGICALxSPIRAL/01.png"
+          p
+            a href="contributes/MAGICALxSPIRAL/index.html" 
+              img src="/images/contributes/MAGICALxSPIRAL/02.png"
+          p
+            a href="contributes/MAGICALxSPIRAL/index.html" 
+              img src="/images/contributes/MAGICALxSPIRAL/03.png"
+          p
+            a href="contributes/MAGICALxSPIRAL/index.html" 
+              img src="/images/contributes/MAGICALxSPIRAL/04.png"
 
-		table border=1
-			tr
-				td =t('contribute.name')
-			tr
-				td =t('contribute.effectname')
-			tr
-				td =t('contribute.comment')
+        .contribute_effect_title
+          h3 =t('contributed.title_suzuki01')
+          h3 =t('contributed.tno_works')
+          h3 3
+        .sample_effect2
+          p
+            a href="contributes/Suzuki01/index.html" 
+              img src="/images/contributes/Suzuki01/01.png"
+          p
+            a href="contributes/Suzuki01/index.html" 
+              img src="/images/contributes/Suzuki01/02.png"
+          p
+            a href="contributes/Suzuki01/index.html" 
+              img src="/images/contributes/Suzuki01/03.png"
 
-		h3 =t('contribute.contributed')
+        .contribute_effect_title
+          h3 =t('contributed.title_AndrewFM01')
+          h3 =t('contributed.tno_works')
+          h3 15
+        .sample_effect
+          p
+            a href="contributes/AndrewFM01/index.html" 
+              img src="/images/contributes/AndrewFM01/01.png"
+          p
+            a href="contributes/AndrewFM01/index.html" 
+              img src="/images/contributes/AndrewFM01/02.png"
+          p
+            a href="contributes/AndrewFM01/index.html" 
+              img src="/images/contributes/AndrewFM01/03.png"
+          p
+            a href="contributes/AndrewFM01/index.html" 
+              img src="/images/contributes/AndrewFM01/04.png"  
 
-		p =t('contribute.contributed_desc')
-	
-		- if I18n.locale.to_s == "jp"
-			a href='http://creativecommons.jp/sciencecommons/aboutcc0/' CC-0について
+        .contribute_effect_title
+          h3 =t('contributed.title_tktk01')
+          h3 =t('contributed.tno_works')
+          h3 71
+        .sample_effect2
+          p
+            a href="contributes/tktk01/index.html" 
+              img src="/images/contributes/tktk01/01.png"
+          p
+            a href="contributes/tktk01/index.html" 
+              img src="/images/contributes/tktk01/02.png"
+          p
+            a href="contributes/tktk01/index.html" 
+              img src="/images/contributes/tktk01/03.png"
+          p
+            a href="contributes/tktk01/index.html" 
+              img src="/images/contributes/tktk01/04.png"  
 
-		- if I18n.locale.to_s == "en"
-			a href='http://creativecommons.org/share-your-work/public-domain/cc0' About CC-0
+        .contribute_effect_title
+          h3 =t('contributed.title_tktk02')
+          h3 =t('contributed.tno_works')
+          h3 43
+        .sample_effect
+          p
+            a href="contributes/tktk02/index.html" 
+              img src="/images/contributes/tktk02/01.png"
+          p
+            a href="contributes/tktk02/index.html" 
+              img src="/images/contributes/tktk02/02.png"
+          p
+            a href="contributes/tktk02/index.html" 
+              img src="/images/contributes/tktk02/03.png"
+          p
+            a href="contributes/tktk02/index.html" 
+              img src="/images/contributes/tktk02/04.png"  
 
-		table
-			tr
-				td
-					a href="contributes/Effekseer01/index.html" 
-						img src="/images/contributes/Effekseer01/01.png"
+      .contribute_title_set
+        h3 =t('contribute.contributed_old')
+  
+        p =t('contribute.contributed_old_desc')
+  
+      .contribute_sample_effect
+      
+        .contribute_effect_title
+          h3 =t('contributed.title_PDG')
+          h3 =t('contributed.tno_works')
+          h3 6
+        .sample_effect
+          p
+            a href="contributes/ProjectDanmakuGirls/index.html" 
+              img src="/images/contributes/ProjectDanmakuGirls/01.png"
+          p
+            a href="contributes/ProjectDanmakuGirls/index.html" 
+              img src="/images/contributes/ProjectDanmakuGirls/02.png"
+          p
+            a href="contributes/ProjectDanmakuGirls/index.html" 
+              img src="/images/contributes/ProjectDanmakuGirls/03.png"
+          p
+            a href="contributes/ProjectDanmakuGirls/index.html" 
+              img src="/images/contributes/ProjectDanmakuGirls/04.png"
 
-				td
-					a href="contributes/Effekseer01/index.html" 
-						img src="/images/contributes/Effekseer01/02.png"
+        .contribute_effect_title
+          h3 =t('contributed.title_NitoriBox')
+          h3 =t('contributed.tno_works')
+          h3 21
+        .sample_effect
+          p
+            a href="contributes/NitoriBox/index.html" 
+              img src="/images/contributes/NitoriBox/01.png"
+          p
+            a href="contributes/NitoriBox/index.html" 
+              img src="/images/contributes/NitoriBox/02.png"
+          p
+            a href="contributes/NitoriBox/index.html" 
+              img src="/images/contributes/NitoriBox/03.png"
+          p
+            a href="contributes/NitoriBox/index.html" 
+              img src="/images/contributes/NitoriBox/04.png"
 
-				td
-					a href="contributes/Effekseer01/index.html" 
-						img src="/images/contributes/Effekseer01/03.png"
-
-				td
-					a href="contributes/Effekseer01/index.html" 
-						img src="/images/contributes/Effekseer01/04.png"
-
-			tr
-				td
-					a href="contributes/NextSoft01/index.html" 
-						img src="/images/contributes/NextSoft01/01.png"
-
-				td
-					a href="contributes/NextSoft01/index.html" 
-						img src="/images/contributes/NextSoft01/02.png"
-
-				td
-					a href="contributes/NextSoft01/index.html" 
-						img src="/images/contributes/NextSoft01/03.png"
-
-				td
-					a href="contributes/NextSoft01/index.html" 
-						img src="/images/contributes/NextSoft01/04.png"
-			tr
-				td
-					a href="contributes/Pierre01/index.html" 
-						img src="/images/contributes/Pierre01/01.png"
-
-				td
-					a href="contributes/Pierre01/index.html" 
-						img src="/images/contributes/Pierre01/02.png"
-
-				td
-					a href="contributes/Pierre01/index.html" 
-						img src="/images/contributes/Pierre01/03.png"
-
-				td
-					a href="contributes/Pierre01/index.html" 
-						img src="/images/contributes/Pierre01/04.png"
-			tr
-				td
-					a href="contributes/Pierre02/index.html" 
-						img src="/images/contributes/Pierre02/01.png"
-
-				td
-					a href="contributes/Pierre02/index.html" 
-						img src="/images/contributes/Pierre02/02.png"
-
-				td
-					a href="contributes/Pierre02/index.html" 
-						img src="/images/contributes/Pierre02/03.png"
-
-				td
-					a href="contributes/Pierre02/index.html" 
-						img src="/images/contributes/Pierre02/04.png"
-
-			tr
-				td
-					a href="contributes/MAGICALxSPIRAL/index.html" 
-						img src="/images/contributes/MAGICALxSPIRAL/01.png"
-
-				td
-					a href="contributes/MAGICALxSPIRAL/index.html" 
-						img src="/images/contributes/MAGICALxSPIRAL/02.png"
-
-				td
-					a href="contributes/MAGICALxSPIRAL/index.html" 
-						img src="/images/contributes/MAGICALxSPIRAL/03.png"
-
-				td
-					a href="contributes/MAGICALxSPIRAL/index.html" 
-						img src="/images/contributes/MAGICALxSPIRAL/04.png"
-
-			tr
-				td
-					a href="contributes/Suzuki01/index.html" 
-						img src="/images/contributes/Suzuki01/01.png"
-
-				td
-					a href="contributes/Suzuki01/index.html" 
-						img src="/images/contributes/Suzuki01/02.png"
-
-				td
-					a href="contributes/Suzuki01/index.html" 
-						img src="/images/contributes/Suzuki01/03.png"
-
-				td
-
-			tr
-				td
-					a href="contributes/AndrewFM01/index.html" 
-						img src="/images/contributes/AndrewFM01/01.png"
-
-				td
-					a href="contributes/AndrewFM01/index.html" 
-						img src="/images/contributes/AndrewFM01/02.png"
-
-				td
-					a href="contributes/AndrewFM01/index.html" 
-						img src="/images/contributes/AndrewFM01/03.png"
-
-				td
-					a href="contributes/AndrewFM01/index.html" 
-						img src="/images/contributes/AndrewFM01/04.png"	
-
-
-			tr
-				td
-					a href="contributes/tktk01/index.html" 
-						img src="/images/contributes/tktk01/01.png"
-
-				td
-					a href="contributes/tktk01/index.html" 
-						img src="/images/contributes/tktk01/02.png"
-
-				td
-					a href="contributes/tktk01/index.html" 
-						img src="/images/contributes/tktk01/03.png"
-
-				td
-					a href="contributes/tktk01/index.html" 
-						img src="/images/contributes/tktk01/04.png"	
-
-			tr
-				td
-					a href="contributes/tktk02/index.html" 
-						img src="/images/contributes/tktk02/01.png"
-
-				td
-					a href="contributes/tktk02/index.html" 
-						img src="/images/contributes/tktk02/02.png"
-
-				td
-					a href="contributes/tktk02/index.html" 
-						img src="/images/contributes/tktk02/03.png"
-
-				td
-					a href="contributes/tktk02/index.html" 
-						img src="/images/contributes/tktk02/04.png"	
-
-		h3 =t('contribute.contributed_old')
-	
-		p =t('contribute.contributed_old_desc')
-	
-		table
-				tr
-					td
-						a href="contributes/ProjectDanmakuGirls/index.html" 
-							img src="/images/contributes/ProjectDanmakuGirls/01.png"
-		
-					td
-						a href="contributes/ProjectDanmakuGirls/index.html" 
-							img src="/images/contributes/ProjectDanmakuGirls/02.png"
-		
-					td
-						a href="contributes/ProjectDanmakuGirls/index.html" 
-							img src="/images/contributes/ProjectDanmakuGirls/03.png"
-		
-					td
-						a href="contributes/ProjectDanmakuGirls/index.html" 
-							img src="/images/contributes/ProjectDanmakuGirls/04.png"
-		
-				tr
-					td
-						a href="contributes/NitoriBox/index.html" 
-							img src="/images/contributes/NitoriBox/01.png"
-	
-					td
-						a href="contributes/NitoriBox/index.html" 
-							img src="/images/contributes/NitoriBox/02.png"
-	
-					td
-						a href="contributes/NitoriBox/index.html" 
-							img src="/images/contributes/NitoriBox/03.png"
-	
-					td
-						a href="contributes/NitoriBox/index.html" 
-							img src="/images/contributes/NitoriBox/04.png"
-	
-				tr
-					td
-						a href="contributes/TouhouStrategy/index.html" 
-							img src="/images/contributes/TouhouStrategy/01.png"
-	
-					td
-						a href="contributes/TouhouStrategy/index.html" 
-							img src="/images/contributes/TouhouStrategy/02.png"
-	
-					td
-						a href="contributes/TouhouStrategy/index.html" 
-							img src="/images/contributes/TouhouStrategy/03.png"
-	
-					td
-						a href="contributes/TouhouStrategy/index.html" 
-							img src="/images/contributes/TouhouStrategy/04.png"
-	
+        .contribute_effect_title
+          h3 =t('contributed.title_toust')
+          h3 =t('contributed.tno_works')
+          h3 7
+        .sample_effect
+          p
+            a href="contributes/TouhouStrategy/index.html" 
+              img src="/images/contributes/TouhouStrategy/01.png"
+          p
+            a href="contributes/TouhouStrategy/index.html" 
+              img src="/images/contributes/TouhouStrategy/02.png"
+          p
+            a href="contributes/TouhouStrategy/index.html" 
+              img src="/images/contributes/TouhouStrategy/03.png"
+          p
+            a href="contributes/TouhouStrategy/index.html" 
+              img src="/images/contributes/TouhouStrategy/04.png"
+  

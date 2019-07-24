@@ -74,6 +74,6 @@ configure :build do
 end
 
 activate :i18n, :mount_at_root => false
+activate :relative_assets
 set :slim, { :pretty => true, :sort_attrs => false, :format => :html }
-
 

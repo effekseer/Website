@@ -1,0 +1,248 @@
+---
+title: t(:documentation_header)
+kind: documentation
+---
+
+#contents
+
+  .inner
+
+    .main
+      .documentation_top_set
+        h2 =t(:documentation_header)
+
+        p
+          a href="documentation.html#help_sec" =t('documentation.to_help') 
+        p
+          a href="documentation.html#tutorial_sec" =t('documentation.to_tutorial') 
+
+
+        h3 =t('documentation.help')
+
+        p =t('documentation.description')
+
+
+      .help_sections_allsetting
+        .help_sections_set
+          .help_sections
+            p id="help_sec" Effekseer
+            - if I18n.locale.to_s == 'jp'
+              a href ="/Help_Tool/index_ja.html"
+                .help_imgsec
+                  img src="/images/tool.jpg"
+            -else  
+              a href ="/Help_Tool/index_en.html"
+                .help_imgsec
+                  img src="/images/tool.jpg"
+            p =t('documentation.help_effekseer')
+            .help_links
+              - if I18n.locale.to_s == 'jp'
+                a href ="/Help_Tool/index_ja.html" =t('documentation.to_help')
+              -else  
+                a href ="/Help_Tool/index_en.html" =t('documentation.to_help')
+
+          .help_sections
+            p Effekseer for Runtime
+            - if I18n.locale.to_s == 'jp'
+              a href ="/Help_Runtime/index_ja.html"
+                img src="/images/4opengl.png"
+            -else  
+              a href ="/Help_Runtime/index_en.html"
+                img src="/images/4opengl.png"
+            p =t('documentation.help_runtime')
+            .help_links
+              - if I18n.locale.to_s == 'jp'
+                a href ="/Help_Runtime/index_ja.html" =t('documentation.to_help')
+              -else  
+                a href ="/Help_Runtime/index_en.html" =t('documentation.to_help')
+
+          .help_sections
+            p Effekseer for Unity
+            - if I18n.locale.to_s == 'jp'
+              a href ="/Help_Unity/index_ja.html" 
+                img src="/images/unity.png"
+            -else  
+              a href ="/Help_Unity/index_en.html" 
+                img src="/images/unity.png"
+            p =t('documentation.help_unity')
+            .help_links
+              - if I18n.locale.to_s == 'jp'
+                a href ="/Help_Unity/index_ja.html" =t('documentation.to_help')
+              -else  
+                a href ="/Help_Unity/index_en.html" =t('documentation.to_help')
+                
+          .help_sections
+            p =t('documentation.dxlib')
+            - if I18n.locale.to_s == 'jp'
+              a href ="/Help_DxLib/index_ja.html" 
+                img src="/images/2runtime.png"
+            -else  
+              a href ="/Help_DxLib/index_en.html"
+                img src="/images/2runtime.png"
+            p =t('documentation.help_dxlib')
+            .help_links
+              - if I18n.locale.to_s == 'jp'
+                a href ="/Help_DxLib/index_ja.html" =t('documentation.to_help')
+              -else  
+                a href ="/Help_DxLib/index_en.html" =t('documentation.to_help')
+
+          .help_sections
+            p Effekseer for Cocos2d-x
+            a href ="/Help_Cocos2dx/index.html" 
+              img src="/images/cocos2dx.png"
+            p =t('documentation.help_cocos2dx')
+            .help_links
+              a href ="/Help_Cocos2dx/index.html" =t('documentation.to_help')
+
+          .help_sections
+            p Effekseer for UnrealEngine4
+            a href ="/Help_UE4/index.html"
+              img src="/images/6unreale.png"
+            p =t('documentation.help_ue4')
+            .help_links
+              a href ="/Help_UE4/index.html" =t('documentation.to_help')
+
+      .documentation_tutorial_bg
+        .documentation_tutorial_set
+          h3 id="tutorial_sec" =t('documentation.tutorial')
+  
+          p =t('documentation.tutorial_desc')
+  
+  
+        .section_setting_tutorial
+          .tutorial_sections
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/01.html"
+                img src="/images/02_completed.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/01.html" No01.サンプルを見る＆使ってみよう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/01.html" No01.Sample and Use！
+  
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/02.html"
+                img src="/images/02_pva.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/02.html" No02.パーティクルをばらまいてみよう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/02.html" No02.Let's spread the particles!
+  
+  
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/03.html"
+                img src="/images/03_color.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/03.html" No03. 画像を表示してみよう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/03.html" No03. Let's display the image!
+  
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/04.html"
+                img src="/images/04_completed.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/04.html" No04. 回転、拡大してみよう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/04.html" No04. Let's rotate and enlarge!
+  
+  
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/05.html"
+                img src="/images/05_completed.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/05.html" No05. ヒットマーク(斬撃)を作成しよう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/05.html" No05. Let's create a hit mark (Slashing)!
+  
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/06.html"
+                img src="/images/06_ring_easing.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/06.html" No06. 円形のパーティクルを作成しよう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/06.html" No06. Let's create circular particles!
+  
+  
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/07.html"
+                img src="/images/07_effect1.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/07.html" No07. 親子関係で複雑な動きしよう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/07.html" No07. Let's move complicated with parent-child relationships!
+  
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/08.html"
+                img src="/images/08_effect1.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/08.html" No08. 生成方法でパーティクルを並べよう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/08.html" No08. Let's arrange particles by spawn method!
+  
+  
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/09.html"
+                img src="/images/09_completed.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/09.html" No09. マズルフラッシュを作成しよう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/09.html" No09. Let’s create muzzle flash!
+  
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/10.html"
+                img src="/images/10_effect1_1.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/10.html" No10. リボンと軌跡
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/10.html" No10. Ribbon and Track
+  
+  
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/11.html"
+                img src="/images/11_effect2.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/11.html" No11. 3Dモデルを使おう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/11.html" No11. Let’s use 3D model!!
+          
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/12.html"
+                img src="/images/12_effect1.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/12.html" No12. Fカーブで複雑な動きを指定しよう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/12.html" No12. Let’s specify complicated movement with F-Curve!
+  
+            .locale_sections
+              a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/13.html"
+                img src="/images/13_effect1.gif"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/13.html" No13. 背景を歪ませよう！
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/13.html" No13. Let’s distort a background!
+

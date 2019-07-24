@@ -4,38 +4,59 @@ kind: support
 ---
 
 #contents
-	.main
-		h2 =t(:support_header)
+  .inner
+    .main
 
-		p =t('support.content_1')
+      .support_bg
+        .section3_setting
+          .support_section
+            h2 =t(:support_header)
+  
+            p =t('support.content_1')
+  
+            p =t('support.content_2')
+  
+            p =t('support.content_3')
+  
+        .support_grid
+          p
+            a href="https://twitter.com/Effekseer_En"
+              img src="/images/Twitter_Social_Icon_Circle_Color.png"
+            a href="https://twitter.com/Effekseer_En" Twitter(English)
+  
+          p
+            a href="https://twitter.com/Effekseer"
+              img src="/images/Twitter_Social_Icon_Circle_White.png"
+            a href="https://twitter.com/Effekseer" Twitter(Japanese)
+  
+          p
+            a href="https://github.com/effekseer/Effekseer/issues"
+              img src="/images/GitHub-Mark-64px.png"
+            a href="https://github.com/effekseer/Effekseer/issues" GitHub(issues)
+  
+          p.support_icon
+            a href="https://discord.gg/RChKvhu"
+              img src="/images/Discord-Logo+Wordmark-Color.png"
+            a href="https://discord.gg/RChKvhu" Discord
+  
+          p.support_icon
+            a href="https://effekseer-slackin.herokuapp.com/"
+              img src="/images/SlackRGB.png"
+            a href="https://effekseer-slackin.herokuapp.com/" Slack 
 
-		p =t('support.content_2')
+      .section5_bg
+        .section5_setting
+          .supprot_github_section
+            h3 =t('support.github')
+            
+            p =t('support.github_content')
+              a href="https://github.com/effekseer/Effekseer" Github
+        
 
-		p =t('support.content_3')
+      .mail_setting
+        .support_mail_section
+          h3 =t('support.mail')
 
-		p
-			a href="https://twitter.com/Effekseer_En" Twitter(English)
+          p =t('support.mail_content')
 
-		p
-			a href="https://twitter.com/Effekseer" Twitter(Japanese)
-
-		p
-			a href="https://github.com/effekseer/Effekseer/issues" github(issues)
-
-		p
-			a href="https://discord.gg/RChKvhu" Discord
-
-		p
-			a href="https://effekseer-slackin.herokuapp.com/" Slack	
-
-		h3 =t('support.github')
-
-		p =t('support.github_content')
-
-		a href="https://github.com/effekseer/Effekseer" Github
-		
-		h3 =t('support.mail')
-
-		p =t('support.mail_content')
-
-		p effekseer(at)gmail.com
+          p effekseer(at)gmail.com

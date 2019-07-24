@@ -1,0 +1,65 @@
+
+/*設定まとめ　*/
+
+
+/*@mixin*/
+@mixin sections_top_set ($width: 100%, $display: block, $text-align: left) {
+  width: $width;
+  display: $display;
+  text-align: $text-align;
+}
+
+@mixin sections ($width: 100%, $max-height: 1000px, $display: inline-block, $text-align: center) {
+  width: $width;
+  max-height: $max-height;
+  display: $display;
+  text-align: $text-align;
+}
+
+@mixin introduction_imgs ($width: 100%, $min-width: 280px, $height: auto) {
+  width: $width;
+  min-width: $min-width;
+  height: $height;
+}
+
+/*バックカラー　文字色 幅 各種設定*/
+
+$main_color:#e2e5e5;
+$sub_color:#e9eeee;
+$header_color:#e9eeee;
+$header_select: #bbdada;
+$header_text:#3c3f3f;
+$sashiiro1:#515252;
+$sashiiro_text1:#848a8a;
+$sashiiro2:#68bdc5;
+$sashiiro_text2:#68bdc5;
+$sashiiro3:#d1dddd;
+$sashiiro_text3:#bbdada;
+$shadow:#3c3f3f;
+$bg_shadow:#3d3d3d;
+$text_shadow:#3c3f3f;
+$link_text:#849494;
+
+/*文字の大きさ*/
+$font_h1: 0.5em;
+$font_h2: 1.0em;
+$font_h3: 1.5em;
+
+$font_text_s: 0.5em;
+$font_text_m: 1.2em;
+$font_text_l: 2em;
+
+/*間隔設定*/
+$kankaku: 50px;
+$kankaku2: 20px;
+$M_left:20px;
+$moji: 20px;
+$sen: 5px;
+
+/*アドレスの文字カラー*/
+a:link {color:$link_text;}
+a:visited{color:$sashiiro2;} 
+a:active{color:$sashiiro_text1;}
+
+#contents .adoption_allset a:link {color: #ffffff;}
+#contents .adoption_allset1 a:link {color: #ffffff;}

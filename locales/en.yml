@@ -4,7 +4,7 @@
   download_header: "Download"
   support_header: "Support"
   adoption_header: "Use cases"
-  contribute_header: "Contributed Effects"
+  contribute_header: "Sample Effects"
   development_header: "Development"
   documentation_header: "Documentation"
   releasenote_header: "Release Notes"
@@ -45,7 +45,7 @@
     to_documentation: "View Documentation"
 
     contribute_desc: "Download free-to-use/free-to-edit effects contributed by other Effekseer users:"
-    to_contribute: "View Contributed Effects"
+    to_contribute: "View Sample Effects"
 
     book_header: "Book (Japanese)"
 
@@ -107,7 +107,7 @@
   documentation:
     help: "Help"
     description: "Help files are also bundled with each package"
-    to_help: "[View]"
+    to_help: "To Help"
     help_effekseer: "used by designers to create the effects."
     help_runtime: "used for showing the effects in your DirectX or OpenGL applications."
     help_unity: "used for showing the effects in your Unity applications."
@@ -117,6 +117,7 @@
     help_ue4: "used for showing the effects in your UnrealEngine4 applications."
 
     tutorial: "Tutorial"
+    to_tutorial: "To Tutorial"
     tutorial_desc: "Here are tutorials"
 
     quicktutorial: "Quick Tutorial"
@@ -136,9 +137,9 @@
     comment: "Comment"
 
     contribution: "Contribution"
-    contributed: "Contributed Effects"
+    contributed: "Sample Effects"
     contributed_desc: "These effects are distributed under CC-0 License. We'd appreciate it if you could credit Effekseer and a contributor somewhere in your works."
-    contributed_old: "Contributed Effects(Old)"
+    contributed_old: "Sample Effects(Old)"
     contributed_old_desc: "These effects are distributed under old License. It is free to use when effects is played with Effekseer."
 
   contributed:
@@ -173,23 +174,23 @@
     title_NextSoft01: "リーメベルタ ～願いを叶える秘宝と塔の守り人～Effects"
     title_PDG: "project弾幕GIrls Effects"
     title_suzuki01: "鈴木克史's Contributed Effects"
-    title_toust: "とうほう☆ストラテジー～LotusCraft～ Effects"
+    title_toust: "Touhou Strategy ～LotusCraft～ Effects"
     title_tktk01: "tktk Effect"
     tktk01_Desc1: "エフェクト初投稿という事で今まで作ったエフェクトをある程度詰め込みました"
     tktk01_Desc2: "※注意書き的な※"
     tktk01_Desc3: "3Dゲームではなく、録画による、連番画像に出力して、2Dゲーム（具体的にはRPGツクール）で使うことを前提として作っていますのでアングルによっては、破綻したりパーティクルの発生数が多いので、描画が重いかもしれません"
-    tktk01_List: "※エフェクト内訳※（分類はやや適当です）"
-    tktk01_List1: "Arrow（矢系）2種"
-    tktk01_List2: "Blow（打撃、衝撃系）15種"
-    tktk01_List3: "Cure（回復系）7種"
-    tktk01_List4: "Dark（闇系）3種"
-    tktk01_List5: "Fire（火系）8種"
-    tktk01_List6: "hozyo（補助系）5種"
-    tktk01_List7: "Light（光系）4種"
-    tktk01_List8: "Magic（魔系）2種"
-    tktk01_List9: "Soil（地系）1種"
-    tktk01_List10: "Sword（斬撃系）22種"
-    tktk01_List11: "Wind（風系）2種"
+    tktk01_List: "Contents of package"
+    tktk01_List1: "Arrow x2"
+    tktk01_List2: "Blow x15"
+    tktk01_List3: "Cure x7"
+    tktk01_List4: "Dark x3"
+    tktk01_List5: "Fire x8"
+    tktk01_List6: "hozyo x5"
+    tktk01_List7: "Light x4"
+    tktk01_List8: "Magic x2"
+    tktk01_List9: "Soil x1"
+    tktk01_List10: "Sword x22"
+    tktk01_List11: "Wind x2"
 
     title_tktk02: "tktk Effects vol.2"
     tktk02_Desc1: "このエフェクトは、ゲームエンジンにはUVアニメーションで表示させる事を想定した作りになっております。\n比較的に描画負担が重たかったり、向きによる破綻も比較的に大きくなってしまっていると思います。\n基本的に加算合成のみで作ってあるので、画像として出力すると綺麗に映りますが\n歪みも加算合成で尚且つ、歪みの影響が比較的に大きいので\nEfkファイルにする場合は、歪みを調整した方が良いかと思います。（主にDistortionという名前のノードが歪みになっています）\n確認が大変になってしまったので、使用していないほかの方のテクスチャも入ってしまっています。"

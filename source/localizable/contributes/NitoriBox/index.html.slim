@@ -4,45 +4,54 @@ kind: effekseer
 ---
 
 #contents
-	.main
-		h2 =t('contributed.title_NitoriBox')
+  .inner
+    .main
+      .contribute_title_bg
+        .contribute_title_set
+          h2 =t('contributed.title_NitoriBox')
 
-		table
-			tr
-				td
-					img src="/images/contributes/NitoriBox/01.gif"
+      .contribute_sample_effect
+        .sample_effect_next
+          p
+            img src="/images/contributes/NitoriBox/01.gif"
 
-				td
-					img src="/images/contributes/NitoriBox/02.gif"
+          p
+            img src="/images/contributes/NitoriBox/02.gif"
 
-				td
-					img src="/images/contributes/NitoriBox/03.gif"
+          p
+            img src="/images/contributes/NitoriBox/03.gif"
 
-				td
-					img src="/images/contributes/NitoriBox/04.gif"
+          p
+            img src="/images/contributes/NitoriBox/04.gif"
 
-		p =t('contributed.part')
+      .contribute_title_set
+        .contribute_title
+          p =t('contributed.part')
 
-		h3 =t('contributed.information')
+          .contribute_inner
+            h3 =t('contributed.information')
 
-		table
-			tr
-				td =t('contributed.contributor')
-				td 
-					a href="http://bird-strike.net/" target="_blank" BirdStrike
+        .contribute_title
+          .contribute_inner
+            p =t('contributed.contributor')
+            p 
+              a href="http://bird-strike.net/" target="_blank" BirdStrike
 
-			tr
-				td =t('contributed.tno_works')
-				td 21
+        .contribute_title
+          .contribute_inner
+            p =t('contributed.tno_works')
+            p 21
 
-		h3 =t('contributed.comment')
-		
-		p =t('contributed.none')
-		
-		h3 =t('contributed.download')
-			
-		a href="/contributes/NitoriBox.zip" Download
+      .contribute_inner_text
+        .contribute_title
+          h3 =t('contributed.comment')
 
-		h3 =t('contributed.return')
+          p =t('contributed.none')
 
-		a href="../../contribute.html" =t('contributed.return')
+          h3 =t('contributed.download')
+
+          a href="/contributes/NitoriBox.zip" Download
+
+          h3 =t('contributed.return')
+
+          a href="../../contribute.html" =t('contributed.return')

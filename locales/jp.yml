@@ -4,7 +4,7 @@
   download_header: "ダウンロード"
   adoption_header: "採用実績"
   support_header: "サポート"
-  contribute_header: "投稿エフェクト"
+  contribute_header: "サンプルエフェクト"
   development_header: "開発"
   documentation_header: "ドキュメント"
   releasenote_header: "リリースノート"
@@ -45,7 +45,7 @@
     to_documentation: "ドキュメントへ"
 
     contribute_desc: "ユーザー様方が投稿したエフェクト&エフェクトの投稿はこちら"
-    to_contribute: "投稿エフェクトへ"
+    to_contribute: "サンプルエフェクトへ"
 
     book_header: "書籍"
 
@@ -126,6 +126,7 @@
     help_ue4: "UnrealEngine4でエフェクトを再生できるようにするプラグインのヘルプ"
 
     tutorial: "チュートリアル"
+    to_tutorial: "チュートリアルへ"
     tutorial_desc: "Effekseerのツールのチュートリアルです。一部の機能しか紹介していないので、詳しく知りたい方はリファレンスを参照お願いします。"
 
     quicktutorial: "クイックチュートリアル"
@@ -159,8 +160,8 @@
     download: "ダウンロード"
     none: "特に無し"
     part: "※ 表示されているのは一部のエフェクトのみです。"
-    return: "投稿エフェクト一覧に戻る"
-    title_AndrewFM01: "AndrewFMさん 投稿エフェクト"
+    return: "サンプルエフェクト一覧に戻る"
+    title_AndrewFM01: "AndrewFMさん サンプルエフェクト"
     title_Effekseer: "Effekseer公式エフェクト"
     title_MAGICALxSPIRAL: "MAGICAL×SPIRAL エフェクト"
     title_NitoriBox: "NITORI BOX エフェクト"
@@ -182,7 +183,7 @@
     Pierre02_Contact: "■ 推奨連絡先 ■"
     title_NextSoft01: "リーメベルタ ～願いを叶える秘宝と塔の守り人～エフェクト"
     title_PDG: "project弾幕GIrls エフェクト"
-    title_suzuki01: "鈴木克史 さん 投稿エフェクト"
+    title_suzuki01: "鈴木克史 さん サンプルエフェクト"
     title_toust: "とうほう☆ストラテジー～LotusCraft～ エフェクト"
 
     title_tktk01: "tktkエフェクト"

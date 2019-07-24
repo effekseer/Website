@@ -4,50 +4,65 @@ kind: introduction
 ---
 
 #contents
-	.main
-		h2 =t(:introduction_header)
-	
-		h3 =t('introduction.easy')
-	
-		table align="center"
-			tr
-				td
-					img src="/images/simple_effects.jpg"
+  .inner
+    .main
+      .section1_bg
+        .section1_setting
+          .introduction_section1
+            h2 =t(:introduction_header)
+        
+        .introduction_img1_1
+          h3 =t('introduction.easy')
+          img src="/images/simple_effects.jpg"
+          
 
-		h3 =t('introduction.create')
-	
-		table align="center"
-			tr
-				td
-					img src="/images/effects.png"
+          
+          
+      .section2_bg
+        .section2_setting
+          .introduction_img1_2 
+            img src="/images/releasenote_140/samples.png"
+              h3 =t('introduction.create')
+            .introduction_img1_2 
+              img src="/images/releasenote_130/samples.png"
 
-		h3 =t('introduction.play')
 
-		table align="center"
-			tr
-				td
-					img src="/images/game_sample.jpg"
-	
-					p MAGICAL×SPIRAL © Broken Desk
 
-		h3 =t('introduction.2d')
-	
-		table align="center"
-			tr
-				td
-					img src="/images/anim.jpg"
-				td
-					img src="/images/anim.gif"
+      .section3_bg
+        .section3_setting
+          h3 =t('introduction.play')
+          .introduction_section2
+            img src="/images/game_sample.jpg"
 
-		p =t('introduction.2d_desc')
+            p MAGICAL×SPIRAL © Broken Desk
 
-		h3 =t('introduction.browser')
+        .introduction_sec2img
+          img src="/images/contributes/MAGICALxSPIRAL/02.gif"
 
-		table align="center"
-			tr
-				td
-					iframe width="560" height="315" src="https://www.youtube.com/embed/6mHTsHnoWmg" frameborder="0" allowfullscreen
+      .section4_bg
+        .section4_setting
+          .introduction_section3
+            h3 =t('introduction.2d')
+    
+            .introduction_img3_1
+              img src="/images/anim.jpg"
 
-					p ミリ姫大戦 -Militärishe Mädchen- @ ヘッドロック
+  
+          .introduction_section3
+            p =t('introduction.2d_desc')
 
-					p =t('introduction.browser_warning')
+            h3 =t('introduction.browser')
+            .introduction_img3_2
+              img src="/images/anim.gif"
+
+      .section5_bg
+        .section5_setting
+          .introduction_section4
+            .iframe
+              iframe.iframe_container width="560" height="315" src="https://www.youtube.com/embed/6mHTsHnoWmg" frameborder="0" allowfullscreen
+
+            .introduction_sec4_title1
+              p ミリ姫大戦 -Militärishe Mädchen- @ ヘッドロック
+
+            .introduction_sec4_title2
+              p =t('introduction.browser_warning')

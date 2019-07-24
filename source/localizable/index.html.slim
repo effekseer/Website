@@ -5,107 +5,130 @@ kind: top
 
 #contents
 
-	.eyecatch
-		p 
-			=t(:eyecatch_1) 
-			br
-			=t(:eyecatch_2)
+  .inner
+    .eyecatch
+      p 
+        =t(:eyecatch_1) 
+        br
+        =t(:eyecatch_2)
 
-		a href="download.html" =t(:download_header)
-		img src="/images/eyecatch.png"	
+      a href="download.html" =t(:download_header)
+      .imgsize_setting1
+        img src="/images/top_sectionimg1.jpg"
+      
 
-	.main
-		p =t(:top_underconstruction)
-	
-		p =t(:top_content_1)
-		p =t(:top_content_2)
-		p =t(:top_content_3)
-		
-		table align="center"
-			tr
-				td
-					img src="/images/effects.png"
+    .main
+      p =t(:top_underconstruction)
 
-		table align="center"
-			tr
-				td
-					.movie
-						p =t('top.desc_movie1') 
-						iframe width="320" height="240" src="https://www.youtube.com/embed/3G5BrmI4V48" frameborder="0" allowfullscreen
-				td
-					.movie
-						p =t('top.desc_movie2') 
-						iframe width="320" height="240" src="https://www.youtube.com/embed/JGMu5_opu5Y" frameborder="0" allowfullscreen
+      .section1_bg
+        .section1_setting
+          .top_section
+            img src="/images/section1_img1.jpg"
+            p =t(:top_content_1)
+          .top_section
+            .top_img1
+              img src="/images/section1_img2.jpg"
+            p =t(:top_content_2)
+  
+          .top_section
+            .top_img1
+              img src="/images/section1_img3.jpg"
+            p =t(:top_content_3)
+          
+      .section2_bg
+        .section2_setting
+          .movie_section
+            .movie1
+              .iframe
+                iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/3G5BrmI4V48" frameborder="0" allowfullscreen
+            p =t('top.desc_movie1') 
 
-		h2 News
-		p =t('top.news_0') 
+            .movie2
+              .iframe
+                iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/JGMu5_opu5Y" frameborder="0" allowfullscreen
+            p =t('top.desc_movie2') 
 
-		p =t('top.news_1') 
 
-		p =t('top.news_2') 
+      
+      .section3_setting
+        .section3_bg
+          .download_section1
+            h2 Download
+        
+          .download_section2
+            
+            .download_inline
+              h3 =t('top.for_designer') 
+              a href="download.html#tool" =t('top.effect_editor') 
+            img src="/images/tool.jpg"
 
-		p =t('top.news_3') 
+          .download_section3
+            .download_inline
+              h3 =t('top.for_programmer') 
+              p =t('top.effect_plugin') 
 
-		a href="releasenote.html" =t(:releasenote_header)
-
-		h2 Download
-
-		table  align="center"
-			tr
-				td valign="top"
-
-					h3 =t('top.for_designer') 
-
-					a href="download.html#tool" =t('top.effect_editor') 
-		
-					br 
-					
-					img src="/images/tool.jpg"
-
-				td valign="top"
-					h3 =t('top.for_programmer') 
-
-					p =t('top.effect_plugin') 
-
-					ul
-						li
-							a href="download.html#runtime" DirectX, OpenGL
-						li
-							a href="download.html#unity" Unity
-						li
-							a href="download.html#cocos2dx" Cocos2d-x
-						li
-							a href="download.html#ue4" UnrealEngine4							
-						li
-							a href="download.html#dxlib" =t('top.dxlib') 
-
-		h2 =t('documentation_header') 
-
-		p =t('top.documentation_desc') 
-
-		a href="documentation.html" =t('top.to_documentation')
-
-		h2 =t('contribute_header') 
-
-		p =t('top.contribute_desc') 
-
-		a href="contribute.html" =t('top.to_contribute')
-
-		h2 =t('top.book_header') 
-
-		h3 初めてのEffekseer
-
-		.left_books
-			img src="/images/books/hajimete_no_effekseer.jpg"
-
-		.right_books
-
-			ul
-				li
-					a href="https://www.kohgakusha.co.jp/books/detail/978-4-7775-2076-3" 工学社
-				li
-					a href="https://www.yodobashi.com/product/100000009003135804/" ヨドバシ.com
-				li
-					a href="https://books.rakuten.co.jp/rb/15861637/" 楽天ブックス
-				li
-					a href="https://www.amazon.co.jp/dp/4777520765/ref=asc_df_47775207652630814/?tag=jpgo-22&creative=9303&creativeASIN=4777520765&linkCode=df0&hvadid=342534585338&hvpos=1o1&hvnetw=g&hvrand=18196272307757529594&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009322&hvtargid=pla-717123495073&th=1&psc=1" Amazon
+            .download_section_links
+              ul
+                li
+                  a href="download.html#runtime" DirectX, OpenGL
+                li
+                  a href="download.html#unity" Unity
+                li
+                  a href="download.html#cocos2dx" Cocos2d-x
+                li
+                  a href="download.html#ue4" UnrealEngine4
+                li
+                    a href="download.html#dxlib" =t('top.dxlib') 
+  
+      .section4_bg
+        .section4_setting
+          .documentation_section
+            h2 =t('documentation_header') 
+  
+            p =t('top.documentation_desc') 
+  
+            a href="documentation.html" =t('top.to_documentation')
+  
+          .contribute_section
+            h2 =t('contribute_header') 
+  
+            p =t('top.contribute_desc') 
+  
+            a href="contribute.html" =t('top.to_contribute')
+  
+      .section5_bg
+        .section5_setting
+          .books_top
+            h2 =t('top.book_header') 
+  
+            h3 初めてのEffekseer
+  
+          .all_books
+          .left_books
+            img src="/images/books/hajimete_no_effekseer.jpg"
+  
+          .right_books
+            ul
+              li
+                a href="https://www.kohgakusha.co.jp/books/detail/978-4-7775-2076-3" 工学社
+              li
+                a href="https://www.yodobashi.com/product/100000009003135804/" ヨドバシ.com
+              li
+                a href="https://books.rakuten.co.jp/rb/15861637/" 楽天ブックス
+              li
+                a href="https://www.amazon.co.jp/dp/4777520765/ref=asc_df_47775207652630814/?tag=jpgo-22&creative=9303&creativeASIN=4777520765&linkCode=df0&hvadid=342534585338&hvpos=1o1&hvnetw=g&hvrand=18196272307757529594&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1009322&hvtargid=pla-717123495073&th=1&psc=1" Amazon
+  
+    .news_section_bg
+      .news_section
+        h2 News
+        ul
+          li
+            p =t('top.news_0')
+          li
+            p =t('top.news_1') 
+          li
+            p =t('top.news_2')
+          li
+            p =t('top.news_3')
+          li
+            a href="releasenote.html" =t(:releasenote_header)
