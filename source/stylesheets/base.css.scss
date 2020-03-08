@@ -16,6 +16,18 @@ body {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: $link_text;
+}
+a:visited {
+  text-decoration: none;
+  color: $link_text;
+}
+a:hover {
+  color: $link_text_hover;
+}
+
 /*language 言語選択設定*/
 /*ヘッター言語選択 */
 #header {
@@ -32,14 +44,13 @@ body {
   display: flex;
   p{
     font-size: $font_h1;
-    margin: 5px;
+    margin: 1px;
   }
 }
 
 #header .languagenav li {
   list-style: none;
-  margin-top: 5px;
-  margin-left: 5px;
+  margin: 0;
 }
 
 
@@ -363,13 +374,10 @@ img:hover {
 #header .navmenu_set ul {
   display: none;
 }
-
-
   /*ヘッター 可変時の言語選択ボタン設定*/
   #header .languagenav li a {
     width: 70px;
     height: 40px;
-  
   }
   #header .languagenav li ul {
     width: 70px;
@@ -380,7 +388,6 @@ img:hover {
   /*ヘッターメニューバー部分のロゴ設定*/
 #header .logo_menu {
   display: none;
-
 }
 
 
@@ -489,26 +496,39 @@ right: 0;
 }
 
 /* Title設定　 */
-#contents .eyecatch p {
+#contents .eyecatch .eyecatch_text {
   width: 80%;
   min-width: 240px;
   position: absolute;
   top: 100px;
   left: 8%;
   margin: 50px 0px 50px 0px;
-  font-size: $font_text_l;
-  font-family: "verdana", "serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
-  text-shadow: (-1px) -1px $shadow, 2px -1px $shadow, -1px 2px $shadow, 1px 2px $shadow;
 }
+#contents .eyecatch .eyecatch_text p.eyecatch_1 {
+  margin: 0;
+  padding: 0;
+  font-size: 20pt;
+  font-family: "verdana", "san-serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
+  text-shadow: 0px -2px 5px #e0e0e0, 0px 2px 5px #e0e0e0;
+}
+#contents .eyecatch .eyecatch_text p.eyecatch_2 {
+  margin: 0.1em 0em;
+  padding: 0;
+  font-size: 40pt;
+  font-family: "verdana", "san-serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
+  text-shadow: 0px -2px 5px #e0e0e0, 0px 2px 5px #e0e0e0;
+}
+
 
 /* Top画面のボタンの設定　 */
 #contents .eyecatch a {
   position: absolute;
-  top: 260px;
+  top: 280px;
   left: 80px;
   font-size: $font_text_m;
   font-family: "verdana", "serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
   text-decoration: none;
+  text-shadow: 0px 0px 5px #e0e0e0;
   border: 0;
   padding: 10px 20px 10px 20px;
   display: inline-block;
@@ -570,6 +590,10 @@ img {
   min-width: 200px;
   height: auto;
 }
+}
+
+#contents .top_section h2 {
+  color: $sashiiro3;
 }
 
 #contents .top_section p {
@@ -1450,8 +1474,8 @@ p {
 /*ヘッターメニューバー部分のロゴ設定*/
 #header .logo_menu {
   display: inline-block;
-  vertical-align:top;
-  margin: 10px 15px 0px 15px;
+  vertical-align: middle;
+  margin: 0px 10px 0px 20px;
   z-index: 2;
 }
 
@@ -1479,14 +1503,14 @@ p {
 
 #header .selected {
   display: inline-block;
-  background-color: $header_select;
-  padding: 0px 10px 1px 10px;
-  border-radius: 1%;
 }
 
-#header .selected ul {
-  padding-left: 5px;
-  width: 50px;
+#header .selected a {
+  display: inline-block;
+  background-color: $header_select;
+  color: $header_text;
+  padding: 0em 1em;
+  border-radius: 1%;
 }
 
 #header .menunav_allset {
@@ -1500,33 +1524,30 @@ p {
 
 #header .unselected {
   display: inline-block;
-  padding: 0px 10px 1px 10px;
 }
 
-#header .unselected ul {
-  padding-left: 15px;
-  width: 50px;
+#header .unselected a {
+  display: inline-block;
+  padding: 0em 1em;
+  color: $header_text;
 }
 
-#header .unselected:hover {
+#header .unselected a:hover {
   background-color: $sashiiro1;
-}
-
-#header .unselected ul:hover {
-  padding-left: 15px;
+  color: $header_text_hover;
 }
 
 #header h1 {
-  height: 25px;
-  color: $header_text;
+  padding: 0.5em 0em;
   font-size: $font_h2;
   font-family: "verdana", "serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
+  color: inherit;
 }
 
 #header a {
-  color: $header_text;
   text-decoration: none;
   border: 0;
+  color: inherit;
 }
 
 /* main設定　 */
@@ -1556,16 +1577,27 @@ img {
 }
 }
 /* Title設定　 */
-#contents .eyecatch p {
+#contents .eyecatch .eyecatch_text {
   width: 100%;
   min-width: 400px;
   position: absolute;
   top: 30px;
-  left: 50%;
+  left: 58%;
   margin: 50px 0px 50px 0px;
-  font-size: 3em;
-  font-family: "verdana", "serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
-  text-shadow: (-1px) -2px $shadow, 2px -2px $shadow, -2px 2px $shadow, 2px 2px $shadow;
+}
+#contents .eyecatch .eyecatch_text p.eyecatch_1 {
+  margin: 0;
+  padding: 0;
+  font-size: 24pt;
+  font-family: "verdana", "san-serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
+  text-shadow: 0px -2px 5px #e0e0e0, 0px 2px 5px #e0e0e0;
+}
+#contents .eyecatch .eyecatch_text p.eyecatch_2 {
+  margin: 0.2em 0em;
+  padding: 0;
+  font-size: 40pt;
+  font-family: "verdana", "san-serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
+  text-shadow: 0px -2px 5px #e0e0e0, 0px 2px 5px #e0e0e0;
 }
 
 /* Top画面のボタンの設定　 */
@@ -1576,6 +1608,7 @@ img {
   font-size: $font_text_l;
   font-family: "verdana", "serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
   text-decoration: none;
+  text-shadow: 0px 0px 5px #e0e0e0;
   border: 0;
   padding: 10px 20px 10px 20px;
   display: inline-block;
@@ -1607,13 +1640,11 @@ img {
 #contents .top_section {
   width: 80%;
   max-width: 400px;
-  height: 500px;
+  height: 550px;
   background-color: $bg_shadow;
   text-align: center;
-  margin-right:auto;
-  margin-left: auto;
   padding-top: 20px;
-  margin: 30px;
+  margin: 20px;
   img {
   width: auto;
   max-width: 300px;
@@ -1621,8 +1652,12 @@ img {
   }
 }
 
+#contents .top_section h2 {
+  color: $sashiiro3;
+}
+
 #contents .top_section p {
-  width: 80%;
+  width: 85%;
   height: auto;
   max-height: 500px;
   text-align: left;
@@ -2114,14 +2149,14 @@ margin-bottom: 50px;
   }
 
 #contents .adopted {
-  max-width: 500px;
-  min-width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  width: 500px;
   height: 650px;
   color: $sashiiro_text2;
   background-color: $bg_shadow;
   margin: 20px 20px;;
   padding-bottom: 20px;
-  display: block;
   h3 {
     color: $sashiiro_text2;
     font-size: $font_h3;
@@ -2151,8 +2186,7 @@ margin-bottom: 50px;
 
 #contents .iframe {
   position: relative;
-  margin-top: 3em;
-  margin-bottom: 2em;
+  margin: 0;
   width: 100%;
   height: 0;
   padding-top: 56.25%
@@ -2519,4 +2553,135 @@ p {
       margin-bottom: $kankaku; 
     }
 
+}
+
+.slideshow {
+	position: relative;
+	overflow: hidden;
+}
+input[name="slideshow"] {
+	display: none;
+}
+
+/* :::::: slideContents :::::: */
+.slideContents {
+	position: relative;
+	background: lightSeaGreen;
+	text-align: center;
+	-webkit-user-select: none;
+	user-select: none;
+	transition: transform .6s;
+}
+.slideContents section {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transform: translateX(100%);
+	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.slideContents section img {
+	max-width: 100%;
+	padding: 0;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+/* :::::: arrows :::::: */
+.arrow,
+.arrow label,
+.arrow .ico {
+	position: absolute;
+}
+.arrow {
+	top: 0;
+	margin: 0;
+	transition: background .3s;
+}
+.prev {
+	left: 0;
+}
+.next {
+	right: 0;
+}
+.arrow:hover {
+	background: rgba(255,255,255,.2);
+}
+.arrow,
+.arrow label {
+	cursor: pointer;
+	width: 50px;
+	height: 100%;
+}
+.arrow label {
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.arrow .ico {
+	top: calc(50% - 6px);
+	width: 12px;
+	height: 12px;
+	border-top: 3px solid #fff;
+	opacity: 0;
+}
+.prev .ico {
+	left: 50%;
+	border-left: 3px solid #fff;
+	transform: rotate(-45deg);
+	transition: left .3s cubic-bezier(0.215, 0.61, 0.355, 1), opacity .3s;
+}
+.next .ico {
+	right: 50%;
+	border-right: 3px solid #fff;
+	transform: rotate(45deg);
+	transition: right .3s cubic-bezier(0.215, 0.61, 0.355, 1), opacity .3s;
+}
+.arrow:hover .ico {
+	opacity: .6;
+}
+.prev:hover .ico {
+	left: calc(50% - 6px);
+}
+.next:hover .ico {
+	right: calc(50% - 6px);
+}
+
+/* :::::: mechanism :::::: */
+#switch1:checked ~ .slideContents #slide1,
+#switch2:checked ~ .slideContents #slide2,
+#switch3:checked ~ .slideContents #slide3,
+#switch4:checked ~ .slideContents #slide4,
+#switch5:checked ~ .slideContents #slide5 {
+	position: relative;
+	transform: none;
+}
+#switch1:checked ~ .slideContents #slide5,
+#switch1:checked ~ .slideContents #slide4,
+#switch2:checked ~ .slideContents #slide1,
+#switch2:checked ~ .slideContents #slide5,
+#switch3:checked ~ .slideContents #slide2,
+#switch3:checked ~ .slideContents #slide1,
+#switch4:checked ~ .slideContents #slide3,
+#switch4:checked ~ .slideContents #slide2,
+#switch5:checked ~ .slideContents #slide4,
+#switch5:checked ~ .slideContents #slide3 {
+	transform: translateX(-100%);
+}
+
+/* :::::: arrow mechanism :::::: */
+.arrow label {
+	pointer-events: none;
+}
+#switch1:checked ~ .prev label[for="switch5"],
+#switch2:checked ~ .prev label[for="switch1"],
+#switch3:checked ~ .prev label[for="switch2"],
+#switch4:checked ~ .prev label[for="switch3"],
+#switch5:checked ~ .prev label[for="switch4"],
+#switch1:checked ~ .next label[for="switch2"],
+#switch2:checked ~ .next label[for="switch3"],
+#switch3:checked ~ .next label[for="switch4"],
+#switch4:checked ~ .next label[for="switch5"],
+#switch5:checked ~ .next label[for="switch1"] {
+	pointer-events: auto;
 }

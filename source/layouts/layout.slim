@@ -8,24 +8,30 @@ html
   meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
   meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
   meta name="keywords" content="Effekseer,Particle,Effect,Editor,エフェクト"
+  link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+  script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"
+  script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"
 
+  - if current_page.data.kind=="effekseer"
+    title ="Effekseer"
+  
   - if current_page.data.kind=="top"
-    title =t(:top_header)
+    title ="Effekseer - " + t(:eyecatch_1)
   
   - if current_page.data.kind=="introduction"
-    title =t(:introduction_header)
+    title ="Effekseer - " + t(:introduction_header)
   
   - if current_page.data.kind=="download"
-    title =t(:download_header)
+    title ="Effekseer - " + t(:download_header)
 
   - if current_page.data.kind=="adoption"
-    title =t(:adoption_header)
+    title ="Effekseer - " + t(:adoption_header)
 
   - if current_page.data.kind=="support"
-    title =t(:support_header)
+    title ="Effekseer - " + t(:support_header)
 
   - if current_page.data.kind=="contribute"
-    title =t(:contribute_header)
+    title ="Effekseer - " + t(:contribute_header)
 
   == stylesheet_link_tag "normalize.css"
   == stylesheet_link_tag "base"
@@ -63,85 +69,67 @@ html
         - if current_page.data.kind!="effekseer"
 
           - if current_page.data.kind=="top"
-
               .selected
-                ul
-
-                  li
-                    a href="index.html"
-                      h1 =t(:top_header)
+                a href="index.html"
+                  h1 =t(:top_header)
           - else
               .unselected
-                ul
-                  li
-                    a href="index.html"
-                      h1 =t(:top_header)
+                a href="index.html"
+                  h1 =t(:top_header)
 
           - if current_page.data.kind=="introduction"
             .selected
-                  li
-                    a href="introduction.html"
-                      h1 =t(:introduction_header)
+              a href="introduction.html"
+                h1 =t(:introduction_header)
           - else
             .unselected
-                  li
-                    a href="introduction.html"
-                      h1 =t(:introduction_header)
+              a href="introduction.html"
+                h1 =t(:introduction_header)
 
           - if current_page.data.kind=="download"
             .selected
-                  li
-                    a href="download.html"
-                      h1 =t(:download_header)
+              a href="download.html"
+                h1 =t(:download_header)
           - else
             .unselected
-                  li
-                    a href="download.html"
-                      h1 =t(:download_header)
+              a href="download.html"
+                h1 =t(:download_header)
 
           - if current_page.data.kind=="adoption"
             .selected
-                  li
-                    a href="adoption.html"
-                      h1 =t(:adoption_header)
+              a href="adoption.html"
+                h1 =t(:adoption_header)
           - else
             .unselected
-                  li
-                    a href="adoption.html"
-                      h1 =t(:adoption_header)
+              a href="adoption.html"
+                h1 =t(:adoption_header)
 
           - if current_page.data.kind=="documentation"
             .selected
-                  li
-                    a href="documentation.html"
-                      h1 =t(:documentation_header)
+              a href="documentation.html"
+                h1 =t(:documentation_header)
           - else
             .unselected
-                  li
-                    a href="documentation.html"
-                      h1 =t(:documentation_header)
+              a href="documentation.html"
+                h1 =t(:documentation_header)
 
           - if current_page.data.kind=="support"
             .selected
-                  li
-                    a href="support.html"
-                      h1 =t(:support_header)
+              a href="support.html"
+                h1 =t(:support_header)
           - else
             .unselected
-                  li
-                    a href="support.html"
-                      h1 =t(:support_header)
+              a href="support.html"
+                h1 =t(:support_header)
 
           - if current_page.data.kind=="contribute"
             .selected
-                  li
-                    a href="contribute.html"
-                      h1 =t(:contribute_header)
+              a href="contribute.html"
+                h1 =t(:contribute_header)
           - else
             .unselected
-                  li
-                    a href="contribute.html"
-                      h1 =t(:contribute_header)
+              a href="contribute.html"
+                h1 =t(:contribute_header)
 
 
           .navmenu_set

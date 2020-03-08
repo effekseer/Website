@@ -7,10 +7,9 @@ kind: top
 
   .inner
     .eyecatch
-      p 
-        =t(:eyecatch_1) 
-        br
-        =t(:eyecatch_2)
+      .eyecatch_text
+        p.eyecatch_1 =t(:eyecatch_1) 
+        p.eyecatch_2 =t(:eyecatch_2)
 
       a href="download.html" =t(:download_header)
       .imgsize_setting1
@@ -23,14 +22,17 @@ kind: top
       .section1_bg
         .section1_setting
           .top_section
+            h2 Easy to Creation
             img src="/images/section1_img1.jpg"
             p =t(:top_content_1)
           .top_section
+            h2 Open-Source
             .top_img1
               img src="/images/section1_img2.jpg"
             p =t(:top_content_2)
   
           .top_section
+            h2 Multi-Platform
             .top_img1
               img src="/images/section1_img3.jpg"
             p =t(:top_content_3)
