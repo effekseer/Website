@@ -10,8 +10,11 @@ kind: top
       .eyecatch_text
         p.eyecatch_1 =t(:eyecatch_1) 
         p.eyecatch_2 =t(:eyecatch_2)
+        p.eyecatch_3 =t(:eyecatch_3)
 
-      a href="download.html" =t(:download_header)
+      .buttons
+        a href="download.html" =t(:download_button)
+        a href="releasenote.html" =t(:newfeature_button)
       .imgsize_setting1
         img src="/images/top_sectionimg1.jpg"
       
@@ -40,15 +43,13 @@ kind: top
       .section2_bg
         .section2_setting
           .movie_section
-            .movie1
-              .iframe
-                iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/3G5BrmI4V48" frameborder="0" allowfullscreen
+            .iframe
+              iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/3G5BrmI4V48" frameborder="0" allowfullscreen
             p =t('top.desc_movie1') 
 
-            .movie2
-              .iframe
-                iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/JGMu5_opu5Y" frameborder="0" allowfullscreen
             p =t('top.desc_movie2') 
+            .iframe
+              iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/JGMu5_opu5Y" frameborder="0" allowfullscreen
 
 
       

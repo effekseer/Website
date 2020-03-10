@@ -89,14 +89,12 @@ a:hover {
 
 /*メニューバー部分のロゴ設定*/
 #header .logo_menu img {
-  widows: 50px;
-  height: 50px;
+  height: 56px;
 }
 
 /*ヘッター部分のロゴ設定*/
 #header .logo img {
-  widows: 50px;
-  height: 50px;
+  height: 56px;
 }
 
 
@@ -139,16 +137,6 @@ ul li, ol li {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-
-#contents .eyecatch a:hover {
-  color: #b1ffff;
-}
-
-#contents .eyecatch a:active {
-  box-shadow: inset 0 0 2px #3c3f3f;
-  transform: translateY(2px);
 }
 
 #contents h1 {
@@ -317,16 +305,16 @@ img:hover {
   
   .selected {
     display: inline-block;
-    vertical-align:top;
+    vertical-align: middle;
     background-color: $header_select;
-    padding: 0px 10px 1px 10px;
+    padding: 1px 10px 1px 10px;
     border-radius: 1%;
     z-index: 2;
   }
   
   .unselected {
-    vertical-align:top;
-    padding: 0px 10px 1px 10px;
+    vertical-align: middle;
+    padding: 1px 10px 1px 10px;
     z-index: 2;
   }
   
@@ -497,14 +485,14 @@ right: 0;
 
 /* Title設定　 */
 #contents .eyecatch .eyecatch_text {
-  width: 80%;
-  min-width: 240px;
   position: absolute;
-  top: 100px;
-  left: 8%;
-  margin: 50px 0px 50px 0px;
+  top: 120px;
+  left: 0;
+  margin: auto;
+  width: 100%;
 }
 #contents .eyecatch .eyecatch_text p.eyecatch_1 {
+  text-align: center;
   margin: 0;
   padding: 0;
   font-size: 20pt;
@@ -512,35 +500,50 @@ right: 0;
   text-shadow: 0px -2px 5px #e0e0e0, 0px 2px 5px #e0e0e0;
 }
 #contents .eyecatch .eyecatch_text p.eyecatch_2 {
+  text-align: center;
   margin: 0.1em 0em;
   padding: 0;
   font-size: 40pt;
   font-family: "verdana", "san-serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
   text-shadow: 0px -2px 5px #e0e0e0, 0px 2px 5px #e0e0e0;
 }
-
-
-/* Top画面のボタンの設定　 */
-#contents .eyecatch a {
-  position: absolute;
-  top: 280px;
-  left: 80px;
-  font-size: $font_text_m;
-  font-family: "verdana", "serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
-  text-decoration: none;
-  text-shadow: 0px 0px 5px #e0e0e0;
-  border: 0;
-  padding: 10px 20px 10px 20px;
-  display: inline-block;
-  vertical-align:top;
-  padding: 1em 1.0em;
-  background: rgba(244, 244, 245, 0.233);
-  border: solid 2px $text_shadow;
-  color: #2A2A2A;
+#contents .eyecatch .eyecatch_text p.eyecatch_3 {
+  text-align: center;
+  margin: 0;
+  padding: 0.5em 0;
+  font-size: 16pt;
+  font-family: "verdana", "san-serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
+  text-shadow: 0px -2px 5px #e0e0e0, 0px 2px 5px #e0e0e0;
   font-weight: bold;
 }
 
-#contents .eyecatch a:hover {
+#contents .eyecatch .buttons {
+  position: absolute;
+  text-align: center;
+  top: 300px;
+  left: 0;
+  margin: auto;
+  width: 100%;
+}
+
+/* Top画面のボタンの設定　 */
+#contents .eyecatch .buttons a {
+  display: inline-block;
+  font-size: 11pt;
+  font-family: "verdana", "serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
+  text-decoration: none;
+  text-shadow: 0px 0px 1px #e0e0e0;
+  padding: 0.8em 1.0em;
+  margin: 0 0.5em;
+  background: $text_shadow;
+  border: solid 2px $text_shadow;
+  border-radius: 8px;
+  color: $main_color;
+  font-weight: bold;
+  min-width: 160px;
+}
+
+#contents .eyecatch .buttons a:hover {
   background: $main_color;
   color: $text_shadow;
 }
@@ -574,7 +577,6 @@ img {
 }
 
 #contents .top_section {
-  width: 60%;
   max-width: 500px;
   min-width: 300px;
   height: auto;
@@ -606,6 +608,10 @@ img {
   color: #9da3a3;
 }
 
+#contents .section2_bg {
+  height: 900px;
+}
+
 /* MVの設定　 */
 #contents .section2_setting {
   @include sections( 100%, 700px, block, center);
@@ -627,13 +633,12 @@ img {
 }
 
 #contents .movie_section {
-  max-width: 320px;
+  max-width: 600px;
   min-width: 200px;
   height: auto;
   margin-right: auto;
   margin-left: auto;
 }
-
 
 /* download_sectionsの設定　 */
 #contents .section3_setting {
@@ -1463,7 +1468,7 @@ p {
   background-color:$header_color;
   font-size: $font_h2;
   z-index: 1;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /*ヘッター部分のロゴ設定*/
@@ -1578,14 +1583,14 @@ img {
 }
 /* Title設定　 */
 #contents .eyecatch .eyecatch_text {
-  width: 100%;
-  min-width: 400px;
   position: absolute;
-  top: 30px;
-  left: 58%;
-  margin: 50px 0px 50px 0px;
+  top: 80px;
+  left: 0;
+  margin: auto;
+  width: 100%;
 }
 #contents .eyecatch .eyecatch_text p.eyecatch_1 {
+  text-align: center;
   margin: 0;
   padding: 0;
   font-size: 24pt;
@@ -1593,34 +1598,50 @@ img {
   text-shadow: 0px -2px 5px #e0e0e0, 0px 2px 5px #e0e0e0;
 }
 #contents .eyecatch .eyecatch_text p.eyecatch_2 {
+  text-align: center;
   margin: 0.2em 0em;
   padding: 0;
   font-size: 40pt;
   font-family: "verdana", "san-serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
   text-shadow: 0px -2px 5px #e0e0e0, 0px 2px 5px #e0e0e0;
 }
-
-/* Top画面のボタンの設定　 */
-#contents .eyecatch a {
-  position: absolute;
-  top: 240px;
-  left: 15%;
-  font-size: $font_text_l;
-  font-family: "verdana", "serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
-  text-decoration: none;
-  text-shadow: 0px 0px 5px #e0e0e0;
-  border: 0;
-  padding: 10px 20px 10px 20px;
-  display: inline-block;
-  vertical-align:top;
-  padding: 0.3em 0.8em;
-  background: rgba(244, 244, 245, 0.233);
-  border: solid 2px $text_shadow;
-  color: #2A2A2A;
+#contents .eyecatch .eyecatch_text p.eyecatch_3 {
+  text-align: center;
+  margin: 0;
+  padding: 0.3em 0;
+  font-size: 20pt;
+  font-family: "verdana", "san-serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
+  text-shadow: 0px -2px 5px #e0e0e0, 0px 2px 5px #e0e0e0;
   font-weight: bold;
 }
 
-#contents .eyecatch a:hover {
+#contents .eyecatch .buttons {
+  position: absolute;
+  text-align: center;
+  top: 280px;
+  left: 0;
+  margin: auto;
+  width: 100%;
+}
+
+/* Top画面のボタンの設定　 */
+#contents .eyecatch .buttons a {
+  display: inline-block;
+  font-size: 14pt;
+  font-family: "verdana", "serif", "Hiragino Kaku Gothic Pro", "Meiryo", "sans-serif";
+  text-decoration: none;
+  text-shadow: 0px 0px 1px #e0e0e0;
+  padding: 0.8em 1.0em;
+  margin-right: 1em;
+  background: $text_shadow;
+  border: solid 2px $text_shadow;
+  border-radius: 8px;
+  color: $main_color;
+  font-weight: bold;
+  min-width: 180px;
+}
+
+#contents .eyecatch .buttons a:hover {
   background: $main_color;
   color: $text_shadow;
 }
@@ -1697,26 +1718,18 @@ img {
   margin-top:50px;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
-.movie1 {
-  max-width: 500px;
-  min-width: 300px;
-  height: 300px;
-}
-.movie2 {
-  max-width: 500px;
-  min-width: 300px;
-  height: 300px;
-  order:1;
-}
-p{
-  width: 300px;
-  height: 80px;
-  font-size: $font_h3;
-  margin-top:160px;
-  margin-right: auto;
-  margin-left: auto;
-
-}
+  iframe{
+    margin: 2%;
+    width: 96%;
+  }
+  p{
+    width: 300px;
+    height: 80px;
+    font-size: $font_h3;
+    margin-top:160px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 
@@ -1765,7 +1778,7 @@ margin-bottom: $kankaku;
 }
 
 #contents .download_section2 {
-  width: 300px;
+  width: 400px;
   height: auto;
   margin-top: 100px;
   margin-left: auto;
@@ -1785,7 +1798,7 @@ margin-bottom: $kankaku;
 }
 
 #contents .download_section3 {
-  width: 300px;
+  width: 400px;
   height: auto;
   margin-top: 100px;
   margin-left: auto;
@@ -1795,8 +1808,8 @@ margin-bottom: $kankaku;
 #contents .download_section_links {
   width: 100%;
   min-width: 300px;
-  text-align: left;
-  margin: 30px;
+  text-align: center;
+  margin: 0;
   ul {
     list-style: none;
   }

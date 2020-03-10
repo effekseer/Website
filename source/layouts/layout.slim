@@ -65,15 +65,6 @@ html
 
         - if current_page.data.kind!="effekseer"
 
-          - if current_page.data.kind=="top"
-              .selected
-                a href="index.html"
-                  h1 =t(:top_header)
-          - else
-              .unselected
-                a href="index.html"
-                  h1 =t(:top_header)
-
           - if current_page.data.kind=="introduction"
             .selected
               a href="introduction.html"
