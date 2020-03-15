@@ -1961,6 +1961,13 @@ margin-bottom: $kankaku;
 #contents .releasenote_section {
   text-align: center;
   margin: $kankaku;
+
+  h3 {
+    padding: 8px 0;
+    background-color: $bg_shadow;
+    color: $main_color;
+    border-radius: 24px;
+  }
 }
 #contents .allsecimg {
   margin-left: auto;

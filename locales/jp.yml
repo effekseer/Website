@@ -13,6 +13,9 @@
 
   eyecatch_1: "エフェクト制作ツール"
   eyecatch_2: "「Effekseer」"
+  eyecatch_3: "v1.5 リリース！"
+  download_button: "v1.5 ダウンロード"
+  newfeature_button: "v1.5 新機能"
 
   top:
     desc_movie1: "ツールで容易にエフェクト編集！"
@@ -214,7 +217,17 @@
     tktk02_List8: "Sword（剣）6種"
 
   releasenote:
-
+    v150:
+      material_editor: "マテリアルエディタ"
+      material_editor_desc: "新しくノードベースのマテリアルエディタが登場。カスタムマテリアルでさらなる表現が可能になります。"
+      material_editor_sample: "マテリアルを活用したトゥーン調のエフェクトサンプルを追加しました。"
+      turbulence: "乱流(タービュランス)"
+      turbulence_desc: "乱流(タービュランス)機能を追加しました。<br>「絶対位置」ウインドウが「力場」ウインドウに変わり、乱流パラメータが含められました。"
+      dynamic_parameter: "動的パラメータと式"
+      dynamic_parameter_desc: "動的パラメータによるエフェクトのコントロールが可能になります。"
+      new_format_efkefc: "新フォーマット \"efkefc\""
+      new_format_efkefc_desc: "今後は.efkprojの代わりに、.efkefcが使用されます。"
+    
     v140: "1.40"
     v140_1: "UIの一新"
     v140_1_desc: "全てのUIが置き換わりました。テーマがダークカラーになり、操作性が向上しました。"

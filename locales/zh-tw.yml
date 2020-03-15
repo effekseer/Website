@@ -13,6 +13,9 @@
 
   eyecatch_1: "效果編輯工具"
   eyecatch_2: "「Effekseer」"
+  eyecatch_3: "v1.5 現在可用！"
+  download_button: "v1.5 下載"
+  newfeature_button: "v1.5 新功能"
 
   top:
     desc_movie1: "能輕鬆地製作："
@@ -213,6 +216,16 @@
     tktk02_List8: "Sword x6"
 
   releasenote:
+    v150:
+      material_editor: "材質編輯器"
+      material_editor_desc: "出現了一個新的基於節點的材質編輯器。使用定製材料可以進一步表達！"
+      material_editor_sample: "添加了動畫樣式效果示例！"
+      turbulence: "湍流"
+      turbulence_desc: "湍流功能已添加。“Absolute Position”窗口已更改為“Force Field”窗口，其中包括湍流參數。"
+      dynamic_parameter: "動態參數和表達式"
+      dynamic_parameter_desc: "使您能夠使用動態參數控制效果。"
+      new_format_efkefc: "新格式 \"efkefc\""
+      new_format_efkefc_desc: "將使用.efkefc代替傳統的.efkproj。"
 
     v140: "1.40"
     v140_1: "The renewal of UI"

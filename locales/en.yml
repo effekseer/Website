@@ -13,6 +13,9 @@
 
   eyecatch_1: "Particle Effect Creating tool"
   eyecatch_2: "Effekseer"
+  eyecatch_3: "v1.5 is available now!"
+  download_button: "v1.5 Download"
+  newfeature_button: "v1.5 New features"
 
   top:
     desc_movie1: "You can create effects easily:"
@@ -203,7 +206,17 @@
     tktk02_List8: "Sword x6"
 
   releasenote:
-
+    v150:
+      material_editor: "Material Editor"
+      material_editor_desc: "A new node-based material editor has appeared. Further expression is possible with custom materials!"
+      material_editor_sample: "Added trendy toon effect samples!"
+      turbulence: "Turbulence"
+      turbulence_desc: "Turbulence function has been added.<br>The Absolute Position window has been changed to the Force Field window and includes turbulence parameters."
+      dynamic_parameter: "Dynamic parameters and expressions"
+      dynamic_parameter_desc: "Enables you to control the effect with dynamic parameters."
+      new_format_efkefc: "New format \"efkefc\""
+      new_format_efkefc_desc: ".efkefc will be used instead of the traditional .efkproj."
+    
     v140: "1.40"
     v140_1: "The renewal of UI"
     v140_1_desc: "All UIs have been replaced. The theme became dark color, and operability was improved."
