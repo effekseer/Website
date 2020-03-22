@@ -42,21 +42,6 @@ kind: documentation
                 a href ="/Help_Tool/index_en.html" =t('documentation.to_help')
 
           .help_sections
-            p Effekseer for Runtime
-            - if I18n.locale.to_s == 'jp'
-              a href ="/Help_Runtime/index_ja.html"
-                img src="/images/4opengl.png"
-            -else  
-              a href ="/Help_Runtime/index_en.html"
-                img src="/images/4opengl.png"
-            p =t('documentation.help_runtime')
-            .help_links
-              - if I18n.locale.to_s == 'jp'
-                a href ="/Help_Runtime/index_ja.html" =t('documentation.to_help')
-              -else  
-                a href ="/Help_Runtime/index_en.html" =t('documentation.to_help')
-
-          .help_sections
             p Effekseer for Unity
             - if I18n.locale.to_s == 'jp'
               a href ="/Help_Unity/index_ja.html" 

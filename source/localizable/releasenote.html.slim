@@ -12,6 +12,14 @@ kind: releasenote
             h2 =t(:releasenote_header)
       
             h3 1.50
+
+            - if I18n.locale.to_s == 'jp'
+              .iframe
+                iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/eb5k5s56J3o" frameborder="0" allowfullscreen
+            -else  
+              .iframe
+                iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/KUax3Y6mTqk" frameborder="0" allowfullscreen
+
             h4 =t('releasenote.v150.material_editor')
             .allsecimg
               p =t('releasenote.v150.material_editor_desc')
