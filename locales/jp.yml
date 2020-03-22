@@ -18,6 +18,9 @@
   newfeature_button: "v1.5 新機能"
 
   top:
+    desc_main1: "簡単に作成!"
+    desc_main2: "オープンソース"
+    desc_main3: "マルチプラットフォーム"
     desc_movie1: "ツールで容易にエフェクト編集！"
     desc_movie2: "こんなエフェクト作れます"
 
