@@ -24,16 +24,12 @@
     desc_movie1: "You can create effects easily:"
     desc_movie2: "Examples of created effects:"
 
-    news_0: "2019.11.21 Effekseer 1.5 version is released."
+    news_0: "2019.04.02 Effekseer 1.51 version is released."
+    news_0: "2020.03.18 Effekseer 1.5 version is released."
     news_1: "2019.11.21 Effekseer for Unity and Effekseer are updated."
     news_2: "2019.10.21 Effekseer for Unity is updated."
     news_3: "2019.10.12 Effekseer 1.43e version is released."
     news_4: "2019.09.16 Effekseer for UE4, Cocos2d-x, DXlib is updated."
-    news_5: "2019.08.02 Effekseer for Unity, Cocos2d-x is updated."
-    news_6: "2019.05.14 Effekseer 1.43c version is released."
-    news_7: "2017.11.01 Effekseer 1.30 version is released."
-    news_8: "2017.01.24 Add samples. Update documents."
-    news_9: "2016.05.23 Effekseer for Unity is updated."
 
     news_template1: "2018.11.12 Effekseer for Unity and Cocos2d-x is updated."
     news_template2: "2019.03.17 Effekseer 1.43c version is released."
