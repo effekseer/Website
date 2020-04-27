@@ -13,8 +13,8 @@
 
   eyecatch_1: "エフェクト制作ツール"
   eyecatch_2: "「Effekseer」"
-  eyecatch_3: "v1.5 リリース！"
-  download_button: "v1.5 ダウンロード"
+  eyecatch_3: "v1.52 リリース！"
+  download_button: "v1.52 ダウンロード"
   newfeature_button: "v1.5 新機能"
 
   top:
@@ -24,12 +24,13 @@
     desc_movie1: "ツールで容易にエフェクト編集！"
     desc_movie2: "こんなエフェクト作れます"
 
-    news_0: "2020.04.10 Effekseer1.51bをリリースしました。"
-    news_1: "2020.03.18 Effekseer1.5をリリースしました。"
-    news_2: "2019.11.21 Effekseer, EffekseerForUnityをバージョンアップしました。"
-    news_3: "2019.10.21 EffekseerForUnityをバージョンアップしました。"
-    news_4: "2019.10.12 Effekseer 1.43eバージョンが公開されました。"
-    news_5: "2019.09.16 EffekseerForUE4, Cocos2d-x,DXlibをバージョンアップしました。"
+    news_0: "2020.04.26 Effekseer1.52をリリースしました。"
+    news_1: "2020.04.10 Effekseer1.51bをリリースしました。"
+    news_2: "2020.03.18 Effekseer1.5をリリースしました。"
+    news_3: "2019.11.21 Effekseer, EffekseerForUnityをバージョンアップしました。"
+    news_4: "2019.10.21 EffekseerForUnityをバージョンアップしました。"
+    news_5: "2019.10.12 Effekseer 1.43eバージョンが公開されました。"
+    news_6: "2019.09.16 EffekseerForUE4, Cocos2d-x,DXlibをバージョンアップしました。"
 
     news_template1: "2018.11.12 EffekseerForUnity, Cocos2d-xをバージョンアップしました。"
     news_template2: "2019.03.17 Effekseer 1.43cバージョンが公開されました。"
