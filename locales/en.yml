@@ -13,8 +13,8 @@
 
   eyecatch_1: "Particle Effect Creating tool"
   eyecatch_2: "Effekseer"
-  eyecatch_3: "v1.52e is available now!"
-  download_button: "v1.52e Download"
+  eyecatch_3: "v1.52f is available now!"
+  download_button: "v1.52f Download"
   newfeature_button: "v1.5 New features"
 
   top:
@@ -24,14 +24,15 @@
     desc_movie1: "You can create effects easily:"
     desc_movie2: "Examples of created effects:"
 
-    news_0: "2019.05.07 Effekseer 1.52e version is released."
-    news_1: "2019.05.05 Effekseer 1.52b version is released."
-    news_2: "2019.04.10 Effekseer 1.51b version is released."
-    news_3: "2020.03.18 Effekseer 1.5 version is released."
-    news_4: "2019.11.21 Effekseer for Unity and Effekseer are updated."
-    news_5: "2019.10.21 Effekseer for Unity is updated."
-    news_6: "2019.10.12 Effekseer 1.43e version is released."
-    news_7: "2019.09.16 Effekseer for UE4, Cocos2d-x, DXlib is updated."
+    news_0: "2019.05.13 Effekseer 1.52f version is released."
+    news_1: "2019.05.07 Effekseer 1.52e version is released."
+    news_2: "2019.05.05 Effekseer 1.52b version is released."
+    news_3: "2019.04.10 Effekseer 1.51b version is released."
+    news_4: "2020.03.18 Effekseer 1.5 version is released."
+    news_5: "2019.11.21 Effekseer for Unity and Effekseer are updated."
+    news_6: "2019.10.21 Effekseer for Unity is updated."
+    news_7: "2019.10.12 Effekseer 1.43e version is released."
+    news_8: "2019.09.16 Effekseer for UE4, Cocos2d-x, DXlib is updated."
 
     news_template1: "2018.11.12 Effekseer for Unity and Cocos2d-x is updated."
     news_template2: "2019.03.17 Effekseer 1.43c version is released."
