@@ -13,8 +13,8 @@
 
   eyecatch_1: "エフェクト制作ツール"
   eyecatch_2: "「Effekseer」"
-  eyecatch_3: "v1.52h リリース！"
-  download_button: "v1.52h ダウンロード"
+  eyecatch_3: "v1.52i リリース！"
+  download_button: "v1.52i ダウンロード"
   newfeature_button: "v1.5 新機能"
 
   top:
@@ -24,12 +24,12 @@
     desc_movie1: "ツールで容易にエフェクト編集！"
     desc_movie2: "こんなエフェクト作れます"
 
-    news_0: "2020.07.10 Effekseer1.52hをリリースしました。"
-    news_1: "2020.06.10 Effekseer1.52gをリリースしました。"
-    news_2: "2020.05.13 Effekseer1.52fをリリースしました。"
-    news_3: "2020.05.07 Effekseer1.52eをリリースしました。"
-    news_4: "2020.05.05 Effekseer1.52bをリリースしました。"
-    news_5: "2020.04.10 Effekseer1.51bをリリースしました。"
+    news_0: "2020.07.10 Effekseer1.52iをリリースしました。"
+    news_1: "2020.07.10 Effekseer1.52hをリリースしました。"
+    news_2: "2020.06.10 Effekseer1.52gをリリースしました。"
+    news_3: "2020.05.13 Effekseer1.52fをリリースしました。"
+    news_4: "2020.05.07 Effekseer1.52eをリリースしました。"
+    news_5: "2020.05.05 Effekseer1.52bをリリースしました。"
     news_6: "2019.11.21 Effekseer, EffekseerForUnityをバージョンアップしました。"
     news_7: "2019.10.21 EffekseerForUnityをバージョンアップしました。"
     news_8: "2019.10.12 Effekseer 1.43eバージョンが公開されました。"
