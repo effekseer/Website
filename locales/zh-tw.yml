@@ -13,8 +13,8 @@
 
   eyecatch_1: "效果編輯工具"
   eyecatch_2: "「Effekseer」"
-  eyecatch_3: "v1.52j 現在可用！"
-  download_button: "v1.52j 下載"
+  eyecatch_3: "v1.52k 現在可用！"
+  download_button: "v1.52k 下載"
   newfeature_button: "v1.5 新功能"
 
   top:
@@ -24,17 +24,16 @@
     desc_movie1: "能輕鬆地製作："
     desc_movie2: "製作完成的效果："
 
-    news_0: "2020.08.02 發布了Effekseer 1.52j版本."
-    news_1: "2020.07.10 發布了Effekseer 1.52h版本."
-    news_2: "2020.06.10 發布了Effekseer 1.52g版本."
-    news_3: "2020.05.13 發布了Effekseer 1.52f版本."
-    news_4: "2020.05.07 發布了Effekseer 1.52e版本."
-    news_5: "2020.05.05 發布了Effekseer 1.52b版本."
-    news_6: "2020.04.10 發布了Effekseer 1.51b版本."
-    news_6: "2019.11.21 升級Effekseer, EffekseerForUnity。"
-    news_7: "2019.10.21 升級EffekseerForUnity。"
-    news_8: "2019.10.12 發布了Effekseer 1.43e版本."
-    news_9: "2019.09.16 升級EffekseerForUE4, Cocos2d-x, DXlib。"
+    news_0: "2020.08.16 發布了Effekseer 1.52k版本."
+    news_1: "2020.08.02 發布了Effekseer 1.52j版本."
+    news_2: "2020.07.10 發布了Effekseer 1.52h版本."
+    news_3: "2020.06.10 發布了Effekseer 1.52g版本."
+    news_4: "2020.05.13 發布了Effekseer 1.52f版本."
+    news_5: "2020.05.07 發布了Effekseer 1.52e版本."
+    news_6: "2020.05.05 發布了Effekseer 1.52b版本."
+    news_7: "2020.04.10 發布了Effekseer 1.51b版本."
+    news_8: "2019.11.21 升級Effekseer, EffekseerForUnity。"
+    news_9: "2019.10.21 升級EffekseerForUnity。"
 
     news_template1: "2018.11.12 升級EffekseerForUnity,Cocos2d-x。"
     news_template2: "2019.03.17 發布了Effekseer 1.43c版本."
