@@ -124,7 +124,7 @@
     description: "附帶在每個包裝內的說明書網絡版。(很對不起,現在只提供英文版本)"
     to_help: "前往說明書"
     help_effekseer: "給設計師的效果編輯工具的說明書"
-    help_runtime: "DirectX或OpenGL內效果播放時的說明書"
+    help_runtime: "DirectX或OpenGL內效果播放時的API参考文献"
     help_unity: "Unity內效果播放時的說明書"
     dxlib: "Effekseer For DXLibrary"
     help_dxlib: "DXLibrary內效果播放時的說明書"

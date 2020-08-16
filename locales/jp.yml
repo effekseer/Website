@@ -124,7 +124,7 @@
     description: "各パッケージに同梱されているヘルプのオンライン版です。"
     to_help: "ヘルプへ"
     help_effekseer: "デザイナー向けのエフェクトを作成するためのツールのヘルプ"
-    help_runtime: "DirectXやOpenGLでエフェクトを再生できるようにするランタイムのヘルプ"
+    help_runtime: "DirectXやOpenGLでエフェクトを再生できるようにするランタイムのAPIリファレンス"
     help_unity: "Unityでエフェクトを再生できるようにするプラグインのヘルプ"
     dxlib: "Effekseer For DXライブラリ"
     help_dxlib: "DXライブラリでエフェクトを再生できるようにするライブラリのヘルプ"
