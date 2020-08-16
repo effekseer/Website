@@ -115,7 +115,7 @@
     description: "Help files are also bundled with each package"
     to_help: "To Help"
     help_effekseer: "used by designers to create the effects."
-    help_runtime: "API refernce for showing the effects in your DirectX or OpenGL applications."
+    help_runtime: "API refernce for showing the effects in your DirectX or OpenGL applications.(Under translating. please help us)"
     help_unity: "used for showing the effects in your Unity applications."
     dxlib: "Effekseer for DX Library"
     help_dxlib: "used for showing the effects in your DX Library applications."
