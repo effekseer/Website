@@ -24,13 +24,13 @@
     desc_movie1: "ツールで容易にエフェクト編集！"
     desc_movie2: "こんなエフェクト作れます"
 
-    news_0: "2020.12.13 Effekseer1.53aをリリースしました。"
+    news_0: "2020.03.08 EffekseerForUnity, WebGL 1.53bをリリースしました。"
+    news_1: "2020.12.13 Effekseer1.53aをリリースしました。"
     news_2: "2020.10.23 Effekseer1.52nをリリースしました。"
     news_3: "2020.08.28 Effekseer1.52mをリリースしました。"
     news_4: "2020.08.18 Effekseer1.52lをリリースしました。"
     news_5: "2020.08.16 Effekseer1.52kをリリースしました。"
     news_6: "2020.08.02 Effekseer1.52jをリリースしました。"
-    news_7: "2020.07.10 Effekseer1.52hをリリースしました。"
 
 
     news_template1: "2018.11.12 EffekseerForUnity, Cocos2d-xをバージョンアップしました。"

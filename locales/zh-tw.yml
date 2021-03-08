@@ -24,13 +24,13 @@
     desc_movie1: "能輕鬆地製作："
     desc_movie2: "製作完成的效果："
 
-    news_0: "2020.12.13 發布了Effekseer 1.53a版本."
-    news_1: "2020.10.23 發布了Effekseer 1.52n版本."
-    news_2: "2020.08.28 發布了Effekseer 1.52m版本."
-    news_3: "2020.08.18 發布了Effekseer 1.52l版本."
-    news_4: "2020.08.16 發布了Effekseer 1.52k版本."
-    news_5: "2020.08.02 發布了Effekseer 1.52j版本."
-    news_6: "2020.07.10 發布了Effekseer 1.52h版本."
+    news_0: "2020.03.08 發布了EffekseerForUnity,WebGL 1.53b版本."
+    news_1: "2020.12.13 發布了Effekseer 1.53a版本."
+    news_2: "2020.10.23 發布了Effekseer 1.52n版本."
+    news_3: "2020.08.28 發布了Effekseer 1.52m版本."
+    news_4: "2020.08.18 發布了Effekseer 1.52l版本."
+    news_5: "2020.08.16 發布了Effekseer 1.52k版本."
+    news_6: "2020.08.02 發布了Effekseer 1.52j版本."
 
 
     news_template1: "2018.11.12 升級EffekseerForUnity,Cocos2d-x。"
