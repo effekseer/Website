@@ -78,6 +78,30 @@ kind: adoption
             p © FURYU Corporation.
 
         .adopted
+          .slideshow
+            input type="radio" name="rpgmakermz" id="switch1" checked="true"
+            .slideContents
+              section id="slide1"
+                img src="/images/adoption/RPGMakerMZ.jpg"
+
+          - if I18n.locale.to_s == "jp"
+            h3 RPGツクールMZ
+          -else
+            h3 RPG Maker MZ
+          .setting1
+            .list1_site
+              p =t(:adoption_developer)
+              p
+                a href="http://translimit.co.jp/" Gotcha Gotcha Games Inc
+            .list1_mv
+              p =t(:adoption_site)
+              p
+                - if I18n.locale.to_s == "jp"
+                  a href="https://tkool.jp/mz/" RPGツクールMZ
+                -else
+                  a href="https://www.rpgmakerweb.com/products/rpg-maker-mz" RPG Maker MZ
+
+        .adopted
           .iframe
             iframe.iframe_container width="560" height="315" src="https://www.youtube.com/embed/WfNpxJEAOvo" frameborder="0" allowfullscreen
 
