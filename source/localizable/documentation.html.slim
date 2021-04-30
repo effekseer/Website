@@ -41,10 +41,6 @@ kind: documentation
               -else  
                 a href ="/Help_Tool/index_en.html" =t('documentation.to_help')
 
-            p 1.6(Beta)
-            .help_links
-              a href ="/Helps/16x/Tool/index.html" =t('documentation.to_help')              
-
           .help_sections
             p Effekseer for Unity
             - if I18n.locale.to_s == 'jp'
@@ -90,6 +86,14 @@ kind: documentation
             p =t('documentation.help_ue4')
             .help_links
               a href ="/Help_UE4/index.html" =t('documentation.to_help')
+
+          .help_sections
+            p Effekseer for UnrealEngine4
+            a href ="/Help_UE4/index.html"
+              img src="/images/6unreale.png"
+            p =t('documentation.help_ue4')
+            .help_links
+              a href ="/Help_Godot/index.html" =t('documentation.to_help')
 
           .help_sections
             p API Reference

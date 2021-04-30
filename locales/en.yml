@@ -13,9 +13,9 @@
 
   eyecatch_1: "Particle Effect Creation tool"
   eyecatch_2: "Effekseer"
-  eyecatch_3: "v1.53e is available now!"
-  download_button: "v1.53e Download"
-  newfeature_button: "v1.5 New features"
+  eyecatch_3: "v1.60 is available now!"
+  download_button: "v1.60 Download"
+  newfeature_button: "v1.6 New features"
 
   top:
     desc_main1: "Easy to Create"
@@ -24,11 +24,12 @@
     desc_movie1: "You can create effects easily:"
     desc_movie2: "Examples of created effects:"
 
-    news_0: "2021.03.29 Effekseer 1.53e is released."
-    news_1: "2021.03.27 Effekseer 1.53d is released."
-    news_2: "2021.03.17 Effekseer 1.53c is released."
-    news_3: "2021.03.08 EffekseerForUnity,WebGL 1.53b is released."
-    news_4: "2020.12.13 Effekseer 1.53a is released."
+    news_0: "2021.04.30 Effekseer 1.60 is released."
+    news_1: "2021.03.29 Effekseer 1.53e is released."
+    news_2: "2021.03.27 Effekseer 1.53d is released."
+    news_3: "2021.03.17 Effekseer 1.53c is released."
+    news_4: "2021.03.08 EffekseerForUnity,WebGL 1.53b is released."
+    news_5: "2020.12.13 Effekseer 1.53a is released."
 
     news_template1: "2018.11.12 Effekseer for Unity and Cocos2d-x is updated."
     news_template2: "2019.03.17 Effekseer 1.43c version is released."
