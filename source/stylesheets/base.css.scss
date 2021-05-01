@@ -1261,6 +1261,15 @@ img {
   margin-top:20px; 
   margin-bottom: 20px;
 }
+video {
+  width: 80%;
+  max-width: 150px;
+  min-width: 150px;
+  height: auto;
+  text-align: center;
+  margin-top:20px; 
+  margin-bottom: 20px;
+}
 p {
   margin: $moji;
 }
@@ -2416,6 +2425,15 @@ p {
   margin-left: auto;
   background-color: $sashiiro1;
 img {
+  width: 100%;
+  max-width: 200px;
+  min-width: 150px;
+  text-align: center;
+  height: auto;
+  margin-top:5px; 
+  margin-bottom: 5px;
+}
+video {
   width: 100%;
   max-width: 200px;
   min-width: 150px;

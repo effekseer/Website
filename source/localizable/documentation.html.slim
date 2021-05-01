@@ -254,3 +254,33 @@ kind: documentation
                 p
                   a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/13.html" No13. Let’s distort a background!
 
+            .locale_sections
+              a href=(I18n.locale.to_s == 'jp' ? "http://effekseer.github.io/Help_Tool/ja/ToolTutorial/material_01.html" : "http://effekseer.github.io/Help_Tool/en/ToolTutorial/material_01.html")
+                video autoplay="autoplay" loop="true" muted="true" src="/videos/documents/mat01_comp.mp4"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/material_01.html" マテリアル - No01. マテリアル入門
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/material_01.html" Material - No01. The Introduction of Material
+
+            .locale_sections
+              a href=(I18n.locale.to_s == 'jp' ? "http://effekseer.github.io/Help_Tool/ja/ToolTutorial/material_02.html" : "http://effekseer.github.io/Help_Tool/en/ToolTutorial/material_02.html")
+                video autoplay="autoplay" loop="true" muted="true" src="/videos/documents/mat02_comp.mp4"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/material_02.html" マテリアル - No02. マテリアルでトゥーン風の炎を表現する。
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/material_02.html" Material - No02. Represent toon-like flames with materials.
+
+            .locale_sections
+              a href=(I18n.locale.to_s == 'jp' ? "http://effekseer.github.io/Help_Tool/ja/ToolTutorial/material_03.html" : "http://effekseer.github.io/Help_Tool/en/ToolTutorial/material_03.html")
+                video autoplay="autoplay" loop="true" muted="true" src="/videos/documents/mat03_comp.mp4"
+              - if I18n.locale.to_s == 'jp'
+                p
+                  a href="http://effekseer.github.io/Help_Tool/ja/ToolTutorial/material_03.html" マテリアル - No03. 続・マテリアルでトゥーン風の炎を表現する。
+              -else  
+                p
+                  a href="http://effekseer.github.io/Help_Tool/en/ToolTutorial/material_03.html" Material - No03. Toon-like flames with sequential materials.
+
