@@ -76,8 +76,6 @@
     browser_warning: "※ ブラウザで再生するにはemscriptenを使用する必要があります。"
 
   download:
-    beta: "ベータバージョン"
-    beta_desc: "* 基本的に1.3を使用してください。1.2で発生する不具合が修正されています。"
     tool_desc: "デザイナー向けのエフェクトを作成するためのツールです。"
     tool_runtime: "DirectXやOpenGLを用いたアプリケーション中でエフェクトを再生できるようにするランタイムです。"
     tool_unity: "Unityで簡単に作成したエフェクトを再生できるようにするプラグインです。"
@@ -86,7 +84,7 @@
 
     prev: "以前のバージョン"
     eff_dxlib: "Effekseer For DXライブラリ"
-
+    eff_rpgmakermz: "Effekseer For RPGツクールMZ"
 
   development_program: "ツールについて"
   development_content_1: "Effekseerはgithub上で開発されています。"

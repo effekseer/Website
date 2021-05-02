@@ -32,6 +32,13 @@ kind: download
           p
             a href="https://github.com/effekseer/Effekseer/blob/master/docs/Development/HowToBuild.md#linux" For Linux
 
+          - if I18n.locale.to_s == 'jp'
+            p バーチャルキャスト向けには1.5を使用する必要があります。
+            p RPGツクールMZで1.6のエフェクトを再生するにはプラグインを導入する必要があります。
+
+          - else
+            p It needs to use 1.5 for VirtualCast
+            p To play the 1.6 effects in RPG Maker MZ, you need to install a plug-in.
 
 
       .download_contents_set
@@ -52,20 +59,6 @@ kind: download
             a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForUnity160.zip" Download (1.60)
 
         .download_contents
-          h3 id="dxlib" =t('download.eff_dxlib')
-
-          p =t('download.tool_dxlib')
-
-          p
-            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForDXLib_160_322c.zip" Download (1.60,3.22c)
-
-        .download_contents
-          h3 id="cocos2dx" Effekseer for Cocos2d-x
-
-          p
-            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForCocos2d-x160.zip" Download (1.60)
-
-        .download_contents
           h3 id="ue4" Effekseer for UnrealEngine4
 
           p
@@ -78,7 +71,7 @@ kind: download
             a href="https://github.com/effekseer/EffekseerForGodot3/releases/tag/160Beta3" Download (1.60Beta3)
 
         .download_contents
-          h3 id="rpgmakermz" Effekseer for RPGMakerMZ
+          h3 id="rpgmakermz" =t('download.eff_rpgmakermz')
 
           p
             a href="https://github.com/effekseer/EffekseerForRPGMakerMZ_Ex" Link
@@ -88,6 +81,20 @@ kind: download
 
           p
             a href="https://github.com/effekseer/EffekseerForWebGL" Link
+
+        .download_contents
+          h3 id="dxlib" =t('download.eff_dxlib')
+
+          p =t('download.tool_dxlib')
+
+          p
+            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForDXLib_160_322c.zip" Download (1.60,3.22c)
+
+        .download_contents
+          h3 id="cocos2dx" Effekseer for Cocos2d-x
+
+          p
+            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForCocos2d-x160.zip" Download (1.60)
 
         .download_contents
           h3 id="third" Effekseer for (ThirdParty)

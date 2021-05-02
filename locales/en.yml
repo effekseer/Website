@@ -69,8 +69,6 @@
     browser_warning: "* requires Emscripten."
 
   download:
-    beta: "Beta version"
-    beta_desc: "* Basically use 1.3 please. A bug occurring in 1.2 has been fixed."
     tool_desc: "This is a tool for designers to create particle effects."
     tool_runtime: "This is a runtime to show effects in your DirectX or OpenGL applications."
     tool_unity: "This is a plugin to show effects in your Unity applications."
@@ -79,7 +77,8 @@
 
     prev: "Previous Versions"
     eff_dxlib: "Effekseer for DXLibrary"
-  
+    eff_rpgmakermz: "Effekseer For RPGMakerMZ"
+
   development_program: "About Tool"
   development_content_1: "Effekseer is developed on Github."
   development_content_2: "We always welcome pull requests for improvements, bug fixes, and so on:"
