@@ -13,8 +13,8 @@
 
   eyecatch_1: "效果編輯工具"
   eyecatch_2: "「Effekseer」"
-  eyecatch_3: "v1.61d 現在可用！"
-  download_button: "v1.61d 下載"
+  eyecatch_3: "v1.61e 現在可用！"
+  download_button: "v1.61e 下載"
   newfeature_button: "v1.6 新功能"
 
   top:
@@ -24,15 +24,15 @@
     desc_movie1: "能輕鬆地製作："
     desc_movie2: "製作完成的效果："
 
-    news_0: "2021.09.14 發布了EffekseerForUnity 1.61d版本."
-    news_0: "2021.09.11 發布了Effekseer 1.61c版本."
-    news_1: "2021.08.24 發布了Effekseer 1.61b版本."
-    news_2: "2021.08.03 發布了Effekseer 1.61a版本."
-    news_3: "2021.07.14 發布了Effekseer 1.60e版本."
-    news_4: "2021.06.25 發布了Effekseer 1.60d版本."
-    news_5: "2021.05.26 發布了Effekseer 1.60c版本."
-    news_6: "2021.05.14 發布了Effekseer 1.60b版本."
-    news_7: "2021.04.30 發布了Effekseer 1.60版本."
+    news_0: "2021.10.14 發布了Effekseer 1.61e版本."
+    news_1: "2021.09.14 發布了EffekseerForUnity 1.61d版本."
+    news_2: "2021.09.11 發布了Effekseer 1.61c版本."
+    news_3: "2021.08.24 發布了Effekseer 1.61b版本."
+    news_4: "2021.08.03 發布了Effekseer 1.61a版本."
+    news_5: "2021.07.14 發布了Effekseer 1.60e版本."
+    news_6: "2021.06.25 發布了Effekseer 1.60d版本."
+    news_7: "2021.05.26 發布了Effekseer 1.60c版本."
+    news_8: "2021.05.14 發布了Effekseer 1.60b版本."
 
     news_template1: "2018.11.12 升級EffekseerForUnity,Cocos2d-x。"
     news_template2: "2019.03.17 發布了Effekseer 1.43c版本."
