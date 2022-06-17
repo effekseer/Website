@@ -13,8 +13,8 @@
 
   eyecatch_1: "エフェクト制作ツール"
   eyecatch_2: "「Effekseer」"
-  eyecatch_3: "v1.62d リリース！"
-  download_button: "v1.62d ダウンロード"
+  eyecatch_3: "v1.62e リリース！"
+  download_button: "v1.62e ダウンロード"
   newfeature_button: "v1.6 新機能"
 
   top:
@@ -24,15 +24,14 @@
     desc_movie1: "ツールで容易にエフェクト編集！"
     desc_movie2: "こんなエフェクト作れます"
 
-    news_0: "2022.04.17 Effekseer1.62dをリリースしました。"
-    news_1: "2022.03.28 Effekseer1.62c2(Mac)をリリースしました。"
-    news_2: "2022.03.06 Effekseer1.62cをリリースしました。"
-    news_3: "2022.01.31 Effekseer1.62bをリリースしました。"
-    news_4: "2022.01.05 Effekseer1.62aをリリースしました。"
-    news_5: "2022.01.02 Effekseer1.62をリリースしました。"
-    news_6: "2021.10.14 Effekseer1.61eをリリースしました。"
-    news_7: "2021.09.14 EffekseerForUnity1.61dをリリースしました。"
-    news_8: "2021.09.11 Effekseer1.61cをリリースしました。"
+    news_0: "2022.06.17 Effekseer1.62eをリリースしました。"
+    news_1: "2022.04.17 Effekseer1.62dをリリースしました。"
+    news_2: "2022.03.28 Effekseer1.62c2(Mac)をリリースしました。"
+    news_3: "2022.03.06 Effekseer1.62cをリリースしました。"
+    news_4: "2022.01.31 Effekseer1.62bをリリースしました。"
+    news_5: "2022.01.05 Effekseer1.62aをリリースしました。"
+    news_6: "2022.01.02 Effekseer1.62をリリースしました。"
+    news_7: "2021.10.14 Effekseer1.61eをリリースしました。"
 
     news_template1: "2018.11.12 EffekseerForUnity, Cocos2d-xをバージョンアップしました。"
     news_template2: "2019.03.17 Effekseer 1.43cバージョンが公開されました。"
