@@ -18,13 +18,16 @@ kind: download
           img src="/images/download/icon_tool.png"
 
           p
-            a href="https://github.com/effekseer/Effekseer/releases/download/162e/Effekseer162eWin.zip" Download (Win,64bit,1.62e)
+            a href="https://github.com/effekseer/Effekseer/releases/download/170/Effekseer170Win.zip" Download (Win,64bit,1.70)
 
           p
-            a href="https://github.com/effekseer/Effekseer/releases/download/162e/Effekseer162eWin_x86.zip" Download (Win,32bit,1.62e)
+            a href="https://github.com/effekseer/Effekseer/releases/download/170/Effekseer170Win_x86.zip" Download (Win,32bit,1.70)
 
           p
-            a href="https://github.com/effekseer/Effekseer/releases/download/162e/Effekseer162eMac.zip" Download (Mac,1.62e)
+            a href="https://github.com/effekseer/Effekseer/releases/download/170/Effekseer170Mac.zip" Download (Mac,1.70)
+
+          p
+            a href="https://effekseer.sakura.ne.jp/Releases/Effekseer162eWin.zip" Download (Win,64bit,1.62e)
 
           p
             a href="https://effekseer.sakura.ne.jp/Releases/Effekseer153eWin.zip" Download (Win,64bit,1.53e)
@@ -33,10 +36,16 @@ kind: download
             a href="https://github.com/effekseer/Effekseer/blob/master/docs/Development/HowToBuild.md#linux" For Linux
 
           - if I18n.locale.to_s == 'jp'
-            p バーチャルキャスト向けには1.5を使用する必要があります。
+            p バーチャルキャスト向けには1.6を使用する必要があります。
 
           - else
-            p It needs to use 1.5 for VirtualCast
+            p It needs to use 1.6 for VirtualCast
+
+          - if I18n.locale.to_s == 'jp'
+            p プラグインを使用しない場合、RPGツクールMZ向けには1.6を使用する必要があります。
+
+          - else
+            p It needs to use 1.6 for RPGMakerMZ when not using the plug-in
 
       .download_contents_set
         .download_contents
@@ -45,21 +54,21 @@ kind: download
           p =t('download.tool_runtime')
 
           p
-            a href="https://github.com/effekseer/Effekseer/releases/download/162e/EffekseerRuntime162e.zip" Download (1.62e)
+            a href="https://github.com/effekseer/Effekseer/releases/download/170/EffekseerRuntime170.zip" Download (1.70)
 
         .download_contents
-          h3 id="unity_renewal" Effekseer For Unity
+          h3 id="unity" Effekseer For Unity
 
           p =t('download.tool_unity')
 
           p
-            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForUnity162f.zip" Download (1.62f)
+            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForUnity170.zip" Download (1.70)
 
         .download_contents
-          h3 id="ue4" Effekseer for UnrealEngine4
+          h3 id="ue" Effekseer for UnrealEngine
 
           p
-            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForUE4_162e.zip" Download (1.62e, UE4 4.24-4.27)
+            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForUE_170.zip" Download (1.70, 4.27-5.03)
 
         .download_contents
           h3 id="godot" Effekseer for GodotEngine3
@@ -85,13 +94,13 @@ kind: download
           p =t('download.tool_dxlib')
 
           p
-            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForDXLib_162e_323.zip" Download (1.62e,3.23)
+            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForDXLib_170_323d.zip" Download (1.70,3.23d)
 
         .download_contents
           h3 id="cocos2dx" Effekseer for Cocos2d-x
 
           p
-            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForCocos2d-x162e.zip" Download (1.62e)
+            a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForCocos2d-x170.zip" Download (1.70)
 
         .download_contents
           h3 id="third" Effekseer for (ThirdParty)
@@ -106,6 +115,10 @@ kind: download
 
         .old_Links
           .versions
+            h3 1.62f
+            p
+              a href="https://effekseer.sakura.ne.jp/Releases/EffekseerForUnity162f.zip" Unity (1.62f)
+
             h3 1.62e
             p
               a href="https://github.com/effekseer/Effekseer/releases/download/162e/Effekseer162eWin.zip" Tool (Win,64bit,1.62e)

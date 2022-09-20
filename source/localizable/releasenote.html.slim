@@ -11,6 +11,22 @@ kind: releasenote
           .releasenote_section
             h2 =t(:releasenote_header)
 
+            h3 1.70
+
+            - if I18n.locale.to_s == 'jp'
+              .iframe
+                iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/7LcZjgveH4I" frameborder="0" allowfullscreen
+
+              p 詳細はこちら
+              a href="/Helps/17x/Tool/ja/ReleaseNotes/170.html" リリースノート
+
+            -else  
+              .iframe
+                iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/fXB1BiMOKcI" frameborder="0" allowfullscreen
+
+              p For more information
+              a href="/Helps/17x/Tool/ja/ReleaseNotes/170.html" Release note
+
             h3 1.60
 
             - if I18n.locale.to_s == 'jp'
