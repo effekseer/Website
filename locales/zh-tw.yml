@@ -77,7 +77,7 @@
 
   download:
     tool_desc: "給設計師製作粒子效果的工具。"
-    tool_runtime: "DirectX或OpenGL應用程式中顯示效果的runtime。"
+    tool_cpp: "C++應用程式中顯示效果的library。"
     tool_unity: "Unity內播放效果的插件。"
     tool_dxlib: "DXLibrary應用程式中顯示效果的函式庫。"
     tool_unity_legacy: "Unity內播放效果的插件。這是一個5.6兼容的插件，主要開發到2018年。"

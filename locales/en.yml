@@ -71,7 +71,7 @@
 
   download:
     tool_desc: "This is a tool for designers to create particle effects."
-    tool_runtime: "This is a runtime to show effects in your DirectX or OpenGL applications."
+    tool_cpp: "This is a C++ library to show effects in your C++ applications."
     tool_unity: "This is a plugin to show effects in your Unity applications."
     tool_dxlib: "This is a library to show effects in your DXLibrary applications."
     tool_unity_legacy: "This is a plugin to show effects in your Unity applications. This is a 5.6 compatible plugin that was mainly developed until 2018."
