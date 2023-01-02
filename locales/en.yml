@@ -116,7 +116,7 @@
     dxlib: "Effekseer for DX Library"
     help_dxlib: "used for showing the effects in your DX Library applications."
     help_cocos2dx: "used for showing the effects in your Cocos2d-x applications."
-    help_ue4: "used for showing the effects in your UnrealEngine4 applications."
+    help_ue: "used for showing the effects in your UnrealEngine applications."
 
     tutorial: "Tutorial"
     to_tutorial: "To Tutorial"

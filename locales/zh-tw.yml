@@ -125,7 +125,7 @@
     dxlib: "Effekseer For DXLibrary"
     help_dxlib: "DXLibrary內效果播放時的說明書"
     help_cocos2dx: "Cocos2d-x內效果播放時的說明書"
-    help_ue4: "UnrealEngine4內效果播放時的說明書"
+    help_ue: "UnrealEngine內效果播放時的說明書"
 
     tutorial: "教程"
     to_tutorial: "前往教程"
