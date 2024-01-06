@@ -1,0 +1,302 @@
+zh-cn:
+  top_header: "首页"
+  introduction_header: "介绍"
+  download_header: "下载"
+  adoption_header: "案例"
+  support_header: "支持"
+  contribute_header: "示例特效"
+  development_header: "开发"
+  documentation_header: "文档"
+  releasenote_header: "版本发布说明"
+
+  forum_header: "论坛"
+
+  eyecatch_1: "粒子特效制作工具"
+  eyecatch_2: "「Effekseer」"
+  eyecatch_3: "v1.70e 已发布！"
+  download_button: "v1.70e 下载"
+  newfeature_button: "v1.7 新功能"
+
+  top:
+    desc_main1: "制作简单！"
+    desc_main2: "开源"
+    desc_main3: "多平台"
+    desc_movie1: "可以轻松地制作特效！"
+    desc_movie2: "示例特效："
+
+    news_0: "2023.07.15 发布了 EffekseerForUE 1.70f 版本。"
+    news_1: "2023.06.03 发布了 Effekseer 1.70e 版本。"
+    news_2: "2023.04.21 发布了 EffekseerForUnity 1.70d 版本。"
+    news_3: "2022.12.24 发布了 Effekseer 1.70b 版本。"
+    news_4: "2022.11.30 发布了 Effekseer 1.70a 版本。"
+    news_5: "2022.09.20 发布了 Effekseer 1.70 版本。"
+
+    news_template1: "2018.11.12 更新了 Effekseer for Unity 和 Cocos2d-x。"
+    news_template2: "2019.03.17 发布了 Effekseer 1.43c 版本。"
+
+    for_designer: "给设计师"
+    for_programmer: "给程序员"
+
+    effect_editor: "特效编辑器"
+    effect_plugin: "用于播放特效的库和插件"
+    dxlib: "DX Library"
+
+    documentation_desc: "学习如何使用Effekseer"
+    to_documentation: "查看文档"
+
+    contribute_desc: "下载其他Effekseer用户提供的免费使用/自由编辑的特效"
+    to_contribute: "查看示例特效"
+
+    book_header: "参考书（日语）"
+
+    console: "主机游戏（请邮件联系）"
+
+  top_content_1: "使用Effekseer可以轻松地为游戏和影视制作漂亮的粒子特效。"
+
+  top_content_2: "
+    Effekseer是免费开源的软件，用于为游戏制作爆炸和打击等各种特效。
+	  特效可以导出为二维动画，也可以集成到游戏中，作为三维特效播放。"
+
+  top_content_3: "
+    通过运行时，可以用C++在DirectX或者OpenGL中播放特效。
+    也可以在Unity、虚幻引擎4、Cocos2d-x中播放。
+    支持Windows、Mac OS X、Linux、iOS、Android、Emscripten等多种运行环境。"
+
+  top_underconstruction: ""
+
+  introduction:
+    easy: "只需简单的操作就可以制作特效"
+    create: "将粒子组合起来，创造出各种效果"
+    play: "在游戏中播放"
+    2d: "可以导出连续的2D图像"
+    2d_desc: "使用录像功能，可以导出按顺序编号的图像和gif动画。"
+    browser: "网页游戏也可以使用"
+    browser_warning: "* 在浏览器中播放特效需要使用Emscripten"
+
+  download:
+    tool_desc: "让设计师制作粒子特效的工具。"
+    tool_cpp: "在C++应用程序中播放特效的C++库。"
+    tool_unity: "在Unity中播放特效的插件。"
+    tool_dxlib: "在DXLibrary程序中播放特效的库。"
+
+    prev: "旧版本"
+    eff_dxlib: "Effekseer for DXLibrary"
+    eff_rpgmakermz: "Effekseer for RPGMakerMZ"
+
+  adoption_title: "游戏名称"
+  adoption_publisher: "发行"
+  adoption_developer: "开发"
+  adoption_site: "官方网站"
+  adoption_andsoon: "还有更多！"
+
+  support:
+    content_1: "基本上，Effekseer支持推特、Github、Slack和Discord的用户。"
+    content_2: "如果你没有账号，可以发送邮件（ effekseer(at)gmail.com ）"
+    content_3: "你可以提交错误报告、提出需求、询问问题等等。"
+    
+    github: "Github"
+    github_content: "Effekseer是在Github上开发的，我们会经常查看issue，所以欢迎提交issue。"
+    
+    mail: "Mail"
+    mail_content: "对于不想公开的话题，请发送电子邮件。"
+
+  documentation:
+    help: "使用说明"
+    description: "每个包中都打包了使用说明文件"
+    to_help: "前往使用说明"
+    help_effekseer: "给特效设计师的使用说明。"
+    help_runtime: "在DirectX或OpenGL中播放特效的API参考文档。（日译英进行中，请提供帮助）"
+    help_unity: "在Unity中播放特效的说明。"
+    dxlib: "Effekseer for DX Library"
+    help_dxlib: "DX Library中播放特效的说明。"
+    help_cocos2dx: "在Cocos2d-x中播放特效的说明。"
+    help_ue: "在虚幻引擎中播放特效的说明。"
+
+    tutorial: "教程"
+    to_tutorial: "前往教程"
+    tutorial_desc: "这是Effekseer工具的教程。仅介绍部分功能，如需了解更多信息，请参阅使用说明。"
+
+  contribute:
+    line1: "我们发布了一些由Effekseer用户提供的精彩特效。您可以在自己的游戏、视频等地方自由使用这些特效。您也可以自由修改这些特效。大部分特效均采用CC-0许可。"
+    line2: "我们也一直在征集特效作品。提交的特效将以CC-0许可发布。"
+
+    how: "如何投稿"
+
+    how_line1: "请在电子邮件中附上用zip格式打包的特效，并注明以下信息。"
+    how_line2: "电子邮件的地址是 effekseer (at) gmail.com."
+
+    name: "您的名字"
+    effectname: "Effects合集的名字"
+    comment: "评论"
+
+    contribution: "投稿"
+    contributed: "投稿的特效"
+    contributed_desc: "这些特效采用CC-0许可。不过，如果可以的话，我们希望您在作品中说明Effekseer和用到的特效的贡献者的名字。"
+    contributed_old: "投稿的特效（旧）"
+    contributed_old_desc: "这些特效按照旧的许可提供。在使用Effekseer播放时是免费的。"
+
+  contributed:
+    information: "信息"
+    contributor: "投稿者"
+    tno_works: "作品数"
+    comment: "评论"
+    download: "下载"
+    none: "无"
+    part: "※ 展示的是特效包的一部分。"
+    return: "返回示例特效列表"
+    title_AndrewFM01: "AndrewFMさん投稿的特效"
+    title_Effekseer: "Effekseer官方特效"
+    title_MAGICALxSPIRAL: "MAGICAL×SPIRAL エフェクト"
+    title_NitoriBox: "NITORI BOX エフェクト"
+    title_Pierre01: "ピエールエフェクトvol.1"
+    title_Pierre02: "ピエールエフェクトvol.2"
+    Pierre02_Overview: "■ 概要 ■"
+    Pierre02_Desc1: "是游戏用3D粒子的特效集，生成的粒子相当华丽。"
+    Pierre02_List: "■ 特效列表 ■"
+    Pierre02_List1: "简易祝福特效"
+    Pierre02_List2: "召唤大量血枪的特效"
+    Pierre02_List3: "星云散开的特效"
+    Pierre02_List4: "羽爆弾特效"
+    Pierre02_List5: "投掷火球的特效"
+    Pierre02_List6: "王之肉库"
+    Pierre02_List7: "出血特效"
+    Pierre02_List8: "五种带属性的剑技（余火、闪电、风暴、月光、圣光）"
+    Pierre02_Note: "■ 注意事项 ■"
+    Pierre02_Desc2: "由于使用了很多扭曲，处理起来可能会很繁重。在这种情况下，关闭「Blur」节点的渲染可以减轻计算负担。"
+    Pierre02_Contact: "■ 推荐的联系方式 ■"
+    title_NextSoft01: "リーメベルタ ～願いを叶える秘宝と塔の守り人～特效"
+    title_PDG: "project弾幕GIrls 特效"
+    title_suzuki01: "鈴木克史さん投稿的特效"
+    title_toust: "とうほう☆ストラテジー～LotusCraft～ 特效"
+    title_tktk01: "tktk 特效"
+    tktk01_Desc1: "由于这是我第一次投稿特效，所以我把我迄今为止制作的一些特效都收录进来了。"
+    tktk01_Desc2: "※注意事项※"
+    tktk01_Desc3: "不是为3D游戏制作，而是以要进行录像、导出为连续图像、用于2D游戏（具体来说是RPG Maker）为前提制作的，破绽和生成粒子的数量会很多，绘制会很繁重。"
+    tktk01_List: "包的内容（适当地进行了分类）"
+    tktk01_List1: "Arrow（箭矢）x2"
+    tktk01_List2: "Blow（打击、冲击）x15"
+    tktk01_List3: "Cur（回复）x7"
+    tktk01_List4: "Dark（暗）x3"
+    tktk01_List5: "Fire（火）x8"
+    tktk01_List6: "hozyo（辅助）x5"
+    tktk01_List7: "Light（光）x4"
+    tktk01_List8: "Magic（魔法）x2"
+    tktk01_List9: "Soil（地面）x1"
+    tktk01_List10: "Sword（斩击）x22"
+    tktk01_List11: "Wind（风）x2"
+
+    title_tktk02: "tktk 特效 vol.2"
+    tktk02_Desc1: "这些特效是为了在游戏引擎中显示UV动画而设计的\n渲染负担相对较重，而且由于方向的原因导致的破绽也相对较大。\n基本上，图像只是通过加法合成制作的，因此输出为图像时看起来很漂亮。\n不过，扭曲也是用加法合成，且影响相对较大。\n如果你想输出efk文件，最好还是对扭曲进行调整。（名为Distortion的节点主要用于扭曲）\n因为检查起来比较费事，所以会包含一些没有使用到的纹理。"
+    tktk02_List: "包的内容（适当地进行了分类）"
+    tktk02_List1: "Blow（冲击）x6"
+    tktk02_List2: "Claw（爪）x4"
+    tktk02_List3: "Dark（暗）x2"
+    tktk02_List4: "Fire（火）x8"
+    tktk02_List5: "Gun（铳）x9"
+    tktk02_List6: "Light（光）x4"
+    tktk02_List7: "Spear（枪）x4"
+    tktk02_List8: "Sword（剑）x6"
+
+  releasenote:
+    v150:
+      material_editor: "Material Editor"
+      material_editor_desc: "A new node-based material editor has appeared. Further expression is possible with custom materials!"
+      material_editor_sample: "Added trendy toon effect samples!"
+      turbulence: "Turbulence"
+      turbulence_desc: "Turbulence function has been added.<br>The Absolute Position window has been changed to the Force Field window and includes turbulence parameters."
+      dynamic_parameter: "Dynamic parameters and expressions"
+      dynamic_parameter_desc: "Enables you to control the effect with dynamic parameters."
+      new_format_efkefc: "New format \"efkefc\""
+      new_format_efkefc_desc: ".efkefc will be used instead of the traditional .efkproj."
+    
+    v140: "1.40"
+    v140_1: "The renewal of UI"
+    v140_1_desc: "All UIs have been replaced. The theme became dark color, and operability was improved."
+
+    v140_2: "Support macOS"
+    v140_2_desc: "Support the tool for macOS."
+
+    v140_3: "Addition of a function to read FBX with animation."
+    v140_3_desc: "Effekseer can now load FBX with animation. It can be used as a model as well as a position of spawning method."
+
+    v140_4: "Addition of parameters to protect collied effects and objects."
+    v140_4_desc: "A parameter to move in the depth direction has been added. This makes it easier to prevent effects and objects from getting collied."
+
+    v140_5: "Addition of parameters to make ribbons and tracks smooth"
+    v140_5_desc: "Parameters to make ribbons and tracks smooth has been added"
+
+    v140_6: "Improvement of distortion"
+    v140_6_desc: "Effects can make other effect distorted with rendering priority"
+
+    v140_7: "Many sample effects"
+    v140_7_desc: "More than 40 new sample effects are added. You can download these from the official website, too."
+    
+    v140_8: "Bug fixes"
+    v140_8_desc: "Fixed many bugs."
+    
+
+    v130: "1.30"
+    v130_1: "File viewer"
+    v130_1_desc: "You can now easily select Effekseer's files and images, model files etc from Effekseer. It is convenient when viewing samples or selecting images."
+
+    v130_2: "Launch you effects on UnrealEngine4, Cocos2d-x"
+    v130_2_desc: "UnrealEngine4, Cocos2d-x now also allows you to play Effekseer 's effects. This makes it possible to play effects in all major development environments."
+
+    v130_3: "Improvements to loading 3d model"
+    v130_3_desc: "You can now load FBX and mqo files directly from Effekseer. It makes it easier to use the model."
+
+    v130_4: "Color inheritance"
+    v130_4_desc: "It is now possible to inherit the parent's color as well as position, rotation and enlargement. This makes it possible to create more complicated effects."
+
+    v130_5: "Icons"
+    v130_5_desc: "Icons are now displayed in the UI. This makes the structure of the effect easy to see."
+
+    v130_6: "Many sample effects"
+    v130_6_desc: "More than 70 new sample effects are added. You can download these from the official website, too."
+
+    v130_7: "Improvements to the Unity Plugin"
+    v130_7_desc: "We corresponded to the timeline experimentally."
+
+    v130_7: "Bug fixes"
+    v130_7_desc: "Fixed many bugs."
+
+    v130_8: "Specification change"
+    v130_8_desc: "Specifications of distortion and effect generation timing have been changed. Please read help for details."
+
+    v120: "1.20"
+    v120_1: "Alpha channel estimation"
+    v120_1_desc: "Alpha channels can be estimated when an effect is exported. With this, you can render effects on other screens without having to use additive blending. This is useful when showing effects in 2D games."
+
+    v120_2: "Saving effects as an AVI file with alphaa"
+    v120_2_desc: "You can save effects as an AVI file, with an included alpha channel. This is useful for creating movies in video editing software such as AfterEffects, since the effect can be placed in its own video layer without obscuring ohter video layers beneath it."
+
+    v120_3: "Many sample effects"
+    v120_3_desc: "More than 20 new sample effects are added. You can download these from the official website, too."
+
+    v120_4: "Improvements to the Unity Plugin"
+    v120_4_desc: "Distortion and Asset bundle now work. Improved correspondence with multi-platform (iOS, Android, WebGL)."
+
+    v120_5: "Changed hot keys"
+    v120_5_desc: "Hot keys take after AfterEffects."
+
+    v120_6: "Bug fixes"
+    v120_6_desc: "Fixed many bugs."
+
+    v110: "1.10"
+    v110_1: "Color space"
+    v110_1_desc: "Now you can change a color space while editing effects."
+
+    v110_2: "English user interface"
+    v110_2_desc: "Now you can display the user interface in English."
+
+    v110_3: "Many sample effects"
+    v110_3_desc: "More than 100 new sample effects are added. You can download these from the official website, too."
+
+    v110_4: "Improvements to the Unity Plugin"
+    v110_4_desc: "The plugin now supports loading resources from Resources directory."
+
+    v110_5: "Improvement to the Library for DXLibrary"
+    v110_5_desc: "The library now supports network and distortion."
+
+    v110_6: "Bug fixes"
+    v110_6_desc: "Fixed many bugs."
