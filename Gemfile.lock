@@ -137,10 +137,17 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  middleman (~> 4.2)
-  middleman-livereload
+  base64 (= 0.3.0)
+  bigdecimal (= 3.3.1)
+  drb (= 2.2.3)
+  logger (= 1.7.0)
+  middleman (~> 4.6.2)
+  middleman-livereload (~> 3.5.0)
+  minitest (= 5.26.0)
+  rack (= 3.1.18)
+  rexml (= 3.4.4)
   sass
-  slim (>= 2.0)
+  slim (~> 5.2.1)
   tzinfo-data
   wdm (~> 0.1.0)
 

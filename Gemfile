@@ -1,13 +1,19 @@
-# If you do not have OpenSSL installed, update
-# the following line to use "http://" instead
 source 'https://rubygems.org'
 
-gem "middleman", "~> 4.2"
-gem "slim", ">= 2.0"
+# Core site tooling
+gem "middleman", "~> 4.6.2"
+gem "middleman-livereload", "~> 3.5.0"
+gem "slim", "~> 5.2.1"
 gem "sass"
 
-# Live-reloading plugin
-gem "middleman-livereload"
+# Pin transitive dependencies that Ruby 3.3 ships with multiple versions of
+gem "rack", "= 3.1.18"
+gem "rexml", "= 3.4.4"
+gem "minitest", "= 5.26.0"
+gem "base64", "= 0.3.0"
+gem "drb", "= 2.2.3"
+gem "bigdecimal", "= 3.3.1"
+gem "logger", "= 1.7.0"
 
 # for faster file watcher updates on windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
