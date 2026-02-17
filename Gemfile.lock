@@ -100,7 +100,7 @@ GEM
     parallel (1.27.0)
     parslet (2.0.0)
     public_suffix (6.0.2)
-    rack (3.1.18)
+    rack (3.1.20)
     rack-livereload (0.6.1)
       rack (>= 3.0, < 3.2)
     rackup (2.2.1)
@@ -144,7 +144,7 @@ DEPENDENCIES
   middleman (~> 4.6.2)
   middleman-livereload (~> 3.5.0)
   minitest (= 5.26.0)
-  rack (= 3.1.18)
+  rack (= 3.1.20)
   rexml (= 3.4.4)
   sass
   slim (~> 5.2.1)
