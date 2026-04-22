@@ -11,6 +11,21 @@ kind: releasenote
           .releasenote_section
             h2 =t(:releasenote_header)
 
+            h3 1.80
+
+            - if I18n.locale.to_s == 'jp'
+              p 1.80の新機能と1.8系の更新履歴はこちら
+              p
+                a href="/Helps/18x/Tool/ja/ReleaseNotes/180.html" 1.80 新機能
+              p
+                a href="/Helps/18x/Tool/ja/ReleaseNotes/index.html" 1.8x 更新履歴
+            - else
+              p Find the 1.80 new features and 1.8x change logs here.
+              p
+                a href="/Helps/18x/Tool/en/ReleaseNotes/180.html" 1.80 New Features
+              p
+                a href="/Helps/18x/Tool/en/ReleaseNotes/index.html" 1.8x Change Logs
+
             h3 1.70
 
             - if I18n.locale.to_s == 'jp'
@@ -25,7 +40,7 @@ kind: releasenote
                 iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/fXB1BiMOKcI" frameborder="0" allowfullscreen
 
               p For more information
-              a href="/Helps/17x/Tool/ja/ReleaseNotes/170.html" Release note
+              a href="/Helps/17x/Tool/en/ReleaseNotes/170.html" Release note
 
             h3 1.60
 
@@ -41,7 +56,7 @@ kind: releasenote
                 iframe.iframe_container width="320" height="240" src="https://www.youtube.com/embed/L5VG-0vGIUE" frameborder="0" allowfullscreen
 
               p For more information
-              a href="/Helps/16x/Tool/ja/ReleaseNotes/160.html" Release note
+              a href="/Helps/16x/Tool/en/ReleaseNotes/160.html" Release note
 
             h3 1.50
 
@@ -322,5 +337,4 @@ kind: releasenote
             h4 =t('releasenote.v110_6')
       
             p =t('releasenote.v110_6_desc')
-
 

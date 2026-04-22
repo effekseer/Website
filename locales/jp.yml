@@ -13,9 +13,9 @@
 
   eyecatch_1: "エフェクト制作ツール"
   eyecatch_2: "「Effekseer」"
-  eyecatch_3: "v1.70e リリース！"
-  download_button: "v1.70e ダウンロード"
-  newfeature_button: "v1.7 新機能"
+  eyecatch_3: "v1.80.2 リリース！"
+  download_button: "v1.80.2 ダウンロード"
+  newfeature_button: "v1.80 新機能"
 
   top:
     desc_main1: "簡単に作成!"
@@ -24,10 +24,10 @@
     desc_movie1: "ツールで容易にエフェクト編集！"
     desc_movie2: "こんなエフェクト作れます"
 
-    news_0: "2026.01.18 サンプルエフェクトにHATO-Springhascomeを追加しました。"
-    news_1: "2025.10.30 EffekseerForUnity1.7.2.0をリリースしました。"
-    news_2: "2025.10.08 EffekseerForUE1.7.1.2をリリースしました。"
-    news_3: "2025.09.07 EffekseerForCpp1.7.2.0をリリースしました。"
+    news_0: "2026.04.20 Effekseer 1.80.2をリリースしました。"
+    news_1: "2026.01.18 サンプルエフェクトにHATO-Springhascomeを追加しました。"
+    news_2: "2025.10.30 EffekseerForUnity1.7.2.0をリリースしました。"
+    news_3: "2025.10.08 EffekseerForUE1.7.1.2をリリースしました。"
     news_4: "2025.02.11 EffekseerForUnity1.7.1.1をリリースしました。"
     news_5: "2024.06.22 EffekseerForUnity1.7.1.0をリリースしました。"
     news_6: "2024.06.16 EffekseerForUE1.7.1.0をリリースしました。"

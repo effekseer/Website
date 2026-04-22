@@ -13,9 +13,9 @@
 
   eyecatch_1: "效果編輯工具"
   eyecatch_2: "「Effekseer」"
-  eyecatch_3: "v1.70e 現在可用！"
-  download_button: "v1.70e 下載"
-  newfeature_button: "v1.7 新功能"
+  eyecatch_3: "v1.80.2 現在可用！"
+  download_button: "v1.80.2 下載"
+  newfeature_button: "v1.80 新功能"
 
   top:
     desc_main1: "易於創建"
@@ -24,10 +24,10 @@
     desc_movie1: "能輕鬆地製作："
     desc_movie2: "製作完成的效果："
 
-    news_0: "2026.01.18 新增樣本特效 HATO-Springhascome。"
-    news_1: "2025.10.30 發布了EffekseerForUE 1.7.2.0版本."
-    news_2: "2025.10.08 發布了EffekseerForUE 1.7.1.2版本."
-    news_3: "2025.09.07 發布了EffekseerForCpp 1.7.2.0版本."
+    news_0: "2026.04.20 發布了 Effekseer 1.80.2 版本."
+    news_1: "2026.01.18 新增樣本特效 HATO-Springhascome。"
+    news_2: "2025.10.30 發布了EffekseerForUE 1.7.2.0版本."
+    news_3: "2025.10.08 發布了EffekseerForUE 1.7.1.2版本."
     news_4: "2025.02.11 發布了EffekseerForUnity 1.7.1.1版本."
     news_5: "2024.06.22 發布了EffekseerForUnity 1.7.1.0版本."
     news_6: "2024.06.16 發布了EffekseerForUE 1.7.1.0版本."
