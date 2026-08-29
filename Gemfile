@@ -7,7 +7,7 @@ gem "slim", "~> 5.2.1"
 gem "sass"
 
 # Pin transitive dependencies that Ruby 3.3 ships with multiple versions of
-gem "rack", "= 3.1.18"
+gem "rack", "3.1.21"
 gem "rexml", "= 3.4.4"
 gem "minitest", "= 5.26.0"
 gem "base64", "= 0.3.0"
